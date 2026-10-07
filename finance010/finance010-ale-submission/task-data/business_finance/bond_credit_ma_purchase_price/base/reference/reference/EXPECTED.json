@@ -1,0 +1,64 @@
+{
+  "bond": {
+    "cecl_expected_credit_loss": "350000.00",
+    "coc_put_amount_due": "180705729.17",
+    "consolidated_ebitda": "56555555.56",
+    "corporate_note_spread_to_treasury_bp": "398.9",
+    "ebitda_regime": "capped",
+    "i_spread_bp": "410.0",
+    "make_whole_accrued_interest": "3955729.1667",
+    "make_whole_amount_due": "198455039.46",
+    "make_whole_discount_rate": "4.6642",
+    "make_whole_par_floor_binding": false,
+    "make_whole_pv_remaining": "194499310.30",
+    "muni_tax_equivalent_yield_pct": "4.2500",
+    "put_triggered": true,
+    "rating_gate_crossed": true,
+    "yield_to_worst_pct": "8.1786"
+  },
+  "coupled": {
+    "consolidated_ebitda": "56555555.56",
+    "covenant_net_debt": "289505729.17",
+    "credit_policy_headroom": "0.3810",
+    "incremental_term_loan": "256205729.17",
+    "post_close_leverage": "5.1190",
+    "put_triggered": true,
+    "rating_gate_crossed": true,
+    "redemption_cost": "180705729.17"
+  },
+  "meta": {
+    "cecl_subtopic_applied": "AFS",
+    "converged_leverage_delta": "0.0000",
+    "corporate_spread_worst_redemption_date": "2031-06-15",
+    "ebitda_regime": "capped",
+    "muni_tey_governs": "amt_designated_and_camt_payer_no_exemption_benefit",
+    "outer_iterations": 3,
+    "put_governs": "make_whole_call_exceeds_put",
+    "rounding_points": {
+      "accrued_interest": "0.0001",
+      "clean_price": "0.000001",
+      "dirty_price": "0.000001",
+      "leverage_ratio": "0.0001",
+      "spread_bps": "0.1",
+      "treasury_rate_interpolated": "0.0001",
+      "usd_amount": "0.01",
+      "year_count": "0.0001",
+      "yield": "0.0001"
+    },
+    "settlement_date": "2026-07-01",
+    "solver_module": "tools.solve_reference",
+    "valuation_date": "2026-06-30"
+  },
+  "spa": {
+    "earnout_discount_horizon_years": "3.0712",
+    "earnout_expected_payout": "1183600.71",
+    "earnout_expected_undiscounted": "1770000.00",
+    "earnout_scenario_payout_base": "1600000.00",
+    "earnout_scenario_payout_downside": "0.00",
+    "earnout_scenario_payout_upside": "4200000.00",
+    "equity_consideration": "168800000.00",
+    "locked_box_completion_accounts_delta": "-3406767.12",
+    "spa_net_debt": "181700000.00",
+    "working_capital_adjustment": "-1500000.00"
+  }
+}

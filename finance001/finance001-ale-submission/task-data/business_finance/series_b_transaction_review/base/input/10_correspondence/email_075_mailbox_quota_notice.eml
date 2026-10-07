@@ -1,0 +1,29 @@
+From: Ardent Peak Service Desk <apservicedesk@ardentpeak.example>
+To: Devin Marchetti <dmarch@ardentpeak.example>
+Date: Wed, 19 Aug 2026 04:15:00 -0400
+Subject: Mailbox approaching quota - 92 percent of allocation used
+Message-ID: <c9ff67ae4d1ed3da.075@ardentpeak.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+This is an automated notice. Your mailbox is at 92 percent of its allocated c=
+apacity. At 100 percent, outbound sending is suspended and inbound mail is he=
+ld at the gateway for seven days before it is returned to the sender.
+
+The largest contributors to your usage are attachments in items older than on=
+e hundred and eighty days. Archiving moves those items to the online archive =
+without deleting them and typically recovers a substantial share of the alloc=
+ation.
+
+Deleted items and the recoverable items folder both count towards the quota u=
+ntil they are purged. Emptying deleted items is the fastest single action ava=
+ilable to you.
+
+Requests for a quota increase are handled through the service portal and requ=
+ire the approval of your line manager. Automated notices are sent at 90, 95 a=
+nd 99 percent and this address is not monitored.
+
+Thanks,
+Ardent
+Information Technology, Ardent Peak Ventures

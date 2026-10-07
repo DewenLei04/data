@@ -1,0 +1,43 @@
+# ALE environment configuration for finance010.
+#
+# DIVERGENCE FROM finance001, stated up front so it does not read as an oversight: finance001
+# resolves its snapshot through the gcloud provider. This case resolves `finance010-ubuntu22`
+# through the DOCKER provider. That is not a convenience -- it is the case's secrecy model.
+#
+# The local-mount provider is defined by exactly two settings: the host holds the task-data
+# tree, and the framework copies each task's `input/` into the container BEFORE the agent runs
+# and `reference/` in only AFTER it exits. Because the answer key is never inside the container
+# while the agent is running, this mode needs no encrypted reference archive -- a stronger
+# guarantee than the baked-in path, which must ship an encrypted archive precisely because the
+# reference sits on every machine's disk in that mode. BUILD_SNAPSHOT.md section 4 carries the
+# ordered staging commands, and the task adapter re-asserts the same boundary from inside the
+# sandbox; this file only declares the provider selection that makes the ordering meaningful.
+#
+# Do NOT set task_data_source to the gcloud-snapshot value used by the reference case. That
+# would place the reference on disk inside the image and defeat the guarantee above.
+
+snapshots:
+  finance010-ubuntu22:
+    provider: docker
+    image: finance010-ubuntu22:latest
+    # Provider-level caps. The docker provider converts each task card's sizing into Docker CPU
+    # and memory limits, and these impose a cap on top -- so they must not sit BELOW what the
+    # task card declares, or the cap silently throttles the run.
+    #
+    # 4 CPU / 16g matches the card's vm.vcpus=4, vm.memory_gb=16 (the c4-standard-4 tier). This
+    # matters more here than ordinary head-room: the agent runs Tesseract OCR over scanned
+    # materials and LibreOffice headless conversions across a low-thousands-of-pages corpus
+    # inside a 14400s budget. LibreOffice alone can hold 1-2 GB on a large document and OCR is
+    # memory-hungry, so a smaller cap risks an OOM kill or a timeout.
+    #
+    # A throttled run scores badly for the WRONG reason -- an infrastructure failure wearing the
+    # appearance of a hard case. That is the one outcome a benchmark must never produce, because
+    # it measures the provisioning instead of the model, so the cap matches the declared need
+    # rather than saving host resources.
+    docker:
+      network: none
+      cpus: "4"
+      memory: 16g
+
+task_data_source: local:task-data
+output_path: local

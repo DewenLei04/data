@@ -1,0 +1,31 @@
+From: Rashid Nawabi <rnawabi@helioscope.example>
+To: Kenji Aoyama <kaoyama@vaultroom.example>
+Cc: Priya Raghunathan <praghu@helioscope.example>
+Date: Fri, 07 Aug 2026 09:02:00 -0700
+Subject: Single sign-on is failing for three of our accounts
+Message-ID: <d02bd4ab66647405.067@helioscope.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Kenji, three Helioscope accounts cannot authenticate to the data room this mo=
+rning. All three get an error at the identity provider rather than at your lo=
+gin page, which suggests the problem is on our side rather than yours.
+
+The three are all in the same security group and were all moved into it on Tu=
+esday when I tidied up group membership. That is almost certainly the cause a=
+nd I am not blaming your platform.
+
+What I need from you is confirmation of which claim your side reads for the a=
+ccount match, because if it is the mail attribute I have a quick fix and if i=
+t is the immutable identifier I have a slower one.
+
+Priya, the three affected users are Owen, Camila and Ellis. None of them are =
+blocked on anything urgent this morning, but Owen has documents to upload tod=
+ay.
+
+--=20
+Rashid Nawabi
+IT Administrator
+Helioscope Robotics
+88 Kirkham Street, San Francisco CA 94107

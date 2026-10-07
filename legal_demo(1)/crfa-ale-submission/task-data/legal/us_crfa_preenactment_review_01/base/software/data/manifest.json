@@ -1,0 +1,83 @@
+{
+ "package": "uniuslaw-site-2026.09",
+ "built_at": "2025-08-25 09:20:00",
+ "version": "2026.09",
+ "source_db": {
+  "size_bytes": 74966577152,
+  "mtime": "2026-08-23 11:34:37",
+  "server_py_sha256": "e14a7bd0b33b49243e4c3b56dfbd0bf775e6bcf2b37506f2b3d5d5602a5a10dc",
+  "note": "source path not shipped with the package"
+ },
+ "subset": {
+  "rule": "cases = the 20,000 clusters most often cited by other courts, plus the clusters designated for service verification; citation edges kept within the collection; citing/cited counts are collection counts; upstream decisions outside the leading set do not appear in cited lists.",
+  "top_n": 20000,
+  "clusters_total": 20009,
+  "verification_clusters": [
+   "5090829",
+   "10776749",
+   "4835047",
+   "4374965",
+   "4631839"
+  ]
+ },
+ "tables": {
+  "usc_sections": {
+   "kept": 394582,
+   "src_total": 394582
+  },
+  "cfr_sections": {
+   "kept": 227523,
+   "src_total": 227523
+  },
+  "cfr_structure": {
+   "kept": 275608,
+   "src_total": 275608
+  },
+  "cfr_version_history": {
+   "kept": 414689,
+   "src_total": 414689
+  },
+  "cl_clusters": {
+   "kept": 20005,
+   "src_total": 1868069
+  },
+  "cl_dockets": {
+   "kept": 20004,
+   "src_total": 2151598
+  },
+  "cl_citations": {
+   "kept": 73263,
+   "src_total": 3386473
+  },
+  "cl_opinions": {
+   "kept": 37846,
+   "src_total": 1994970
+  },
+  "cl_opinions_cited": {
+   "kept": 476248,
+   "src_total": 11917570
+  },
+  "cl_parentheticals": {
+   "kept": 56101,
+   "src_total": 1251448
+  },
+  "citation_index": {
+   "kept": 356972,
+   "src_total": 2428590
+  },
+  "case_fts": {
+   "kept": 37693,
+   "src_total": 1745052
+  },
+  "statute_fts": {
+   "kept": 564584,
+   "src_total": 564584
+  }
+ },
+ "slim_db_bytes": 7873777664,
+ "brown_citing_in_subset": 155,
+ "selftest": "passed",
+ "supplement": {
+  "note": "the four clusters cited by name in the office's working papers were verified present and complete: United States v. Carlton (512 U.S. 26), National Pork Producers Council v. Ross (598 U.S. 356), Young v. Masci (289 U.S. 253), Oklahoma Tax Commission v. Jefferson Lines, Inc. (514 U.S. 175)."
+ }
+}

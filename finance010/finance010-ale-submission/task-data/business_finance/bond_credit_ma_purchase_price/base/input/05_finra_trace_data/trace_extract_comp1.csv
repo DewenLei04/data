@@ -1,0 +1,4 @@
+CUSIP_ID,BOND_SYM_ID,TRD_EXCTN_DT,TRD_EXCTN_TM,RPTD_PR,YLD_SIGN_CD,YLD_PT,RPT_SIDE_CD,CNTRA_MP_ID,TRC_ST,ATS_IND,SCRTY_TYPE_CD,RPTD_VOL_LABEL,ISSUE_DESCRIPTION,SPRD_BASIS,SPRD_BP
+C0100XAA2,COMPA4A,20260626,093000,94.940,,6.867,S,D,T,Y,CORP,500K,4.5% due 2028-10-15 rated B+ (Wabash National),spread to interpolated Treasury (G-spread convention),272
+C0100XAA2,COMPA4A,20260629,114500,95.190,,6.755,B,C,T,N,CORP,1MM+,4.5% due 2028-10-15 rated B+ (Wabash National),spread to interpolated Treasury (G-spread convention),261
+C0100XAA2,COMPA4A,20260630,140000,95.315,,6.697,S,D,T,Y,CORP,1MM+,4.5% due 2028-10-15 rated B+ (Wabash National),spread to interpolated Treasury (G-spread convention),255

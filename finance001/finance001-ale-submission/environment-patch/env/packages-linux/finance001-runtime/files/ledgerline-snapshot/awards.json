@@ -1,0 +1,146 @@
+[
+  {
+    "award_id": "AW-0001",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Priya Raghunathan",
+    "units": 5500,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0002",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Wesley Hartnell",
+    "units": 11500,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0003",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Gideon Marsh",
+    "units": 11000,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0004",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Beatrix Sorensen",
+    "units": 6500,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0005",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Sunniva Aalto",
+    "units": 12000,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0006",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Rashid Nawabi",
+    "units": 5500,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0007",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Dara Whitfield",
+    "units": 4500,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0008",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Odile Bergstrom",
+    "units": 8000,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0009",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Gordon Pike",
+    "units": 5000,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0010",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Portia Nwosu",
+    "units": 8000,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0011",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Nadia Berkovich",
+    "units": 12000,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0012",
+    "award_type": "RSU",
+    "grant_date": "2024-02-01",
+    "holder": "Maeve Donnelly",
+    "units": 6500,
+    "vest_schedule": "4-year, 25% per year; time-vesting"
+  },
+  {
+    "award_id": "AW-0013",
+    "award_type": "PSU",
+    "grant_date": "2024-02-01",
+    "holder": "Camila Duarte",
+    "units": 32500,
+    "vest_schedule": "Performance-vesting; milestone not met as at 2026-06-30"
+  },
+  {
+    "award_id": "AW-0014",
+    "award_type": "PSU",
+    "grant_date": "2024-02-01",
+    "holder": "Marcus Oyelaran",
+    "units": 23500,
+    "vest_schedule": "Performance-vesting; milestone not met as at 2026-06-30"
+  },
+  {
+    "award_id": "AW-0015",
+    "award_type": "PSU",
+    "grant_date": "2024-02-01",
+    "holder": "Elias Moreno",
+    "units": 23000,
+    "vest_schedule": "Performance-vesting; milestone not met as at 2026-06-30"
+  },
+  {
+    "award_id": "AW-0016",
+    "award_type": "PSU",
+    "grant_date": "2024-02-01",
+    "holder": "Rune Halvorsen",
+    "units": 31000,
+    "vest_schedule": "Performance-vesting; milestone not met as at 2026-06-30"
+  },
+  {
+    "award_id": "AW-0017",
+    "award_type": "PSU",
+    "grant_date": "2024-02-01",
+    "holder": "Fabien Roux",
+    "units": 50500,
+    "vest_schedule": "Performance-vesting; milestone not met as at 2026-06-30"
+  },
+  {
+    "award_id": "AW-0018",
+    "award_type": "PSU",
+    "grant_date": "2024-02-01",
+    "holder": "Elias Moreno",
+    "units": 19500,
+    "vest_schedule": "Performance-vesting; milestone not met as at 2026-06-30"
+  }
+]

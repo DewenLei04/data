@@ -1,0 +1,53 @@
+From: Priya Deshmukh <p.deshmukh@halsteadvoss.com>
+To: Harborview Deal Team <dealteam-kestrel@harborviewsecurities.com>
+Subject: Put/Make-Whole Query - Change of Control Mechanics, Senior Notes
+Date: Wed, 20 May 2026 16:05:00 -0400
+Message-ID: <8a71de46293cb37bd478d33b@halsteadvoss.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Team,
+
+We have been asked to confirm our understanding of the put/make-whole mechani=
+cs under Article 3 and Article IV of the Indenture (senior_notes_indenture.pd=
+f) in connection with the currently contemplated Transaction, and would appre=
+ciate your confirmation (or correction) of the following, subject in all resp=
+ects to our own further review of the executed instrument:
+
+1. Make-whole spread. Our reading of the Applicable Premium definition is tha=
+t, absent a Change of Control Triggering Event, any optional redemption prior=
+ to the Par Call Date is priced at the discounted present value of remaining =
+payments to the Par Call Date, using the Treasury Rate plus a make-whole spre=
+ad of 50 basis points, floored at par. We understand the Par Call Date itself=
+ to be 2030-06-15, one year ahead of the 2031-06-15 Stated Maturity.
+
+2. Rating Event. Separately, we understand the Change of Control Triggering E=
+vent definition to require BOTH (a) a Change of Control as defined, AND (b) a=
+ Rating Event - and that a Rating Event is not satisfied by a decline from on=
+ly one Rating Agency; the Indenture's own text requires a decline of at least=
+ 1 rating category from EACH of the Rating Agencies before the Rating Event c=
+ondition is met. We would ask you to confirm this reading, since it is not ob=
+vious on a first pass and has real consequences for how the put contingency s=
+hould be modeled.
+
+3. Rating Event trigger window. We further understand the relevant look-back/=
+look-forward period to run 60 days from the relevant public-notice date, exte=
+nded for so long as the rating remains under publicly announced review. Pleas=
+e confirm this window is measured as we describe, since a shorter or differen=
+tly-anchored window would change the answer materially.
+
+We do not opine on the ultimate credit outcome and flag only the mechanics ab=
+ove; we would appreciate your team's or the Trustee's confirmation before thi=
+s is relied upon for planning purposes.
+
+Best regards,
+
+Priya Deshmukh
+Partner
+Halstead Voss LLP
+(212) 555-0417
+
+This communication may contain information protected by the attorney-client p=
+rivilege and/or the work product doctrine. If you are not the intended recipi=
+ent, please notify the sender and delete this message.

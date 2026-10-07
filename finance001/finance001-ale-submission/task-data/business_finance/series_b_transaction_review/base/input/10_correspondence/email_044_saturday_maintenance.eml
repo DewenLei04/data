@@ -1,0 +1,30 @@
+From: Rashid Nawabi <rnawabi@helioscope.example>
+To: Priya Raghunathan <praghu@helioscope.example>,
+ Marcus Oyelaran <moyelaran@helioscope.example>,
+ Ellis Trantham <etrantham@helioscope.example>
+Cc: Kenji Aoyama <kaoyama@vaultroom.example>
+Date: Tue, 07 Jul 2026 16:03:00 -0700
+Subject: Saturday maintenance - file shares down, data room unaffected
+Message-ID: <3f0e1259a98f192f.044@helioscope.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+All, the file shares and the internal wiki will be unavailable on Saturday th=
+e 11th from 06:00 to approximately 14:00 Pacific while we move the storage ar=
+ray.
+
+The data room is hosted externally and is not affected. Neither is email. If =
+you are working over the weekend, the practical consequence is that anything =
+on the shared drive should be copied locally on Friday.
+
+I am telling you rather than asking because the window cannot move, but if th=
+e timing is genuinely impossible for someone I would rather hear it now than =
+at 06:30 on Saturday.
+
+Kenji, no action for you. Copying you so that if anyone reports a data room p=
+roblem on Saturday you know it is not related to our work.
+
+Thanks,
+Rashid
+IT Administrator, Helioscope Robotics

@@ -1,0 +1,697 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://harborview.local/finance010/output_schemas/financial_model.schema.json",
+  "title": "financial_model.xlsx named-range contract",
+  "description": "Describes the named ranges financial_model.xlsx must expose - not cell addresses. Every entry states whether the range must be a live-calculated formula (must_be_calculated) and whether the name must actually resolve to a workbook reference rather than merely exist (must_reference_range). No value or tolerance is stated here - tolerances belong to the scorer's own tolerances module.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "named_ranges"
+  ],
+  "properties": {
+    "named_ranges": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cecl_expected_credit_loss",
+        "change_of_control_put_price",
+        "closing_working_capital",
+        "consolidated_ebitda",
+        "corporate_note_spread_to_treasury_bp",
+        "covenant_net_debt",
+        "credit_policy_headroom",
+        "earnout_expected_value",
+        "earnout_scenario_table",
+        "enterprise_value",
+        "equity_consideration_at_closing",
+        "funds_flow_check",
+        "incremental_term_loan",
+        "locked_box_completion_accounts_delta",
+        "make_whole_accrued_interest",
+        "make_whole_amount",
+        "make_whole_discount_rate",
+        "make_whole_pv_remaining",
+        "muni_tax_equivalent_yield_pct",
+        "post_close_net_leverage",
+        "redemption_cost",
+        "spa_net_debt",
+        "treasury_par_yield_curve",
+        "valuation_date",
+        "working_capital_adjustment_amount",
+        "working_capital_peg"
+      ],
+      "properties": {
+        "valuation_date": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": false
+            },
+            "kind": {
+              "const": "date"
+            },
+            "unit": {
+              "const": "ISO-8601"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The fixed as-of date the entire model is anchored to."
+        },
+        "enterprise_value": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": false
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The enterprise value the model's equity bridge starts from."
+        },
+        "working_capital_peg": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": false
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The SPA-defined working capital target the closing figure is compared against."
+        },
+        "closing_working_capital": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": false
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The actual working capital figure at closing under the SPA's own Accounting Principles schedule."
+        },
+        "working_capital_adjustment_amount": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula from closing_working_capital and working_capital_peg."
+        },
+        "spa_net_debt": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula under the SPA's own Indebtedness definition."
+        },
+        "covenant_net_debt": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula under the credit agreement's own Consolidated Net Debt definition - distinct from spa_net_debt."
+        },
+        "equity_consideration_at_closing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula chaining every SPA-defined purchase-price adjustment."
+        },
+        "incremental_term_loan": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. The funds-flow's sole resized free variable; must be derived by a live formula that balances funds-flow sources and uses."
+        },
+        "funds_flow_check": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must equal the difference between total funds-flow sources and total uses, computed live."
+        },
+        "earnout_scenario_table": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "array"
+            },
+            "unit": {
+              "const": null
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. The modelled earn-out scenario rows; each row's payoff must be derived by a live formula."
+        },
+        "earnout_expected_value": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula weighting earnout_scenario_table's rows."
+        },
+        "locked_box_completion_accounts_delta": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula comparing the two purchase-price mechanisms."
+        },
+        "treasury_par_yield_curve": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": false
+            },
+            "kind": {
+              "const": "array"
+            },
+            "unit": {
+              "const": null
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The live-referenced Treasury par yield curve tenor/yield pairs as of the valuation date; must be linked to its source, never a stale prior-period copy."
+        },
+        "make_whole_discount_rate": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "pct"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula from treasury_par_yield_curve at the instrument's remaining term to its par call date, including any required interpolation."
+        },
+        "make_whole_amount": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula from make_whole_discount_rate and the indenture's own Applicable Premium definition."
+        },
+        "change_of_control_put_price": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "pct"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula applying the governing change-of-control put pricing convention."
+        },
+        "corporate_note_spread_to_treasury_bp": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "bp"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula comparing the corporate note's yield to the appropriate Treasury curve point."
+        },
+        "muni_tax_equivalent_yield_pct": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "pct"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula applying the governing tax-rate assumption to the muni IRB's yield."
+        },
+        "cecl_expected_credit_loss": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula consistent with the instrument's disclosed balance-sheet classification."
+        },
+        "post_close_net_leverage": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "x"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Calculated. Must be derived by a live formula from covenant_net_debt and covenant-defined Consolidated EBITDA."
+        },
+        "consolidated_ebitda": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The fixed as-of date the entire model is anchored to."
+        },
+        "make_whole_pv_remaining": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The fixed as-of date the entire model is anchored to."
+        },
+        "make_whole_accrued_interest": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The fixed as-of date the entire model is anchored to."
+        },
+        "credit_policy_headroom": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "x"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The fixed as-of date the entire model is anchored to."
+        },
+        "redemption_cost": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "must_be_calculated",
+            "kind",
+            "unit",
+            "must_reference_range"
+          ],
+          "properties": {
+            "must_be_calculated": {
+              "const": true
+            },
+            "kind": {
+              "const": "number"
+            },
+            "unit": {
+              "const": "USD"
+            },
+            "must_reference_range": {
+              "const": true
+            }
+          },
+          "description": "Input. The fixed as-of date the entire model is anchored to."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://harborview.local/finance010/output_schemas/decision_memo.schema.json",
+  "title": "decision_memo.pdf content contract",
+  "description": "Defines the labelled figures and conclusions the scorer extracts from decision_memo.pdf's text layer. Every property below must be printed in the memo next to the human-readable label given in that property's x-memo-label, so the scorer can locate it deterministically. Every graded property carries an x-memo-label - there is no unlabelled graded field.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "cecl_expected_credit_loss",
+    "change_of_control_put_conclusion",
+    "consolidated_ebitda",
+    "corporate_note_spread_to_treasury_bp",
+    "credit_policy_headroom",
+    "earnout_discount_horizon_years",
+    "earnout_expected_undiscounted",
+    "earnout_expected_value",
+    "earnout_scenario_payout_base",
+    "earnout_scenario_payout_downside",
+    "earnout_scenario_payout_upside",
+    "earnout_scenario_table",
+    "earnout_valuation_method",
+    "ebitda_regime",
+    "equity_consideration_at_closing",
+    "gap_list",
+    "governing_price_mechanism",
+    "i_spread_bp",
+    "locked_box_completion_accounts_delta",
+    "make_whole_accrued_interest",
+    "make_whole_amount",
+    "make_whole_discount_target",
+    "make_whole_par_floor_binding",
+    "make_whole_pv_remaining",
+    "muni_tax_equivalent_yield_pct",
+    "post_close_net_leverage",
+    "rating_gate_crossed",
+    "recommendation",
+    "redemption_cost",
+    "redemption_path_selected",
+    "relative_value_conclusion",
+    "scenario_label",
+    "spa_net_debt",
+    "valuation_date",
+    "working_capital_adjustment_amount",
+    "yield_to_worst_pct"
+  ],
+  "properties": {
+    "recommendation": {
+      "type": "string",
+      "enum": [
+        "proceed",
+        "proceed_with_conditions",
+        "do_not_proceed"
+      ],
+      "x-memo-label": "Recommendation",
+      "description": "The memo's single overall recommendation label. This enum lists label options only - it does not encode which option is correct for this case."
+    },
+    "valuation_date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "x-memo-label": "Valuation Date",
+      "description": "The fixed as-of date every figure in this memo is anchored to; nothing dated after it may move a valuation-date figure."
+    },
+    "governing_price_mechanism": {
+      "type": "string",
+      "x-memo-label": "Governing Price Mechanism",
+      "description": "Which SPA purchase-price mechanism actually governs closing, as determined from the executed, governing agreement - never from a superseded precedent document."
+    },
+    "working_capital_adjustment_amount": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Working Capital Adjustment",
+      "description": "The dollar adjustment to purchase price arising from closing working capital vs. the SPA-defined peg."
+    },
+    "earnout_expected_value": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Earn-Out Expected Value",
+      "description": "The scenario-weighted expected value of the earn-out consideration, tying to earnout_scenario_table."
+    },
+    "earnout_scenario_table": {
+      "type": "array",
+      "x-memo-label": "Earn-Out Scenario Table",
+      "description": "The array of earn-out scenario rows whose weighted result reconciles to earnout_expected_value.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scenario_label"
+        ],
+        "properties": {
+          "scenario_label": {
+            "type": "string",
+            "description": "A short label identifying this earn-out scenario row."
+          }
+        }
+      }
+    },
+    "earnout_scenario_payout_downside": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Earn-Out Amount - Downside Scenario",
+      "description": "The downside scenario's own Earn-out Amount after the Revenue gate and tier mechanics, before probability-weighting - one row of the detail behind earnout_expected_value."
+    },
+    "earnout_scenario_payout_base": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Earn-Out Amount - Base Scenario",
+      "description": "The base scenario's own Earn-out Amount after the Revenue gate and tier mechanics, before probability-weighting - one row of the detail behind earnout_expected_value."
+    },
+    "earnout_scenario_payout_upside": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Earn-Out Amount - Upside Scenario",
+      "description": "The upside scenario's own Earn-out Amount after the Revenue gate and tier mechanics, before probability-weighting - one row of the detail behind earnout_expected_value."
+    },
+    "earnout_expected_undiscounted": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Earn-Out Undiscounted Expected Value",
+      "description": "The probability-weighted sum of the three scenario payouts above, before discounting - earnout_expected_value equals this divided by the discount factor over earnout_discount_horizon_years."
+    },
+    "earnout_discount_horizon_years": {
+      "type": "number",
+      "x-memo-label": "Earn-Out Discount Horizon (Years)",
+      "description": "The number of years earnout_expected_undiscounted is discounted over: the Earn-out Period count plus the offset from the Closing Date to the first day of Buyer's next fiscal month that Earn-out Period 1 actually starts on - never the period count alone."
+    },
+    "locked_box_completion_accounts_delta": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Locked-Box vs. Completion-Accounts Delta",
+      "description": "The dollar difference between the superseded locked-box precedent's implied price and the governing completion-accounts price - shown to prove the mechanism choice was checked, not assumed."
+    },
+    "equity_consideration_at_closing": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Equity Consideration at Closing",
+      "description": "The final equity consideration payable at closing after every SPA-defined purchase-price adjustment is applied."
+    },
+    "spa_net_debt": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "SPA Net Debt",
+      "description": "Net debt as defined by the SPA's own Indebtedness definition and carve-outs, used solely for the SPA purchase-price bridge."
+    },
+    "post_close_net_leverage": {
+      "type": "number",
+      "unit": "x",
+      "x-memo-label": "Post-Close Net Leverage",
+      "description": "Pro forma leverage immediately after closing, computed from covenant-defined Consolidated EBITDA and Consolidated Net Debt."
+    },
+    "change_of_control_put_conclusion": {
+      "type": "string",
+      "x-memo-label": "Change-of-Control Put Conclusion",
+      "description": "The memo's conclusion on whether the change-of-control put on the corporate notes is triggered by this transaction, and why."
+    },
+    "make_whole_amount": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "Make-Whole Amount",
+      "description": "The make-whole premium computed from the indenture's own Applicable Premium definition and the live Treasury curve, if the selected redemption path requires one."
+    },
+    "redemption_path_selected": {
+      "type": "string",
+      "enum": [
+        "optional_redemption_make_whole",
+        "change_of_control_put",
+        "hold_to_maturity_no_redemption",
+        "refinance_at_closing"
+      ],
+      "x-memo-label": "Redemption Path Selected",
+      "description": "Which redemption/repayment path for the corporate notes the memo concludes applies. This enum lists path options only - it does not encode which path is correct for this case."
+    },
+    "corporate_note_spread_to_treasury_bp": {
+      "type": "number",
+      "unit": "bp",
+      "x-memo-label": "Corporate Note Spread to Treasury",
+      "description": "The corporate notes' spread to the appropriate point on the live Treasury par yield curve, in basis points."
+    },
+    "yield_to_worst_pct": {
+      "type": "number",
+      "unit": "pct",
+      "x-memo-label": "Corporate Note Yield to Worst",
+      "description": "The corporate notes' yield to worst - the minimum yield across every scheduled call date's yield to call and the yield to legal maturity - used as the common yield leg for both corporate_note_spread_to_treasury_bp and i_spread_bp."
+    },
+    "i_spread_bp": {
+      "type": "number",
+      "unit": "bp",
+      "x-memo-label": "Corporate Note I-Spread",
+      "description": "The corporate notes' spread to the appropriate point on the committee-supplied swap curve, in basis points - a second relative-value measure alongside corporate_note_spread_to_treasury_bp."
+    },
+    "muni_tax_equivalent_yield_pct": {
+      "type": "number",
+      "unit": "pct",
+      "x-memo-label": "Municipal Tax-Equivalent Yield",
+      "description": "The municipal IRB's tax-equivalent yield, computed under the governing federal rate assumption and any applicable AMT preference-item treatment."
+    },
+    "cecl_expected_credit_loss": {
+      "type": "number",
+      "unit": "USD",
+      "x-memo-label": "CECL Expected Credit Loss",
+      "description": "The CECL expected credit loss figure computed under the instrument's actual balance-sheet classification (HTM vs. AFS)."
+    },
+    "relative_value_conclusion": {
+      "type": "string",
+      "x-memo-label": "Relative Value Conclusion",
+      "description": "The memo's overall relative-value conclusion across the bond complex, reconciling the spread, yield and credit-loss figures above."
+    },
+    "gap_list": {
+      "$ref": "refusal_gap_list.schema.json",
+      "x-memo-label": "Gap List",
+      "description": "The required refusal/gap-list entries (BRIEF Sec3.6 safety boundary); each entry's evidence_checked is a provenance_envelope.schema.json object, per refusal_gap_list.schema.json."
+    },
+    "consolidated_ebitda": {
+      "type": "number",
+      "description": "Consolidated EBITDA as defined by the credit agreement's own definition, which governs the covenant test by its terms - not any similarly-named Adjusted EBITDA from a quality-of-earnings report or a compliance certificate.",
+      "unit": "USD",
+      "x-memo-label": "Consolidated EBITDA"
+    },
+    "ebitda_regime": {
+      "type": "string",
+      "x-memo-label": "EBITDA Regime",
+      "description": "Which synergy-addback regime governs the Consolidated EBITDA figure: the capped regime, where the credit agreement's proviso binds the revenue-enhancement component, or the uncapped regime, where it does not."
+    },
+    "make_whole_pv_remaining": {
+      "type": "number",
+      "description": "The present value of the remaining scheduled payments used in the make-whole calculation, discounted to the date the indenture's make-whole provision specifies.",
+      "unit": "USD",
+      "x-memo-label": "Make-Whole PV of Remaining Payments"
+    },
+    "make_whole_accrued_interest": {
+      "type": "number",
+      "description": "Accrued and unpaid interest to the redemption date, reported separately because the indenture adds it after the make-whole floor is applied, not before.",
+      "unit": "USD",
+      "x-memo-label": "Make-Whole Accrued Interest"
+    },
+    "make_whole_par_floor_binding": {
+      "type": "string",
+      "x-memo-label": "Make-Whole Par Floor",
+      "description": "Whether the make-whole calculation's par floor binds - that is, whether par exceeds the present value of remaining payments, so the floor rather than the PV sets the redemption price."
+    },
+    "rating_gate_crossed": {
+      "type": "string",
+      "x-memo-label": "Rating Gate",
+      "description": "Whether the ratings condition of the change-of-control put's double trigger is met. Reported separately from the put conclusion because the put requires both this and the change-of-control event, and an agent that conflates them cannot be distinguished from one that tested both."
+    },
+    "redemption_cost": {
+      "type": "number",
+      "description": "The total cash cost of the redemption path selected, on the basis actually chosen in `redemption_path_selected`.",
+      "unit": "USD",
+      "x-memo-label": "Redemption Cost"
+    },
+    "credit_policy_headroom": {
+      "type": "number",
+      "description": "Turns of headroom between pro-forma net leverage and the maximum permitted by the internal credit policy that is actually in effect on the valuation date - not any superseded edition of that policy.",
+      "unit": "x",
+      "x-memo-label": "Credit Policy Headroom"
+    },
+    "earnout_valuation_method": {
+      "type": "string",
+      "x-memo-label": "Earn-Out Valuation Method",
+      "description": "Which valuation method produced the earn-out figure - a probability-weighted expected value or an option-based valuation. Both are defensible; state which was used so the figure can be reviewed against its own method."
+    },
+    "make_whole_discount_target": {
+      "type": "string",
+      "x-memo-label": "Make-Whole Discount Target Date",
+      "description": "The date the make-whole calculation discounts remaining payments TO, as the indenture's redemption provision defines it - not necessarily the stated maturity date."
+    },
+    "scenario_label": {
+      "type": "string",
+      "x-memo-label": "Scenario Label",
+      "description": "Row-level field inside earnout_scenario_table: a short label identifying the earn-out scenario. Declared here because the schema publishes it as a row property, so the scorer must resolve it through this vocabulary like any other output name (SCORE-04)."
+    }
+  }
+}

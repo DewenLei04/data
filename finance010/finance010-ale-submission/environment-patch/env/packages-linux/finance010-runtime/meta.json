@@ -1,0 +1,8 @@
+{
+  "description": "finance010 office, PDF/OCR, four-family font and Python runtime for the bond-credit / purchase-price task",
+  "os": "linux",
+  "provides": [
+    "/usr/local/bin/finance010-runtime-health"
+  ],
+  "verify": "/usr/local/bin/finance010-runtime-health --check-installed"
+}

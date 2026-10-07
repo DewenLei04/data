@@ -1,0 +1,33 @@
+From: Wesley Hartnell <whartnell@helioscope.example>
+To: Bennett Oduya <boduya@ardentpeak.example>
+Cc: Devin Marchetti <dmarch@ardentpeak.example>
+Date: Mon, 13 Jul 2026 20:04:00 -0700
+Subject:
+ Answers to the written technical questions, and one I am not going to answer
+Message-ID: <25a85ae0fa416fb5.048@helioscope.example>
+In-Reply-To: <aff5b25c806a0a9f.031@ardentpeak.example>
+References: <d6467bee4ac11f25.013@helioscope.example>
+ <aff5b25c806a0a9f.031@ardentpeak.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Bennett, welcome back. Answers to the written set are attached in the documen=
+t rather than in this email, because half of them need a diagram.
+
+Two things worth saying here. The escaped-defect number your team asked about=
+ is worse than I would like and I have not smoothed it. The February incident=
+ produced two escapes and both were in the same subsystem, which tells you so=
+mething real about our test coverage in that area.
+
+Second, the firmware rollback question. We have rolled back three times in ei=
+ghteen months. All three were deliberate and two of them were the right call.=
+ I would rather you knew that than have it emerge later.
+
+The question I am not going to answer in writing is the one about a specific =
+customer's site network topology. That is their information rather than ours.=
+ Happy to describe it verbally at a level that answers your actual concern.
+
+Thanks,
+Wesley
+VP Engineering, Helioscope Robotics

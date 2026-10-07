@@ -1,0 +1,32 @@
+From: Devin Marchetti <dmarch@ardentpeak.example>
+To: Talia Pell <tpell@ardentpeak.example>
+Cc: Kip Toranaga <ktoranaga@ardentpeak.example>
+Date: Fri, 03 Jul 2026 19:11:00 -0400
+Subject: Model review - four comments, one of which matters
+Message-ID: <b85b54cea92d2b07.042@ardentpeak.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Talia, I went through the model this afternoon. Three small things and one th=
+at I think is structural.
+
+Small: the instrument tab has two columns with the same header, the sensitivi=
+ty tab is hard-coded in one cell that should reference the input block, and t=
+he summary tab rounds before it aggregates rather than after. None of those c=
+hange a conclusion but all three will be found by whoever checks this next.
+
+The structural one is that the model reads two different sources for the same=
+ input depending on which tab you are on. That is how a model becomes interna=
+lly inconsistent without anybody making a mistake. It needs one input block a=
+nd everything else pointing at it.
+
+I do not think this is a rebuild. It is a morning of plumbing. But do the plu=
+mbing before you add the scenario grid, not after.
+
+Kip, worth reading this even though it is not your file. Every model you will=
+ ever be handed has some version of the fourth problem.
+
+Thanks,
+Devin
+Senior Associate, Ardent Peak Ventures

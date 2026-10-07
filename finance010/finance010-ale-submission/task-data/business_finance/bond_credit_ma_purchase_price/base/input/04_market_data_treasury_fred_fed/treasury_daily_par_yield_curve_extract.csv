@@ -1,0 +1,4 @@
+,1 Mo,1.5 Month,2 Mo,3 Mo,4 Mo,6 Mo,1 Yr,2 Yr,3 Yr,5 Yr,7 Yr,10 Yr,20 Yr,30 Yr
+2026-06-30,3.70,3.74,3.77,3.87,3.92,4.01,3.98,4.14,4.15,4.19,4.30,4.44,4.93,4.91
+# Derived from treasury_par_yield_curve_2026_full.csv (SHA-256 316682c8...), the 2026-06-30 valuation-date row, all 14 published tenors verbatim.
+# No 4-Year tenor is published on this curve (the case does not omit one - the U.S. Treasury simply does not publish a 4-Year par yield); a ~4-year remaining-term instrument requires linear interpolation between the 3 Yr and 5 Yr columns above. Do not substitute the 3Yr or 5Yr value directly.

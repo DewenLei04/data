@@ -1,0 +1,1340 @@
+{
+  "files": [
+    {
+      "path": "00_task/output_schemas/capitalization.xlsx.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/output_schemas/deviation_register.csv.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/output_schemas/economics.json.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/output_schemas/ic_recommendation.json.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/output_schemas/instrument_register.csv.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/output_schemas/negotiation_memo.pdf.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/output_schemas/reconciliation.csv.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/output_schemas/redline_positions.csv.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/output_schemas/term_sheet_extract.json.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "00_task/TASK_PROMPT.md",
+      "suffix": ".md"
+    },
+    {
+      "path": "01_term_sheet/Background_Reference_1.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "01_term_sheet/Redline_Positions_Log.csv",
+      "suffix": ".csv"
+    },
+    {
+      "path": "01_term_sheet/Term_Sheet_Northgate_Crossing_COMPETING.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "01_term_sheet/Term_Sheet_Series_B_v3_DRAFT.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "01_term_sheet/Term_Sheet_Series_B_v4_REDLINE.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "01_term_sheet/Term_Sheet_Series_B_v5_EXECUTED.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "01_term_sheet/Term_Sheet_v5_Exhibit_A_Cap_Table.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "01_term_sheet/Term_Sheet_v5_Signature_Pages.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/Amended_Restated_Certificate_of_Incorporation.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/Background_Reference_2.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_001.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_002.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_003.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_004.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_005.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_006.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_007.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_008.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_009.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_010.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_011.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_012.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_013.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_014.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_015.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_016.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_017.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_018.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_019.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_020.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_021.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/commercial_contracts_022.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/Investors_Rights_Agreement.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_001.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_002.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_003.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_004.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_005.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_006.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_007.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_008.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_009.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_010.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_011.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_012.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_013.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_014.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_015.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_016.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_017.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/legal_history_018.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/Plan_Amendment_No_3.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/ROFR_CoSale_Agreement.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "02_legal/Voting_Agreement.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/CFO_Instrument_Register.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "03_convertibles/note_bay_meridian.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/Note_Interest_Accrual_Worksheet.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "03_convertibles/note_kadence.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/note_tessellate_bridge.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/safe_advisor.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/safe_angel_syndicate.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/safe_eur.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/safe_kadence.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/safe_northgate.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/Warrant_Amortization_Schedule.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "03_convertibles/warrant_lenderA_penny.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/warrant_lenderB.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "03_convertibles/warrant_strategic.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/Board_Consent_2025-04-15_CS0114_Secondary.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/Board_Consent_2026-07-24_TermSheet_Approval.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/Board_Minutes_2026-05-12_Series_A_Waiver.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/Board_Minutes_2026-07-31_Waiver_Lapse.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_001.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_002.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_003.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_004.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_005.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_006.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_007.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_008.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_009.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_010.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_011.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_012.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_013.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_014.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_015.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_016.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_017.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_018.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_019.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_020.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_021.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_022.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_023.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "04_board_records/operating_reviews_024.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/Deliverable_Style_Guide.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/IC_Mandate_and_Hard_Gates.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/Modeling_Conventions_Memo.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_001.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_002.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_003.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_004.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_005.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_006.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_007.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_008.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_009.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_010.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_011.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/policy_history_012.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/Reserve_Policy.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "05_fund_policy/Term_Sheet_Review_Protocol.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "06_valuation/Background_Reference_3.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "06_valuation/Valuation_409A_2026-03-31.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "06_valuation/Valuation_409A_2026-03-31_DUPLICATE.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_001.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_002.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_003.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_004.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_005.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_006.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_007.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_008.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_009.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_010.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_011.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_012.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_013.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_014.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_015.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_016.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_017.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_018.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_019.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/customer_diligence_020.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_001.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_002.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_003.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_004.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_005.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_006.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_007.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_008.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_009.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_010.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_011.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_012.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_013.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_014.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_015.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_016.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_017.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_018.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_019.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_020.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_021.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_022.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_023.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_financials/technical_diligence_024.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/Kessler_Ward_Survey_2026Q1_STALE.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/Kessler_Ward_Survey_2026Q2.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_001.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_002.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_003.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_004.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_005.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_006.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_007.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_008.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_009.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_010.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_011.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_012.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_013.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_014.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_015.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/market_appendices_016.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "07_market_benchmarks/Sector_Comp_Set.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "07_market_benchmarks/Survey_Data_Appendix.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Cap_Table_Scenario_Model.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/CFO_Instrument_Register.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Equity_Award_Vesting_Detail.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Founders_Vesting_Schedule.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Ledgerline_Cap_Table_Export.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Ledgerline_CapTable_Export.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Monthly_CapTable_Snapshot_2026-01.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Monthly_CapTable_Snapshot_2026-02.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Monthly_CapTable_Snapshot_2026-03.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Monthly_CapTable_Snapshot_2026-04.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Monthly_CapTable_Snapshot_2026-05.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Monthly_CapTable_Snapshot_2026-06.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Options_Ledger.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/RSU_PSU_Register.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "08_capitalization/Share_Reserve_Reconciliation.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/ARR_Build.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Background_Reference_4.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/Burn_and_Runway.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Cohort_Retention.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Customer_Contract_Milestones.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Diligence_Tracker.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Dividend_Accrual_Worksheet.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/finance_support_001.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_002.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_003.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_004.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_005.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_006.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_007.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_008.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_009.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_010.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_011.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_012.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_013.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_014.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_015.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_016.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_017.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/finance_support_018.pdf",
+      "suffix": ".pdf"
+    },
+    {
+      "path": "09_financials/Financials_30_Month_Actuals.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/FY2027_Budget.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/General_Ledger_Transaction_Sample.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Headcount_Plan.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Intern_ProForma_Model.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Invoice_Level_Revenue_Ledger.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/KPI_Dashboard.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Pipeline_and_Renewal_Cohorts.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Purchase_Order_and_Backlog.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Top_25_Revenue_Customers.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/Waterfall_Scenario_Grid.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "09_financials/XIRR_Cashflow_Schedule.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "10_correspondence/email_001_management_session_windows.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_002_folder_tree_pushback.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_003_premoney_update.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_004_pool_sizing_chatter.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_005_prior_valuation_location.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_006_ratchet_window_discussion.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_007_vaultroom_credential_expiry.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_008_asterion_consent_view.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_009_operative_term_sheet.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_010_sector_press_forward.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_011_northgate_recap.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_012_diligence_bridge_details.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_013_technical_session_shape.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_014_plan_reserve_consent_view.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_015_eur_fx_rate_note.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_016_operating_plan_monday.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_017_transfer_batch_open_items.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_018_bridge_note_terms.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_019_april_close_slippage.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_020_subscription_cutoff_view.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_021_reno_site_visit.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_022_kadence_terms_recap.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_023_survey_edition_timing.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_024_external_account_audit.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_025_intern_answer_flagging.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_026_board_seat_view.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_027_tessellate_check_in.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_028_ardent_t1_commitment.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_029_kadence_safe_amount_resend.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_030_diligence_week_rooms.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_031_operating_partner_autoreply.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_032_index_rebuild_numbering.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_033_crestline_milestone_view.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_034_missing_exhibit_c.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_035_daycount_simplification_argument.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_036_lp_industrial_question.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_037_signature_logistics.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_038_close_estimate_approval.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_039_participation_market_view.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_040_stock_power_progress.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_041_escrow_mechanics.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_042_model_review_comments.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_043_charter_consent_question.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_044_saturday_maintenance.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_045_summit_ridge_acceleration.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_046_benchmark_call_scheduling.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_047_charter_consent_resend.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_048_technical_answers.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_049_ledger_export_delivered.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_050_comp_set_exclusions.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_051_credential_expiry_notice.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_052_tranche2_trigger_note.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_053_disclosure_schedule_turn.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_054_session_reschedule.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_055_deployment_fee_view.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_056_access_log_weekdays.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_057_deployment_record_upload.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_058_panel_follow_up.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_059_minute_book_indexing.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_060_fund_reporting_calendar.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_061_tranche2_funding_date_resend.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_062_methodology_silence_note.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_063_diligence_week_final.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_064_budget_file_walkthrough.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_065_bulk_download_limits.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_066_all_hands_forward.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_067_sso_authentication_failure.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_068_top_up_right_view.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_069_closing_checklist_length.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_070_funds_flow_controls.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_071_incident_review_follow_up.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_072_wednesday_room_freed.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_073_transaction_followup.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_074_lp_reporting_timing.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_075_mailbox_quota_notice.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_076_closing_sequencing.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_077_exhibit_collation.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_078_audit_prep_areas.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_079_reno_badges.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_080_syndicate_interest.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_081_final_session_agenda.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_082_intern_handover.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_083_archive_export_format.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_084_session_thanks.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_085_closing_binder_status.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "10_correspondence/email_086_consolidated_open_items.eml",
+      "suffix": ".eml"
+    },
+    {
+      "path": "11_data_room_index/Data_Room_Access_Log.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "11_data_room_index/Data_Room_Index.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "11_data_room_index/Diligence_Tracker.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "11_data_room_index/Redline_Positions_Log.csv",
+      "suffix": ".csv"
+    },
+    {
+      "path": "12_noise/Payroll_Register_Sample.xlsx",
+      "suffix": ".xlsx"
+    },
+    {
+      "path": "12_noise/Vendor_Payment_Ledger.xlsx",
+      "suffix": ".xlsx"
+    }
+  ]
+}

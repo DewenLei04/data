@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://harborview.local/finance010/output_schemas/refusal_gap_list.schema.json",
+  "title": "Refusal / gap list",
+  "description": "The claim-bound refusal shape published as decision_memo.pdf's gap_list field. A non-empty gap list is never by itself sufficient: every entry is graded against its own claim_id, paired against evidence_manifest.csv's claim_id for that same claim, so that refusing a claim earns credit only where the claim was genuinely unsupported, and refusing an answerable claim loses the credit that claim would otherwise have earned. Never a free-text blob - every entry names one specific claim and one specific withheld field.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "claim_id",
+      "gap_type",
+      "blocked_field",
+      "evidence_checked",
+      "what_would_resolve",
+      "definitive_conclusion_withheld"
+    ],
+    "properties": {
+      "claim_id": {
+        "type": "string",
+        "pattern": "^CLM-[0-9]{3,4}$",
+        "description": "The identifier of the specific claim being refused. Binds to evidence_manifest.csv's claim_id column for the same claim - the same pattern is used in both places so a claim can be traced whether it was answered or refused."
+      },
+      "gap_type": {
+        "type": "string",
+        "enum": [
+          "missing_source",
+          "missing_authorization",
+          "missing_timestamp",
+          "conflicting_authorization",
+          "post_valuation_date_information",
+          "illegible_scan",
+          "internally_inconsistent_source"
+        ],
+        "x-memo-label": "Gap Type",
+        "description": "The category of the evidentiary gap."
+      },
+      "blocked_field": {
+        "type": "string",
+        "x-memo-label": "Blocked Field",
+        "description": "The single published output field name (from case/scripts/field_vocabulary.py's ALL_PUBLISHED_NAMES) being withheld because of this gap. Must be a member of the published vocabulary - never a free-text description of what is missing. This is what lets a paired refusal check and a paired no-false-refusal check each bind to one specific claim and one specific field."
+      },
+      "evidence_checked": {
+        "$ref": "provenance_envelope.schema.json",
+        "x-memo-label": "Evidence Checked",
+        "description": "What source WAS examined before concluding a definitive answer could not be given. A gap must show diligence, not merely absence."
+      },
+      "what_would_resolve": {
+        "type": "string",
+        "x-memo-label": "What Would Resolve",
+        "description": "A one-line statement of what additional source or authorization would resolve this specific gap."
+      },
+      "definitive_conclusion_withheld": {
+        "type": "boolean",
+        "x-memo-label": "Conclusion Withheld",
+        "description": "True if a definitive conclusion on this specific claim is being withheld in favor of this gap entry."
+      }
+    }
+  }
+}

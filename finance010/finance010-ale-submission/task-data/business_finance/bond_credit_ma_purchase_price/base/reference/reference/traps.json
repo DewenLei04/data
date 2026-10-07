@@ -1,0 +1,775 @@
+{
+  "difficulty_counts": {
+    "correctness-surface": 15,
+    "insurance": 6,
+    "load-bearing": 11
+  },
+  "family_counts": {
+    "BROKEN_EXTERNAL_LINK": 2,
+    "CONFLICTING_AUTHORIZATION": 1,
+    "HARD_CODED_FORMULA": 5,
+    "OCR_MISREAD": 2,
+    "POST_VALUATION_DATE": 1,
+    "SAME_NAME_DIFFERENT_DEFINITION": 9,
+    "SILENT_OMISSION": 6,
+    "STALE_TEMPLATE": 1,
+    "UNTRACEABLE_SOURCE": 2,
+    "VERSION_EFFECTIVE_DATE_CONFLICT": 3
+  },
+  "row_count": 32,
+  "schema_fields": [
+    "id",
+    "family",
+    "difficulty_class",
+    "half",
+    "planted_in",
+    "mechanism",
+    "fairness_anchor",
+    "resolution_rule",
+    "rubric_items_driven",
+    "cost_basis",
+    "graded_field",
+    "intentional_break"
+  ],
+  "traps": [
+    {
+      "cost_basis": "QOFE_ADJUSTED_IN_COVENANT_LINE",
+      "cost_if_wrong": {
+        "correct": "56555555.555555555555555555555555555555555555555556",
+        "delta": "-12555555.555555555555555555555555555555555555555556",
+        "wrong": "44000000"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "03_bond_credit_docs/credit_agreement.docx Sec1 Definitions (Consolidated EBITDA) governs the covenant test by its own terms",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "consolidated_ebitda",
+      "half": "coupled",
+      "id": "T01",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: the compliance-certificate covenant line reads the QofE's Tier-1/2-only Adjusted EBITDA instead of the credit agreement's own Consolidated EBITDA",
+      "planted_in": [
+        "03_bond_credit_docs/compliance_certificate_draft.docx",
+        "02_target_financials/qofe_adjusted_ebitda_analysis.docx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/credit_agreement.docx Sec1 Definitions controls the covenant EBITDA; the QofE transmittal letter (02_target_financials/qofe_report.docx) disclaims third-party/contractual reliance",
+      "rubric_items_driven": [
+        "R-COUPLED-01"
+      ]
+    },
+    {
+      "cost_basis": "NET_DEBT_INCLUDES_IRB",
+      "cost_if_wrong": {
+        "correct": "181700000",
+        "delta": "24500000",
+        "wrong": "206200000"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "01_deal_process_ma/spa_executed.docx Article I Indebtedness definition's own IRB carve-out",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "spa_net_debt",
+      "half": "coupled",
+      "id": "T02",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: the funds-flow memo substitutes the credit agreement's Consolidated Net Debt (includes the assumed IRB) for the SPA's own purchase-price Net Debt (excludes it)",
+      "planted_in": [
+        "01_deal_process_ma/funds_flow_memo.docx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Article I governs the SPA Net Debt figure; 03_bond_credit_docs/credit_agreement.docx's Consolidated Net Debt definition governs only the covenant figure",
+      "rubric_items_driven": [
+        "R-COUPLED-02"
+      ]
+    },
+    {
+      "cost_basis": "WC_CASH_INCLUSIVE",
+      "cost_if_wrong": {
+        "correct": "-1500000",
+        "delta": "9600000",
+        "wrong": "8100000"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/spa_executed.docx Article II S2.04 Accounting Principles schedule",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "working_capital_adjustment_amount",
+      "half": "spa",
+      "id": "T03",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: the QofE's descriptive, cash-inclusive Working Capital trend table is carried into the model as if it were the SPA-defined, cash-excluded figure",
+      "planted_in": [
+        "02_target_financials/qofe_net_working_capital_analysis.docx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Article II S2.04's Accounting-Principles-schedule hierarchy controls over the QofE's descriptive table",
+      "rubric_items_driven": [
+        "R-SPA-01"
+      ]
+    },
+    {
+      "cost_basis": "WC_DEBT_LIKE_INCLUDED",
+      "cost_if_wrong": {
+        "correct": "-1500000",
+        "delta": "5100000",
+        "wrong": "3600000"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/sample_working_capital_statement.xlsx itemized exclusion list",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "working_capital_adjustment_amount",
+      "half": "spa",
+      "id": "T04",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: a literal GAAP current-liabilities read leaves debt-like items inside Working Capital instead of moving them to the Net Debt bridge",
+      "planted_in": [
+        "02_target_financials/management_accounts_q2_2026.xlsx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Section 2.04(b) names the itemized exclusion schedule (the Sample Working Capital Statement's own Debt-Like Exclusions tab) as the document that removes debt-like items from Closing Working Capital; 01_deal_process_ma/sample_working_capital_statement.xlsx's Debt-Like Exclusions tab is the itemized exclusion list Section 2.04(b) refers to",
+      "rubric_items_driven": [
+        "R-SPA-02"
+      ]
+    },
+    {
+      "cost_basis": "PERIOD1_AT_CLOSING_DATE",
+      "cost_if_wrong": {
+        "correct": "1183600.7075098729384881488775258937586344040176551",
+        "delta": "11098.8761676958681082127560131708928373038762718",
+        "wrong": "1194699.5836775688065963616335390646514717078939269"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/spa_executed.docx S2.06 Period definitions, cross-referenced to the Buyer fiscal-calendar exhibit",
+      "family": "VERSION_EFFECTIVE_DATE_CONFLICT",
+      "graded_field": "earnout_expected_value",
+      "half": "spa",
+      "id": "T05",
+      "intentional_break": true,
+      "mechanism": "version-effectivity: Earn-out Period 1 is assumed to start exactly on the Closing Date instead of the first day of Buyer's next fiscal month after Closing",
+      "planted_in": [
+        "01_deal_process_ma/modeling_conventions_memo.docx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx S2.06's own Period definitions control over any document assuming Closing Date = Period start",
+      "rubric_items_driven": [
+        "R-SPA-03"
+      ]
+    },
+    {
+      "cost_basis": "LOCKED_BOX_APPLIED",
+      "cost_if_wrong": {
+        "correct": "160400000",
+        "delta": "4993232.87671232876712328767123287671232876712329",
+        "wrong": "165393232.87671232876712328767123287671232876712329"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "01_deal_process_ma/locked_box_completion_accounts_memo.docx confirming the executed, governing mechanism",
+      "family": "VERSION_EFFECTIVE_DATE_CONFLICT",
+      "graded_field": "equity_consideration_at_closing",
+      "half": "spa",
+      "id": "T06",
+      "intentional_break": true,
+      "mechanism": "version-effectivity: the superseded locked-box precedent's 'Locked Box Date'/'no leakage' equity bridge is applied instead of the governing completion-accounts mechanism",
+      "planted_in": [
+        "01_deal_process_ma/spa_locked_box_precedent.docx"
+      ],
+      "resolution_rule": "01_deal_process_ma/locked_box_completion_accounts_memo.docx Section 5 (Governing Mechanism for This Transaction) states which mechanism controls; the executed 01_deal_process_ma/spa_executed.docx's Article II Section 2.04 completion-accounts machinery controls, while the numbered-'Clause' precedent is a superseded draft",
+      "rubric_items_driven": [
+        "R-SPA-04"
+      ]
+    },
+    {
+      "cost_basis": "STALE_PRIOR_CURVE",
+      "cost_if_wrong": {
+        "correct": "198455039.46474708238199233269188972097563073154397",
+        "delta": "1692964.60071062261565258861810221931809893263054",
+        "wrong": "200148004.06545770499764492130999194029372966417451"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "12_field_and_delivery_spec/source_manifest.json's dated, SHA-256-verified curve source entry",
+      "family": "STALE_TEMPLATE",
+      "graded_field": "make_whole_amount",
+      "half": "bond",
+      "id": "T07",
+      "intentional_break": true,
+      "mechanism": "version-effectivity: the legacy model's discount-rate input cell hard-codes a prior-quarter Treasury curve instead of live-referencing the 2026-06-30 curve",
+      "planted_in": [
+        "11_legacy_model_workbook/financial_model.xlsx"
+      ],
+      "resolution_rule": "01_deal_process_ma/modeling_conventions_memo.docx Section 9 requires every market-data input cell to live-link to its staged extract rather than being typed; 12_field_and_delivery_spec/source_manifest.json records the correct URL/date/SHA-256 for the live curve extract that Section 9 requires, and any model cell whose value does not match is flagged stale",
+      "rubric_items_driven": [
+        "R-BOND-01"
+      ]
+    },
+    {
+      "cost_basis": "MIXED_DAY_COUNT",
+      "cost_if_wrong": {
+        "correct": "180705729.1667",
+        "delta": "9264.0027",
+        "wrong": "180714993.1694"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "03_bond_credit_docs/senior_notes_indenture.docx's own day-count convention for the corporate note",
+      "family": "HARD_CODED_FORMULA",
+      "graded_field": "change_of_control_put_price",
+      "half": "bond",
+      "id": "T08",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: a single hard-coded day-count constant (Actual/Actual ICMA) is applied to the corporate note's accrued interest instead of its own 30/360 convention",
+      "planted_in": [
+        "11_legacy_model_workbook/financial_model.xlsx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/senior_notes_indenture.docx Section 2.01 states the Notes' own 30/360 Convention governs every accrued-interest calculation; recompute independently rather than trusting the shared model constant",
+      "rubric_items_driven": [
+        "R-BOND-02"
+      ]
+    },
+    {
+      "cost_basis": "MATURITY_HORIZON",
+      "cost_if_wrong": {
+        "correct": "194499310.30",
+        "delta": "structural (wrong cash-flow set, not a scalar delta)",
+        "wrong": "discounted to legal maturity (2031-06-15) instead of the par call date (2030-06-15)"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "03_bond_credit_docs/senior_notes_indenture.docx Article 3 Applicable Premium definition (par call date)",
+      "family": "HARD_CODED_FORMULA",
+      "graded_field": "make_whole_pv_remaining",
+      "half": "bond",
+      "id": "T09",
+      "intentional_break": true,
+      "mechanism": "counterfactual propagation: the make-whole formula sums cash flows through legal maturity instead of stopping at the par call date",
+      "planted_in": [
+        "11_legacy_model_workbook/financial_model.xlsx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/senior_notes_indenture.docx Section 3.01's Applicable Premium/par-call-date definition is the governing text; rebuild the PV sum from the call schedule stated there",
+      "rubric_items_driven": [
+        "R-BOND-03"
+      ]
+    },
+    {
+      "cost_basis": "ACCRUED_INSIDE_STREAM",
+      "cost_if_wrong": {
+        "correct": "198455039.46",
+        "delta": "structural (double-counts/omits the par-floor boundary)",
+        "wrong": "accrued interest folded inside the discounted stream instead of added after the par floor"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "03_bond_credit_docs/senior_notes_indenture.docx Article 3 Applicable Premium clause text separating the par-floor and accrued-interest steps",
+      "family": "HARD_CODED_FORMULA",
+      "graded_field": "make_whole_amount",
+      "half": "bond",
+      "id": "T10",
+      "intentional_break": true,
+      "mechanism": "counterfactual propagation: the stub coupon is folded inside the discounted PV stream instead of added after the MAX(Principal, PV) par floor step",
+      "planted_in": [
+        "11_legacy_model_workbook/financial_model.xlsx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/senior_notes_indenture.docx Section 3.01's Applicable Premium clause text explicitly separates the two steps (the par-floor comparison in step (b), then accrued interest added only in step (c)); recompute from that text",
+      "rubric_items_driven": [
+        "R-BOND-04"
+      ]
+    },
+    {
+      "cost_basis": "NEAREST_TENOR",
+      "cost_if_wrong": {
+        "correct": "198455039.46474708238199233269188972097563073154397",
+        "delta": "95627.83082527321706630650655741730969484319008",
+        "wrong": "198550667.29557235559905863919844713828532557473405"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "04_market_data_treasury_fred_fed/treasury_daily_par_yield_curve_extract.csv's own 14 published tenors",
+      "family": "HARD_CODED_FORMULA",
+      "graded_field": "make_whole_amount",
+      "half": "bond",
+      "id": "T11",
+      "intentional_break": true,
+      "mechanism": "fallback chain: the Treasury-selection macro hard-codes a monotonic-curve assumption and walks to the next longer tenor instead of interpolating on remaining term",
+      "planted_in": [
+        "11_legacy_model_workbook/financial_model.xlsx"
+      ],
+      "resolution_rule": "01_deal_process_ma/modeling_conventions_memo.docx's numbered convention '4. Interpolation on the Treasury curve' requires linear interpolation on remaining term rather than a walk to the next longer tenor; the 12_field_and_delivery_spec/source_manifest.json-registered 04_market_data_treasury_fred_fed/treasury_daily_par_yield_curve_extract.csv's own 14 published tenors are the inputs that convention's procedure is applied to",
+      "rubric_items_driven": [
+        "R-BOND-05"
+      ]
+    },
+    {
+      "cost_basis": "OCR_COUPON_MISREAD",
+      "cost_if_wrong": {
+        "correct": "198455039.46474708238199233269188972097563073154397",
+        "delta": "-22561810.29804708238199233269188972097563073154397",
+        "wrong": "175893229.1667"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "03_bond_credit_docs/senior_notes_indenture.docx's clean, typed, executed coupon figure",
+      "family": "OCR_MISREAD",
+      "graded_field": "make_whole_amount",
+      "half": "bond",
+      "id": "T12",
+      "intentional_break": true,
+      "mechanism": "fallback chain: a scanned meeting-minutes attachment's OCR text layer mis-recognizes the coupon glyph ('7' as '1') and is treated as an alternate valid source",
+      "planted_in": [
+        "10_scanned_legacy/scanned_ic_approval_sheet.pdf"
+      ],
+      "resolution_rule": "03_bond_credit_docs/senior_notes_indenture.docx Section 2.01 states the Notes' typed, executed 7.750% coupon; the scanned minutes' OCR text layer is a citation-of-last-resort only, never a substitute for Section 2.01's own text",
+      "rubric_items_driven": [
+        "R-BOND-06"
+      ]
+    },
+    {
+      "cost_basis": "OCR_COLLAR_MISREAD",
+      "cost_if_wrong": {
+        "correct": "-1500000",
+        "delta": "1500000",
+        "wrong": "0"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/spa_executed.docx Article II S2.04(c)'s clean, typed collar figure",
+      "family": "OCR_MISREAD",
+      "graded_field": "working_capital_adjustment_amount",
+      "half": "spa",
+      "id": "T13",
+      "intentional_break": true,
+      "mechanism": "fallback chain: a scanned legacy-fax attachment's OCR digit-duplication artifact misreads the SPA's own typed working-capital collar amount",
+      "planted_in": [
+        "10_scanned_legacy/scanned_covenant_waiver_fax.pdf"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Article II S2.04(c) controls; the scanned attachment is a secondary, lower-confidence source per the evidence manifest",
+      "rubric_items_driven": [
+        "R-SPA-05"
+      ]
+    },
+    {
+      "cost_basis": "POLICY_6X_GATE",
+      "cost_if_wrong": {
+        "correct": "0.3810381876222003929273084479371316306483300589391",
+        "delta": "0.5000000000000000000000000000000000000000000000000",
+        "wrong": "0.8810381876222003929273084479371316306483300589391"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "00_engagement_and_policy/internal_credit_policy.docx (current, properly executed version)",
+      "family": "CONFLICTING_AUTHORIZATION",
+      "graded_field": "credit_policy_headroom",
+      "half": "coupled",
+      "id": "T14",
+      "intentional_break": true,
+      "mechanism": "version-effectivity: an earlier-dated committee memo's superseded 6.0x leverage gate is read as governing instead of the current, properly executed Internal Credit Policy's 5.50x gate",
+      "planted_in": [
+        "01_deal_process_ma/credit_committee_memo.docx"
+      ],
+      "resolution_rule": "00_engagement_and_policy/internal_credit_policy.docx Section 2.02 (5.50x leverage gate) governs, per Section 7.01's own instruction to compare a differing memorandum's date against Section 7.01 before treating a quoted figure as governing; cross-checked against 00_engagement_and_policy/authorization_memo.docx, the latest-dated, properly authorized document controls",
+      "rubric_items_driven": [
+        "R-COUPLED-03"
+      ]
+    },
+    {
+      "cost_basis": "WRONG_326_SUBTOPIC",
+      "cost_if_wrong": {
+        "correct": "AFS",
+        "delta": "structural (different formula entirely, not a scalar delta)",
+        "wrong": "HTM"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "02_target_financials/audited_financials_fy2025.docx Note 1 (Summary of Significant Accounting Policies)",
+      "family": "SILENT_OMISSION",
+      "graded_field": "cecl_expected_credit_loss",
+      "half": "bond",
+      "id": "T15",
+      "intentional_break": true,
+      "mechanism": "silent truncation: the investment portfolio's HTM/AFS classification is disclosed only in Note 1 of the audited financial statements and is silently absent from the more obvious QofE Net Debt/Cash section",
+      "planted_in": [
+        "02_target_financials/qofe_net_debt_cash_analysis.docx"
+      ],
+      "resolution_rule": "02_target_financials/audited_financials_fy2025.docx Note 1 must be cross-referenced specifically; its absence from the QofE section is the intended forcing function, not a build defect",
+      "rubric_items_driven": [
+        "R-BOND-07"
+      ]
+    },
+    {
+      "cost_basis": "NEAREST_TENOR",
+      "cost_if_wrong": {
+        "correct": "198455039.46474708238199233269188972097563073154397",
+        "delta": "95627.83082527321706630650655741730969484319008",
+        "wrong": "198550667.29557235559905863919844713828532557473405"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "04_market_data_treasury_fred_fed/treasury_daily_par_yield_curve_extract.csv's own actual 14 columns",
+      "family": "SILENT_OMISSION",
+      "graded_field": "make_whole_amount",
+      "half": "bond",
+      "id": "T16",
+      "intentional_break": true,
+      "mechanism": "silent truncation: the real 2026-06-30 curve has no 4-Year tenor, and an agent that assumes one exists silently substitutes the 3Yr or 5Yr yield directly instead of interpolating",
+      "planted_in": [
+        "04_market_data_treasury_fred_fed/treasury_daily_par_yield_curve_extract.csv"
+      ],
+      "resolution_rule": "01_deal_process_ma/modeling_conventions_memo.docx's numbered convention '4. Interpolation on the Treasury curve' states the linear-interpolation procedure and forbids substituting the next tenor directly; applied to 04_market_data_treasury_fred_fed/treasury_daily_par_yield_curve_extract.csv's own actual 14 columns (no 4-Year tenor is published), that is the only correct method",
+      "rubric_items_driven": [
+        "R-BOND-08"
+      ]
+    },
+    {
+      "cost_basis": "UNSUPPORTED_ADDBACK_INCLUDED",
+      "cost_if_wrong": {
+        "correct": "56555555.555555555555555555555555555555555555555556",
+        "delta": "2000000.000000000000000000000000000000000000000000",
+        "wrong": "58555555.555555555555555555555555555555555555555556"
+      },
+      "difficulty_class": "insurance",
+      "fairness_anchor": "02_target_financials/qofe_adjusted_ebitda_analysis.docx's own adjustment footnote and the absence of any second citation",
+      "family": "UNTRACEABLE_SOURCE",
+      "graded_field": "consolidated_ebitda",
+      "half": "spa",
+      "id": "T17",
+      "intentional_break": true,
+      "mechanism": "fallback chain: a Tier-2 'normalizing' adjustment's footnote reads 'per management representation' with no corroborating document anywhere else in the corpus, and is nonetheless treated as verified",
+      "planted_in": [
+        "02_target_financials/qofe_adjusted_ebitda_analysis.docx"
+      ],
+      "resolution_rule": "02_target_financials/qofe_adjusted_ebitda_analysis.docx's own Section 4 states that the memo-basis clause (p) normalizing adjustment is excluded from the headline Tier 1 plus Tier 2 figure precisely because no second source corroborates the footnote's claim; the correct response is to flag it as unsupported, not to treat the QofE's own footnote as self-verifying",
+      "rubric_items_driven": [
+        "R-SPA-06"
+      ]
+    },
+    {
+      "cost_basis": "NON_NUMERIC",
+      "cost_if_wrong": {
+        "correct": "flagging item \u2014 no numeric delta",
+        "delta": "flagging item \u2014 no numeric delta",
+        "wrong": "flagging item \u2014 no numeric delta"
+      },
+      "difficulty_class": "insurance",
+      "fairness_anchor": "01_deal_process_ma/disclosure_schedules.docx's own table of contents",
+      "family": "BROKEN_EXTERNAL_LINK",
+      "graded_field": "gap_list",
+      "half": "spa",
+      "id": "T18",
+      "intentional_break": true,
+      "mechanism": "silent truncation: the SPA body cites a disclosure schedule number that no longer exists (or refers to a different topic) after a renumbering pass",
+      "planted_in": [
+        "01_deal_process_ma/disclosure_schedules.docx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Section 4.14 (Insurance) cites Schedule 4.14 as the document setting forth each Existing Insurance Policy, but 01_deal_process_ma/disclosure_schedules.docx's own table of contents jumps from Schedule 4.13 directly to Schedule 4.15 - Schedule 4.14 does not exist; the correct response is to flag the missing schedule as a gap",
+      "rubric_items_driven": [
+        "R-SPA-07"
+      ]
+    },
+    {
+      "cost_basis": "NON_NUMERIC",
+      "cost_if_wrong": {
+        "correct": "flagging item \u2014 no numeric delta",
+        "delta": "flagging item \u2014 no numeric delta",
+        "wrong": "flagging item \u2014 no numeric delta"
+      },
+      "difficulty_class": "insurance",
+      "fairness_anchor": "SEC Release 33-10890 (a real, citable, dated rule) resolves the question independent of any fabricated data",
+      "family": "BROKEN_EXTERNAL_LINK",
+      "graded_field": "gap_list",
+      "half": "bond",
+      "id": "T19",
+      "intentional_break": true,
+      "mechanism": "version-effectivity: a stale-template-sourced offering document still carries a 'Ratio of Earnings to Fixed Charges' exhibit eliminated by SEC Release 33-10890 for fiscal years ending on/after 2021-02-10",
+      "planted_in": [
+        "03_bond_credit_docs/note_purchase_registration_rights_agreement.docx"
+      ],
+      "resolution_rule": "SEC Release 33-10890, cross-checked against 03_bond_credit_docs/note_purchase_registration_rights_agreement.docx's Exhibit C (Ratio of Earnings to Fixed Charges) and its own 2026 dating, resolves the question",
+      "rubric_items_driven": [
+        "R-BOND-09"
+      ]
+    },
+    {
+      "cost_basis": "SUBSEQUENT_EVENT_INCLUDED",
+      "cost_if_wrong": {
+        "correct": "56555555.555555555555555555555555555555555555555556",
+        "delta": "4944444.444444444444444444444444444444444444444444",
+        "wrong": "61500000"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "02_target_financials/audited_financials_fy2025.docx's own Subsequent Events note",
+      "family": "POST_VALUATION_DATE",
+      "graded_field": "consolidated_ebitda",
+      "half": "coupled",
+      "id": "T20",
+      "intentional_break": true,
+      "mechanism": "counterfactual propagation: a dated-after-2026-06-30 item (e.g. a rating action or a run-rate synergy column) is folded into the valuation-date-anchored LTM figures instead of disclosed separately",
+      "planted_in": [
+        "02_target_financials/audited_financials_fy2025.docx"
+      ],
+      "resolution_rule": "the fixed valuation date (2026-06-30) is the hard cutoff per 02_target_financials/audited_financials_fy2025.docx's Subsequent Events note (the note headed 'SUBSEQUENT EVENTS'); any dated-after item is disclosed informationally but excluded from the valuation-date numbers",
+      "rubric_items_driven": [
+        "R-COUPLED-04"
+      ]
+    },
+    {
+      "cost_basis": "WHOLE_BUCKET_CAP",
+      "cost_if_wrong": {
+        "correct": "56555555.555555555555555555555555555555555555555556",
+        "delta": "-5111111.111111111111111111111111111111111111111112",
+        "wrong": "51444444.444444444444444444444444444444444444444444"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "03_bond_credit_docs/credit_agreement.docx Sec1 Definitions, Consolidated EBITDA clause (i) proviso text",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "consolidated_ebitda",
+      "half": "coupled",
+      "id": "T21",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: the revenue-enhancement cap is applied to the whole run-rate bucket (cost savings included) instead of revenue enhancements only",
+      "planted_in": [
+        "03_bond_credit_docs/compliance_certificate_draft.docx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/credit_agreement.docx Sec1 Definitions clause (i)'s own proviso text caps only revenue enhancements; cost savings are added back uncapped",
+      "rubric_items_driven": [
+        "R-COUPLED-05"
+      ]
+    },
+    {
+      "cost_basis": "NON_NUMERIC",
+      "cost_if_wrong": {
+        "correct": "flagging item \u2014 no numeric delta",
+        "delta": "flagging item \u2014 no numeric delta",
+        "wrong": "flagging item \u2014 no numeric delta"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "03_bond_credit_docs/credit_agreement.docx Sec1 Definitions clause (p)'s own cross-reference to a private, off-agreement document",
+      "family": "UNTRACEABLE_SOURCE",
+      "graded_field": "gap_list",
+      "half": "bond",
+      "id": "T22",
+      "intentional_break": true,
+      "mechanism": "fallback chain: clause (p)'s addback ties its quantum to a Confidential Information Memorandum / Sponsor Model the corpus does not corroborate, and is nonetheless treated as verified",
+      "planted_in": [
+        "03_bond_credit_docs/credit_agreement.docx",
+        "03_bond_credit_docs/compliance_certificate_draft.docx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/credit_agreement.docx Section 1's Consolidated EBITDA definition, clause (p), cross-references a Confidential Information Memorandum and Sponsor Model that 12_field_and_delivery_spec/field_and_delivery_spec.xlsx's file inventory shows do not exist in the corpus; the correct response is to flag the addback as unsupported and carry it to the gap list, never to invent corroboration",
+      "rubric_items_driven": [
+        "R-BOND-10"
+      ]
+    },
+    {
+      "cost_basis": "NON_NUMERIC",
+      "cost_if_wrong": {
+        "correct": "flagging item \u2014 no numeric delta",
+        "delta": "flagging item \u2014 no numeric delta",
+        "wrong": "flagging item \u2014 no numeric delta"
+      },
+      "difficulty_class": "insurance",
+      "fairness_anchor": "03_bond_credit_docs/credit_agreement.docx Sec1 Definitions, Consolidated EBITDA clause list",
+      "family": "SILENT_OMISSION",
+      "graded_field": "gap_list",
+      "half": "bond",
+      "id": "T23",
+      "intentional_break": true,
+      "mechanism": "silent truncation: clauses (g) and (r) of the Consolidated EBITDA definition are literal [reserved] placeholders, a real drafting artifact from a prior negotiation round",
+      "planted_in": [
+        "03_bond_credit_docs/credit_agreement.docx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/credit_agreement.docx Section 1's own Consolidated EBITDA clause list shows (g)/(r) as [reserved]; reporting this as a missing clause mistakes a normal drafting convention for a defect - diagnostic only, never heavily scored",
+      "rubric_items_driven": [
+        "R-BOND-11"
+      ]
+    },
+    {
+      "cost_basis": "COLLAR_EXCESS_ONLY",
+      "cost_if_wrong": {
+        "correct": "-1500000",
+        "delta": "750000",
+        "wrong": "-750000"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/spa_executed.docx Article II's own collar text",
+      "family": "HARD_CODED_FORMULA",
+      "graded_field": "working_capital_adjustment_amount",
+      "half": "spa",
+      "id": "T24",
+      "intentional_break": true,
+      "mechanism": "counterfactual propagation: the legacy model workbook's WC-adjustment cell adjusts only the excess over the collar instead of the full difference once the dead-band is breached",
+      "planted_in": [
+        "11_legacy_model_workbook/financial_model.xlsx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Article II collar text, cross-checked against 01_deal_process_ma/sample_working_capital_statement.xlsx, governs the full-difference mechanic; distinct from T13's OCR misread of the collar AMOUNT",
+      "rubric_items_driven": [
+        "R-SPA-08"
+      ]
+    },
+    {
+      "cost_basis": "UNECONOMIC_PUT_EXCLUDED",
+      "cost_if_wrong": {
+        "correct": "180705729.1667",
+        "delta": "-180705729.1667",
+        "wrong": "0"
+      },
+      "difficulty_class": "load-bearing",
+      "fairness_anchor": "03_bond_credit_docs/senior_notes_indenture.docx's own change-of-control put mechanics, requiring financing sized for 100% tender participation",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "redemption_cost",
+      "half": "coupled",
+      "id": "T25",
+      "intentional_break": true,
+      "mechanism": "counterfactual propagation: the put is contractually 'triggered' (armed) while a rational holder would not tender since make_whole_amount_due exceeds coc_put_amount_due; excluding the put from the funds flow as 'uneconomic' under-sizes committed financing",
+      "planted_in": [
+        "01_deal_process_ma/funds_flow_memo.docx",
+        "03_bond_credit_docs/compliance_certificate_draft.docx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/senior_notes_indenture.docx Section 4.01's put mechanics require the funds flow to size for full tender regardless of whether a rational holder would elect it; the rubric must assert the 180,705,729.17 coc_put_amount_due figure, not merely the covenant verdict",
+      "rubric_items_driven": [
+        "R-COUPLED-06"
+      ]
+    },
+    {
+      "cost_basis": "EARNOUT_JENSEN_UNDISCOUNTED",
+      "cost_if_wrong": {
+        "correct": "1770000.0000",
+        "delta": "-290000.0000",
+        "wrong": "1480000.0000"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/earnout_schedule.xlsx Tier Mechanics tab clause (v), which states the scenario-by-scenario-then-weighted method and that applying the tiers to a probability-weighted figure 'is not the method this Section provides for'",
+      "family": "SILENT_OMISSION",
+      "graded_field": "earnout_expected_undiscounted",
+      "half": "spa",
+      "id": "T26",
+      "intentional_break": true,
+      "mechanism": "silent truncation: the exhibit's own Quick Reference tab presents a single probability-weighted 'Achievement EBITDA' figure without carrying forward the requirement that the tier mechanics be applied scenario by scenario and then weighted, inviting Payout(E[EBITDA]) instead of E[Payout(EBITDA)]",
+      "planted_in": [
+        "01_deal_process_ma/earnout_schedule.xlsx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Section 2.06 states that the earn-out computation schedule's Scenario Tree tab is computed scenario-by-scenario per Tier Mechanics clause (v); 01_deal_process_ma/earnout_schedule.xlsx Tier Mechanics tab clause (v) itself states the scenario-by-scenario-then-weighted method, and the Quick Reference tab is an informal summary, never an alternate computation method",
+      "rubric_items_driven": [
+        "R-SPA-09"
+      ]
+    },
+    {
+      "cost_basis": "EARNOUT_CATCHUP_FLAT_RATE",
+      "cost_if_wrong": {
+        "correct": "4200000.00",
+        "delta": "300000.00",
+        "wrong": "4500000.00"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/earnout_schedule.xlsx Tier Mechanics tab clause (iii), which states the catch-up rate applies to the excess over Threshold 1 only once Threshold 2 is attained, on top of the tier-1 band already computed for the increment up to Threshold 2",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "earnout_scenario_payout_upside",
+      "half": "spa",
+      "id": "T27",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: the exhibit's Quick Reference tab describes the catch-up rate as 'the applicable earn-out rate' once the Catch-Up EBITDA Amount is reached, inviting a single flat rate applied to the whole excess over Threshold 1 instead of the governing marginal-band construction",
+      "planted_in": [
+        "01_deal_process_ma/earnout_schedule.xlsx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Section 2.06(b) states the marginal-band construction the earn-out computation schedule's Tier Mechanics tab implements - the rate on the increment between Threshold 1 and Threshold 2, and the catch-up rate on the full increment above Threshold 1 once Threshold 2 is reached; 01_deal_process_ma/earnout_schedule.xlsx Tier Mechanics tab clauses (ii)-(iii) state that construction, and the Quick Reference tab's single-rate description is an oversimplification, never a second valid method",
+      "rubric_items_driven": [
+        "R-SPA-10"
+      ]
+    },
+    {
+      "cost_basis": "EARNOUT_HORIZON_OMITS_OFFSET",
+      "cost_if_wrong": {
+        "correct": "3.0712328767123287671232876712328767123287671232877",
+        "delta": "-0.0712328767123287671232876712328767123287671232877",
+        "wrong": "3"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/earnout_schedule.xlsx Timing and Discounting tab Note 2, which states the actual first-day-of-next-fiscal-month commencement date on the Buyer fiscal-calendar exhibit",
+      "family": "VERSION_EFFECTIVE_DATE_CONFLICT",
+      "graded_field": "earnout_discount_horizon_years",
+      "half": "spa",
+      "id": "T28",
+      "intentional_break": true,
+      "mechanism": "version-effectivity: the discount horizon computed from the Earn-out Period count alone, without the offset from the Closing Date to the first day of Buyer's next fiscal month that Earn-out Period 1 actually starts on - the SPA states the period count and cross-references the Buyer fiscal-calendar exhibit by reference only, never restating the commencement date itself",
+      "planted_in": [
+        "01_deal_process_ma/spa_executed.docx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx S2.06(a)'s own Period definitions control the RULE; 01_deal_process_ma/earnout_schedule.xlsx's Timing and Discounting tab controls the DATE the rule resolves to - a calculation that reads only the SPA body never reaches the offset at all",
+      "rubric_items_driven": [
+        "R-SPA-11"
+      ]
+    },
+    {
+      "cost_basis": "MUNI_TEY_NAIVE_GROSSUP",
+      "cost_if_wrong": {
+        "correct": "4.25000",
+        "delta": "1.4579542020615787529798878554880300842762649833798",
+        "wrong": "5.7079542020615787529798878554880300842762649833798"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "00_engagement_and_policy/internal_credit_policy.docx Article VIII's own CAMT-payer representation, read together with 06_msrb_emma_data/emma_irb_official_statement_excerpt.docx's Tax Matters section",
+      "family": "SILENT_OMISSION",
+      "graded_field": "muni_tax_equivalent_yield_pct",
+      "half": "bond",
+      "id": "T30",
+      "intentional_break": true,
+      "mechanism": "silent truncation: the legacy model's relative-value tab grosses the municipal IRB's yield up at the ordinary out-of-state marginal rate without checking whether the private-activity/AMT designation and the holder's own CAMT-payer status collapse that exemption benefit to nothing",
+      "planted_in": [
+        "11_legacy_model_workbook/financial_model.xlsx"
+      ],
+      "resolution_rule": "06_msrb_emma_data/emma_irb_official_statement_excerpt.docx's Tax Matters section states the private-activity/Section 141 designation and 00_engagement_and_policy/internal_credit_policy.docx Article VIII states the holder's CAMT-payer status; read together the two documents collapse the exemption benefit, so the ordinary gross-up never governs for this holder on this bond",
+      "rubric_items_driven": [
+        "R-BOND-12"
+      ]
+    },
+    {
+      "cost_basis": "YTW_SEARCH_OMITS_MATURITY",
+      "cost_if_wrong": {
+        "correct": "8.178599923849105834960937500",
+        "delta": "0.089414417743682861328125000",
+        "wrong": "8.268014341592788696289062500"
+      },
+      "difficulty_class": "correctness-surface",
+      "fairness_anchor": "01_deal_process_ma/modeling_conventions_memo.docx's own yield-to-worst convention, cross-checked against 03_bond_credit_docs/senior_notes_indenture.docx's call schedule and stated maturity date",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "yield_to_worst_pct",
+      "half": "bond",
+      "id": "T31",
+      "intentional_break": true,
+      "mechanism": "counterfactual propagation: the legacy model's relative-value tab labels a yield figure 'yield to worst' after searching only the step-down call schedule, never testing legal maturity as a candidate redemption - for this note's price and step-down schedule the true minimum yield lands at legal maturity itself, not at any call date",
+      "planted_in": [
+        "11_legacy_model_workbook/financial_model.xlsx"
+      ],
+      "resolution_rule": "01_deal_process_ma/modeling_conventions_memo.docx's numbered convention '6. Spread measures' states that yield to worst is the minimum across every scheduled call date's yield to call AND the yield to legal maturity; 03_bond_credit_docs/senior_notes_indenture.docx's own call schedule and maturity date, together with 05_finra_trace_data/trace_extract_target_notes.csv's observed price, are the inputs a full search requires",
+      "rubric_items_driven": [
+        "R-BOND-13"
+      ]
+    },
+    {
+      "cost_basis": "WHOLE_BUCKET_CAP",
+      "cost_if_wrong": {
+        "correct": "56555555.555555555555555555555555555555555555555556",
+        "delta": "-5111111.111111111111111111111111111111111111111112",
+        "wrong": "51444444.444444444444444444444444444444444444444444"
+      },
+      "difficulty_class": "insurance",
+      "fairness_anchor": "03_bond_credit_docs/credit_agreement.docx Sec1 Definitions clause (i) proviso text and Schedule 1.01(c)'s own classification criterion",
+      "family": "SILENT_OMISSION",
+      "graded_field": "consolidated_ebitda",
+      "half": "coupled",
+      "id": "T32",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: the synergy classification criterion (which run-rate item is a cost saving versus a revenue enhancement) lives in Schedule 1.01(c) to the Credit Agreement; the QofE's own supplemental working schedule presents an undifferentiated combined total with the synergy cap applied to the whole bucket, saving the reader the classification step Schedule 1.01(c) requires",
+      "planted_in": [
+        "02_target_financials/qofe_adjusted_ebitda_analysis.docx"
+      ],
+      "resolution_rule": "03_bond_credit_docs/credit_agreement.docx Schedule 1.01(c) states the classification criterion and Sec1 Definitions clause (i)'s own proviso text caps only revenue enhancements as so classified; cost savings are added back uncapped regardless of the QofE's own supplemental working schedule",
+      "rubric_items_driven": [
+        "R-COUPLED-05"
+      ]
+    },
+    {
+      "cost_basis": "WC_DEBT_LIKE_INCLUDED",
+      "cost_if_wrong": {
+        "correct": "-1500000",
+        "delta": "5100000",
+        "wrong": "3600000"
+      },
+      "difficulty_class": "insurance",
+      "fairness_anchor": "01_deal_process_ma/spa_executed.docx Article II Section 2.04(a)/(b)'s own Closing Working Capital definition, cross-checked against this statement's own Debt-Like Exclusions tab",
+      "family": "SAME_NAME_DIFFERENT_DEFINITION",
+      "graded_field": "working_capital_adjustment_amount",
+      "half": "spa",
+      "id": "T33",
+      "intentional_break": true,
+      "mechanism": "cross-file operand split: the Net Working Capital line taxonomy is stated on this statement's own Debt-Like Exclusions tab; the statement's own GAAP-presentation subtotal is computed on a broader basis than the SPA's Closing Working Capital, self-labeled in its own row header as unadjusted and stated as not itself Closing Working Capital under the Stock Purchase Agreement",
+      "planted_in": [
+        "01_deal_process_ma/sample_working_capital_statement.xlsx"
+      ],
+      "resolution_rule": "01_deal_process_ma/spa_executed.docx Article II Section 2.04(a) defines Closing Working Capital as excluding the debt-like items identified on the itemized exclusion schedule; the Sample Working Capital Statement's own row for Total Closing Working Capital states the after-exclusions figure, and its own GAAP-presentation row states in its own header that it is unadjusted and precedes those exclusions - the SPA's definition, not the unadjusted presentation, governs the Section 2.04 adjustment",
+      "rubric_items_driven": [
+        "R-SPA-02"
+      ]
+    }
+  ]
+}

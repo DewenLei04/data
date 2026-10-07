@@ -1,0 +1,33 @@
+From: Nadia Berkovich <nberkovich@helioscope.example>
+To: Devin Marchetti <dmarch@ardentpeak.example>
+Cc: Ellis Trantham <etrantham@helioscope.example>,
+ Kip Toranaga <ktoranaga@ardentpeak.example>
+Date: Tue, 04 Aug 2026 13:55:00 -0700
+Subject: Walking you through the budget file - what not to read literally
+Message-ID: <be1f5970bc5cb458.064@helioscope.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Devin, before you spend a morning in the budget file, three things about how =
+it is built that are not obvious from the tabs.
+
+The variance column compares the request against the current forecast rather =
+than against last year's budget. That is deliberate and it is the comparison =
+management uses, but it means a large variance often reflects a forecast chan=
+ge rather than a spending change.
+
+Second, several lines are marked approved with condition. The condition is in=
+ the comment column and it is usually a release gate rather than a reduction.=
+ Reading those as approved overstates the committed spend.
+
+Third, the headcount-linked flag is set by account rather than by line, so a =
+facilities line in an engineering cost centre reads as not headcount-linked e=
+ven though it obviously scales with people.
+
+Kip, this is the sort of thing worth writing into the file notes so the next =
+person does not rediscover it.
+
+Thanks,
+Nadia
+VP Finance, Helioscope Robotics

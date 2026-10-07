@@ -1,0 +1,2546 @@
+[
+  {
+    "grant_date": "2023-12-23",
+    "grant_id": "OG-0001",
+    "holder": "Odile Bergstrom",
+    "options_granted": 4500,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-04-15",
+    "grant_id": "OG-0002",
+    "holder": "Idris Chaudhry",
+    "options_granted": 4500,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-12-08",
+    "grant_id": "OG-0003",
+    "holder": "Sasha Lindqvist",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-03-12",
+    "grant_id": "OG-0004",
+    "holder": "Wesley Hartnell",
+    "options_granted": 3500,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-06-11",
+    "grant_id": "OG-0005",
+    "holder": "Freya Lindstrom",
+    "options_granted": 9000,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-12-14",
+    "grant_id": "OG-0006",
+    "holder": "Kwame Asante",
+    "options_granted": 6000,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-03-10",
+    "grant_id": "OG-0007",
+    "holder": "Portia Nwosu",
+    "options_granted": 9300,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-11-18",
+    "grant_id": "OG-0008",
+    "holder": "Priya Raghunathan",
+    "options_granted": 5600,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-07-02",
+    "grant_id": "OG-0009",
+    "holder": "Portia Nwosu",
+    "options_granted": 6700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-06-07",
+    "grant_id": "OG-0010",
+    "holder": "Ellis Trantham",
+    "options_granted": 4000,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-03-06",
+    "grant_id": "OG-0011",
+    "holder": "Nadia Berkovich",
+    "options_granted": 4300,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-09-19",
+    "grant_id": "OG-0012",
+    "holder": "Gideon Marsh",
+    "options_granted": 8100,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-09-20",
+    "grant_id": "OG-0013",
+    "holder": "Cassian Boyle",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-12-12",
+    "grant_id": "OG-0014",
+    "holder": "Priya Raghunathan",
+    "options_granted": 8900,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-05-19",
+    "grant_id": "OG-0015",
+    "holder": "Tomas Ferreira",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-01-28",
+    "grant_id": "OG-0016",
+    "holder": "Priya Raghunathan",
+    "options_granted": 7900,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-04-26",
+    "grant_id": "OG-0017",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 8500,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-03-28",
+    "grant_id": "OG-0018",
+    "holder": "Simona Vitale",
+    "options_granted": 3900,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-05-26",
+    "grant_id": "OG-0019",
+    "holder": "Fabien Roux",
+    "options_granted": 7600,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-07-22",
+    "grant_id": "OG-0020",
+    "holder": "Noor Farahani",
+    "options_granted": 6300,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-09-14",
+    "grant_id": "OG-0021",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 3900,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-10-17",
+    "grant_id": "OG-0022",
+    "holder": "Camila Duarte",
+    "options_granted": 4300,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-06-18",
+    "grant_id": "OG-0023",
+    "holder": "Tobias Reinholt",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-10-17",
+    "grant_id": "OG-0024",
+    "holder": "Fabien Roux",
+    "options_granted": 6200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-10-22",
+    "grant_id": "OG-0025",
+    "holder": "Anjali Krishnan",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-03-16",
+    "grant_id": "OG-0026",
+    "holder": "Rune Halvorsen",
+    "options_granted": 9900,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-03-20",
+    "grant_id": "OG-0027",
+    "holder": "Delia Mwangi",
+    "options_granted": 8800,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-10-09",
+    "grant_id": "OG-0028",
+    "holder": "Sasha Lindqvist",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-05-21",
+    "grant_id": "OG-0029",
+    "holder": "Gordon Pike",
+    "options_granted": 4000,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-12-21",
+    "grant_id": "OG-0030",
+    "holder": "Devraj Iyer",
+    "options_granted": 9700,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-01-18",
+    "grant_id": "OG-0031",
+    "holder": "Marta Kubiak",
+    "options_granted": 3900,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-05-11",
+    "grant_id": "OG-0032",
+    "holder": "Cormac Bailey",
+    "options_granted": 6800,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-12-23",
+    "grant_id": "OG-0033",
+    "holder": "Elias Moreno",
+    "options_granted": 7600,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-09-16",
+    "grant_id": "OG-0034",
+    "holder": "Priya Raghunathan",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-01-04",
+    "grant_id": "OG-0035",
+    "holder": "Devraj Iyer",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-04-11",
+    "grant_id": "OG-0036",
+    "holder": "Devraj Iyer",
+    "options_granted": 9100,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-07-06",
+    "grant_id": "OG-0037",
+    "holder": "Simona Vitale",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-07-19",
+    "grant_id": "OG-0038",
+    "holder": "Cormac Bailey",
+    "options_granted": 9000,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-01-20",
+    "grant_id": "OG-0039",
+    "holder": "Gideon Marsh",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-10-02",
+    "grant_id": "OG-0040",
+    "holder": "Leandra Ossipova",
+    "options_granted": 5400,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-09-08",
+    "grant_id": "OG-0041",
+    "holder": "Noor Farahani",
+    "options_granted": 4100,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-05-15",
+    "grant_id": "OG-0042",
+    "holder": "Simona Vitale",
+    "options_granted": 6400,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-09-28",
+    "grant_id": "OG-0043",
+    "holder": "Elias Moreno",
+    "options_granted": 3600,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-05-16",
+    "grant_id": "OG-0044",
+    "holder": "Winifred Achebe",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2024-04-09",
+    "grant_id": "OG-0045",
+    "holder": "Portia Nwosu",
+    "options_granted": 8300,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-10-23",
+    "grant_id": "OG-0046",
+    "holder": "Owen Brackenbury",
+    "options_granted": 6400,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-02-12",
+    "grant_id": "OG-0047",
+    "holder": "Fabien Roux",
+    "options_granted": 9500,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-11-01",
+    "grant_id": "OG-0048",
+    "holder": "Ellis Trantham",
+    "options_granted": 8600,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-05-27",
+    "grant_id": "OG-0049",
+    "holder": "Tobias Reinholt",
+    "options_granted": 9500,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-08-24",
+    "grant_id": "OG-0050",
+    "holder": "Marta Kubiak",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-09-19",
+    "grant_id": "OG-0051",
+    "holder": "Portia Nwosu",
+    "options_granted": 6500,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-01-18",
+    "grant_id": "OG-0052",
+    "holder": "Anjali Krishnan",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-12-24",
+    "grant_id": "OG-0053",
+    "holder": "Portia Nwosu",
+    "options_granted": 6200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-03-27",
+    "grant_id": "OG-0054",
+    "holder": "Tomas Ferreira",
+    "options_granted": 5400,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-06-05",
+    "grant_id": "OG-0055",
+    "holder": "Odile Bergstrom",
+    "options_granted": 9600,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-11-22",
+    "grant_id": "OG-0056",
+    "holder": "Cassian Boyle",
+    "options_granted": 7000,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-04-10",
+    "grant_id": "OG-0057",
+    "holder": "Camila Duarte",
+    "options_granted": 8000,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-11-10",
+    "grant_id": "OG-0058",
+    "holder": "Tomas Ferreira",
+    "options_granted": 6500,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-11-21",
+    "grant_id": "OG-0059",
+    "holder": "Rune Halvorsen",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-07-10",
+    "grant_id": "OG-0060",
+    "holder": "Wesley Hartnell",
+    "options_granted": 9900,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2025-04-20",
+    "grant_id": "OG-0061",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-06-17",
+    "grant_id": "OG-0062",
+    "holder": "Gideon Marsh",
+    "options_granted": 7100,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-04-18",
+    "grant_id": "OG-0063",
+    "holder": "Simona Vitale",
+    "options_granted": 5600,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-10-26",
+    "grant_id": "OG-0064",
+    "holder": "Nadia Berkovich",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-05-18",
+    "grant_id": "OG-0065",
+    "holder": "Simona Vitale",
+    "options_granted": 5400,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-01-13",
+    "grant_id": "OG-0066",
+    "holder": "Delia Mwangi",
+    "options_granted": 9400,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-03-26",
+    "grant_id": "OG-0067",
+    "holder": "Beatrix Sorensen",
+    "options_granted": 4600,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-03-07",
+    "grant_id": "OG-0068",
+    "holder": "Cassian Boyle",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-05-22",
+    "grant_id": "OG-0069",
+    "holder": "Wesley Hartnell",
+    "options_granted": 6400,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2025-08-13",
+    "grant_id": "OG-0070",
+    "holder": "Hollis Ferrand",
+    "options_granted": 6800,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-02-04",
+    "grant_id": "OG-0071",
+    "holder": "Kwame Asante",
+    "options_granted": 5100,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-12-15",
+    "grant_id": "OG-0072",
+    "holder": "Dara Whitfield",
+    "options_granted": 8800,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-11-10",
+    "grant_id": "OG-0073",
+    "holder": "Anjali Krishnan",
+    "options_granted": 9400,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-05-07",
+    "grant_id": "OG-0074",
+    "holder": "Gideon Marsh",
+    "options_granted": 8000,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-05-13",
+    "grant_id": "OG-0075",
+    "holder": "Owen Brackenbury",
+    "options_granted": 5100,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-03-08",
+    "grant_id": "OG-0076",
+    "holder": "Sunniva Aalto",
+    "options_granted": 7400,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-01-04",
+    "grant_id": "OG-0077",
+    "holder": "Priya Raghunathan",
+    "options_granted": 7200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-02-15",
+    "grant_id": "OG-0078",
+    "holder": "Dara Whitfield",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-05-20",
+    "grant_id": "OG-0079",
+    "holder": "Yuki Sandoval",
+    "options_granted": 3400,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-01-02",
+    "grant_id": "OG-0080",
+    "holder": "Gordon Pike",
+    "options_granted": 8100,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-06-11",
+    "grant_id": "OG-0081",
+    "holder": "Kwame Asante",
+    "options_granted": 5800,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-09-26",
+    "grant_id": "OG-0082",
+    "holder": "Leandra Ossipova",
+    "options_granted": 7300,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-08-04",
+    "grant_id": "OG-0083",
+    "holder": "Anjali Krishnan",
+    "options_granted": 6600,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-07-25",
+    "grant_id": "OG-0084",
+    "holder": "Sunniva Aalto",
+    "options_granted": 5900,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-09-12",
+    "grant_id": "OG-0085",
+    "holder": "Rune Halvorsen",
+    "options_granted": 5600,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-11-23",
+    "grant_id": "OG-0086",
+    "holder": "Rashid Nawabi",
+    "options_granted": 9300,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-03-23",
+    "grant_id": "OG-0087",
+    "holder": "Bartholomew Ng",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-04-24",
+    "grant_id": "OG-0088",
+    "holder": "Dara Whitfield",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-10-21",
+    "grant_id": "OG-0089",
+    "holder": "Anjali Krishnan",
+    "options_granted": 4600,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-10-25",
+    "grant_id": "OG-0090",
+    "holder": "Noor Farahani",
+    "options_granted": 7800,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-12-23",
+    "grant_id": "OG-0091",
+    "holder": "Yuki Sandoval",
+    "options_granted": 8900,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-09-16",
+    "grant_id": "OG-0092",
+    "holder": "Simona Vitale",
+    "options_granted": 6500,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-08-22",
+    "grant_id": "OG-0093",
+    "holder": "Cormac Bailey",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-05-24",
+    "grant_id": "OG-0094",
+    "holder": "Anjali Krishnan",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-09-03",
+    "grant_id": "OG-0095",
+    "holder": "Dara Whitfield",
+    "options_granted": 6200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-04-15",
+    "grant_id": "OG-0096",
+    "holder": "Portia Nwosu",
+    "options_granted": 7300,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-10-05",
+    "grant_id": "OG-0097",
+    "holder": "Sasha Lindqvist",
+    "options_granted": 7100,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-01-21",
+    "grant_id": "OG-0098",
+    "holder": "Simona Vitale",
+    "options_granted": 7200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-11-12",
+    "grant_id": "OG-0099",
+    "holder": "Cassian Boyle",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-02-13",
+    "grant_id": "OG-0100",
+    "holder": "Cassian Boyle",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-09-14",
+    "grant_id": "OG-0101",
+    "holder": "Tomas Ferreira",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-01-22",
+    "grant_id": "OG-0102",
+    "holder": "Ellis Trantham",
+    "options_granted": 7600,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-06-24",
+    "grant_id": "OG-0103",
+    "holder": "Yuki Sandoval",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-02-26",
+    "grant_id": "OG-0104",
+    "holder": "Elias Moreno",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-02-07",
+    "grant_id": "OG-0105",
+    "holder": "Delia Mwangi",
+    "options_granted": 6200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-01-26",
+    "grant_id": "OG-0106",
+    "holder": "Nadia Berkovich",
+    "options_granted": 8500,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-11-25",
+    "grant_id": "OG-0107",
+    "holder": "Marta Kubiak",
+    "options_granted": 6800,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-04-19",
+    "grant_id": "OG-0108",
+    "holder": "Delia Mwangi",
+    "options_granted": 3400,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-12-15",
+    "grant_id": "OG-0109",
+    "holder": "Noor Farahani",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-06-17",
+    "grant_id": "OG-0110",
+    "holder": "Leandra Ossipova",
+    "options_granted": 8900,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-09-14",
+    "grant_id": "OG-0111",
+    "holder": "Junia Alvarez",
+    "options_granted": 9900,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-11-01",
+    "grant_id": "OG-0112",
+    "holder": "Leandra Ossipova",
+    "options_granted": 6000,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-10-09",
+    "grant_id": "OG-0113",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 7200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-06-09",
+    "grant_id": "OG-0114",
+    "holder": "Idris Chaudhry",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-11-05",
+    "grant_id": "OG-0115",
+    "holder": "Tomas Ferreira",
+    "options_granted": 9600,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-09-26",
+    "grant_id": "OG-0116",
+    "holder": "Ellis Trantham",
+    "options_granted": 4500,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-12-09",
+    "grant_id": "OG-0117",
+    "holder": "Cormac Bailey",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-11-04",
+    "grant_id": "OG-0118",
+    "holder": "Anjali Krishnan",
+    "options_granted": 6800,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2025-03-21",
+    "grant_id": "OG-0119",
+    "holder": "Rune Halvorsen",
+    "options_granted": 9500,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-05-28",
+    "grant_id": "OG-0120",
+    "holder": "Devraj Iyer",
+    "options_granted": 6400,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-02-08",
+    "grant_id": "OG-0121",
+    "holder": "Hollis Ferrand",
+    "options_granted": 9900,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-01-20",
+    "grant_id": "OG-0122",
+    "holder": "Devraj Iyer",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-12-23",
+    "grant_id": "OG-0123",
+    "holder": "Gordon Pike",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-03-19",
+    "grant_id": "OG-0124",
+    "holder": "Cormac Bailey",
+    "options_granted": 3400,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2024-12-14",
+    "grant_id": "OG-0125",
+    "holder": "Freya Lindstrom",
+    "options_granted": 7900,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-07-22",
+    "grant_id": "OG-0126",
+    "holder": "Gideon Marsh",
+    "options_granted": 9500,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-12-21",
+    "grant_id": "OG-0127",
+    "holder": "Ellis Trantham",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-09-12",
+    "grant_id": "OG-0128",
+    "holder": "Marta Kubiak",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-06-07",
+    "grant_id": "OG-0129",
+    "holder": "Fabien Roux",
+    "options_granted": 6200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-05-05",
+    "grant_id": "OG-0130",
+    "holder": "Anjali Krishnan",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-06-09",
+    "grant_id": "OG-0131",
+    "holder": "Rashid Nawabi",
+    "options_granted": 4300,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-01-11",
+    "grant_id": "OG-0132",
+    "holder": "Ellis Trantham",
+    "options_granted": 5400,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-11-26",
+    "grant_id": "OG-0133",
+    "holder": "Tomas Ferreira",
+    "options_granted": 8500,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-02-08",
+    "grant_id": "OG-0134",
+    "holder": "Portia Nwosu",
+    "options_granted": 7100,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-09-16",
+    "grant_id": "OG-0135",
+    "holder": "Gordon Pike",
+    "options_granted": 5800,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-01-21",
+    "grant_id": "OG-0136",
+    "holder": "Ellis Trantham",
+    "options_granted": 5400,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-05-07",
+    "grant_id": "OG-0137",
+    "holder": "Rune Halvorsen",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-07-01",
+    "grant_id": "OG-0138",
+    "holder": "Devraj Iyer",
+    "options_granted": 7500,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-12-04",
+    "grant_id": "OG-0139",
+    "holder": "Marta Kubiak",
+    "options_granted": 7400,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-07-03",
+    "grant_id": "OG-0140",
+    "holder": "Tobias Reinholt",
+    "options_granted": 3800,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-05-13",
+    "grant_id": "OG-0141",
+    "holder": "Portia Nwosu",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-12-03",
+    "grant_id": "OG-0142",
+    "holder": "Leandra Ossipova",
+    "options_granted": 6000,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-01-10",
+    "grant_id": "OG-0143",
+    "holder": "Noor Farahani",
+    "options_granted": 5900,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-05-17",
+    "grant_id": "OG-0144",
+    "holder": "Tobias Reinholt",
+    "options_granted": 3300,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-04-18",
+    "grant_id": "OG-0145",
+    "holder": "Owen Brackenbury",
+    "options_granted": 4800,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-02-07",
+    "grant_id": "OG-0146",
+    "holder": "Tobias Reinholt",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2024-02-13",
+    "grant_id": "OG-0147",
+    "holder": "Hollis Ferrand",
+    "options_granted": 7600,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2025-08-13",
+    "grant_id": "OG-0148",
+    "holder": "Marta Kubiak",
+    "options_granted": 9400,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-12-11",
+    "grant_id": "OG-0149",
+    "holder": "Priya Raghunathan",
+    "options_granted": 6700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-04-01",
+    "grant_id": "OG-0150",
+    "holder": "Nadia Berkovich",
+    "options_granted": 5600,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-04-05",
+    "grant_id": "OG-0151",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 3300,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-07-07",
+    "grant_id": "OG-0152",
+    "holder": "Cassian Boyle",
+    "options_granted": 9200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2025-04-07",
+    "grant_id": "OG-0153",
+    "holder": "Anjali Krishnan",
+    "options_granted": 8100,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-10-05",
+    "grant_id": "OG-0154",
+    "holder": "Odile Bergstrom",
+    "options_granted": 5500,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-01-09",
+    "grant_id": "OG-0155",
+    "holder": "Camila Duarte",
+    "options_granted": 5900,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-01-21",
+    "grant_id": "OG-0156",
+    "holder": "Odile Bergstrom",
+    "options_granted": 4400,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-01-24",
+    "grant_id": "OG-0157",
+    "holder": "Camila Duarte",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-11-02",
+    "grant_id": "OG-0158",
+    "holder": "Yuki Sandoval",
+    "options_granted": 3300,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-07-11",
+    "grant_id": "OG-0159",
+    "holder": "Leandra Ossipova",
+    "options_granted": 5500,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-03-13",
+    "grant_id": "OG-0160",
+    "holder": "Cassian Boyle",
+    "options_granted": 5300,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-02-23",
+    "grant_id": "OG-0161",
+    "holder": "Simona Vitale",
+    "options_granted": 6500,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-07-15",
+    "grant_id": "OG-0162",
+    "holder": "Rune Halvorsen",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-09-10",
+    "grant_id": "OG-0163",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-04-10",
+    "grant_id": "OG-0164",
+    "holder": "Priya Raghunathan",
+    "options_granted": 5800,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-04-22",
+    "grant_id": "OG-0165",
+    "holder": "Anjali Krishnan",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-09-18",
+    "grant_id": "OG-0166",
+    "holder": "Freya Lindstrom",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-10-02",
+    "grant_id": "OG-0167",
+    "holder": "Cormac Bailey",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-07-23",
+    "grant_id": "OG-0168",
+    "holder": "Idris Chaudhry",
+    "options_granted": 5100,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-06-07",
+    "grant_id": "OG-0169",
+    "holder": "Winifred Achebe",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-03-11",
+    "grant_id": "OG-0170",
+    "holder": "Tomas Ferreira",
+    "options_granted": 5000,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-09-09",
+    "grant_id": "OG-0171",
+    "holder": "Odile Bergstrom",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-03-09",
+    "grant_id": "OG-0172",
+    "holder": "Hollis Ferrand",
+    "options_granted": 9400,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-02-25",
+    "grant_id": "OG-0173",
+    "holder": "Bartholomew Ng",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-05-13",
+    "grant_id": "OG-0174",
+    "holder": "Gideon Marsh",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-09-14",
+    "grant_id": "OG-0175",
+    "holder": "Simona Vitale",
+    "options_granted": 9500,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-03-11",
+    "grant_id": "OG-0176",
+    "holder": "Tomas Ferreira",
+    "options_granted": 4900,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-04-10",
+    "grant_id": "OG-0177",
+    "holder": "Fabien Roux",
+    "options_granted": 6800,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-07-11",
+    "grant_id": "OG-0178",
+    "holder": "Tobias Reinholt",
+    "options_granted": 9200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-06-02",
+    "grant_id": "OG-0179",
+    "holder": "Beatrix Sorensen",
+    "options_granted": 6300,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-02-04",
+    "grant_id": "OG-0180",
+    "holder": "Noor Farahani",
+    "options_granted": 4300,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-09-08",
+    "grant_id": "OG-0181",
+    "holder": "Maeve Donnelly",
+    "options_granted": 9400,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-12-03",
+    "grant_id": "OG-0182",
+    "holder": "Devraj Iyer",
+    "options_granted": 7200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-08-04",
+    "grant_id": "OG-0183",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 9200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-04-27",
+    "grant_id": "OG-0184",
+    "holder": "Leandra Ossipova",
+    "options_granted": 6700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-01-21",
+    "grant_id": "OG-0185",
+    "holder": "Maeve Donnelly",
+    "options_granted": 4100,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-10-16",
+    "grant_id": "OG-0186",
+    "holder": "Beatrix Sorensen",
+    "options_granted": 4500,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-05-17",
+    "grant_id": "OG-0187",
+    "holder": "Fabien Roux",
+    "options_granted": 5400,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-02-08",
+    "grant_id": "OG-0188",
+    "holder": "Wesley Hartnell",
+    "options_granted": 5600,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-04-19",
+    "grant_id": "OG-0189",
+    "holder": "Tomas Ferreira",
+    "options_granted": 6600,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-07-09",
+    "grant_id": "OG-0190",
+    "holder": "Wesley Hartnell",
+    "options_granted": 8400,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-10-25",
+    "grant_id": "OG-0191",
+    "holder": "Rashid Nawabi",
+    "options_granted": 9300,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-06-02",
+    "grant_id": "OG-0192",
+    "holder": "Tomas Ferreira",
+    "options_granted": 8400,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-07-26",
+    "grant_id": "OG-0193",
+    "holder": "Elias Moreno",
+    "options_granted": 9100,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-05-08",
+    "grant_id": "OG-0194",
+    "holder": "Camila Duarte",
+    "options_granted": 5600,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-07-15",
+    "grant_id": "OG-0195",
+    "holder": "Delia Mwangi",
+    "options_granted": 8400,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-10-12",
+    "grant_id": "OG-0196",
+    "holder": "Tomas Ferreira",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-08-28",
+    "grant_id": "OG-0197",
+    "holder": "Winifred Achebe",
+    "options_granted": 6300,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-05-25",
+    "grant_id": "OG-0198",
+    "holder": "Odile Bergstrom",
+    "options_granted": 8600,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-03-13",
+    "grant_id": "OG-0199",
+    "holder": "Ellis Trantham",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-03-03",
+    "grant_id": "OG-0200",
+    "holder": "Fabien Roux",
+    "options_granted": 9800,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-11-19",
+    "grant_id": "OG-0201",
+    "holder": "Odile Bergstrom",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-04-27",
+    "grant_id": "OG-0202",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-05-20",
+    "grant_id": "OG-0203",
+    "holder": "Bartholomew Ng",
+    "options_granted": 5300,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-10-02",
+    "grant_id": "OG-0204",
+    "holder": "Beatrix Sorensen",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-06-02",
+    "grant_id": "OG-0205",
+    "holder": "Fabien Roux",
+    "options_granted": 6600,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-09-11",
+    "grant_id": "OG-0206",
+    "holder": "Ellis Trantham",
+    "options_granted": 9200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-02-21",
+    "grant_id": "OG-0207",
+    "holder": "Winifred Achebe",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-02-23",
+    "grant_id": "OG-0208",
+    "holder": "Noor Farahani",
+    "options_granted": 7000,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-08-02",
+    "grant_id": "OG-0209",
+    "holder": "Noor Farahani",
+    "options_granted": 6900,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-01-09",
+    "grant_id": "OG-0210",
+    "holder": "Ellis Trantham",
+    "options_granted": 6700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-05-24",
+    "grant_id": "OG-0211",
+    "holder": "Rashid Nawabi",
+    "options_granted": 5000,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-01-22",
+    "grant_id": "OG-0212",
+    "holder": "Elias Moreno",
+    "options_granted": 9300,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-03-20",
+    "grant_id": "OG-0213",
+    "holder": "Tomas Ferreira",
+    "options_granted": 7100,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-04-02",
+    "grant_id": "OG-0214",
+    "holder": "Elias Moreno",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-10-27",
+    "grant_id": "OG-0215",
+    "holder": "Delia Mwangi",
+    "options_granted": 6200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-10-27",
+    "grant_id": "OG-0216",
+    "holder": "Priya Raghunathan",
+    "options_granted": 3500,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-02-23",
+    "grant_id": "OG-0217",
+    "holder": "Maeve Donnelly",
+    "options_granted": 7500,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2024-03-17",
+    "grant_id": "OG-0218",
+    "holder": "Tomas Ferreira",
+    "options_granted": 8600,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-08-12",
+    "grant_id": "OG-0219",
+    "holder": "Nadia Berkovich",
+    "options_granted": 4500,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2025-04-03",
+    "grant_id": "OG-0220",
+    "holder": "Rune Halvorsen",
+    "options_granted": 4700,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-03-12",
+    "grant_id": "OG-0221",
+    "holder": "Marta Kubiak",
+    "options_granted": 6500,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-03-18",
+    "grant_id": "OG-0222",
+    "holder": "Wesley Hartnell",
+    "options_granted": 7100,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-04-25",
+    "grant_id": "OG-0223",
+    "holder": "Junia Alvarez",
+    "options_granted": 4600,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-03-10",
+    "grant_id": "OG-0224",
+    "holder": "Noor Farahani",
+    "options_granted": 4900,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-01-12",
+    "grant_id": "OG-0225",
+    "holder": "Rashid Nawabi",
+    "options_granted": 6100,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-04-05",
+    "grant_id": "OG-0226",
+    "holder": "Nadia Berkovich",
+    "options_granted": 7000,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-08-23",
+    "grant_id": "OG-0227",
+    "holder": "Leandra Ossipova",
+    "options_granted": 6700,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-04-03",
+    "grant_id": "OG-0228",
+    "holder": "Devraj Iyer",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-09-27",
+    "grant_id": "OG-0229",
+    "holder": "Priya Raghunathan",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-09-22",
+    "grant_id": "OG-0230",
+    "holder": "Maeve Donnelly",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-06-27",
+    "grant_id": "OG-0231",
+    "holder": "Sunniva Aalto",
+    "options_granted": 9200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2024-04-09",
+    "grant_id": "OG-0232",
+    "holder": "Fabien Roux",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-09-28",
+    "grant_id": "OG-0233",
+    "holder": "Dara Whitfield",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-08-24",
+    "grant_id": "OG-0234",
+    "holder": "Freya Lindstrom",
+    "options_granted": 9000,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-10-04",
+    "grant_id": "OG-0235",
+    "holder": "Yuki Sandoval",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-12-01",
+    "grant_id": "OG-0236",
+    "holder": "Marta Kubiak",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-03-21",
+    "grant_id": "OG-0237",
+    "holder": "Owen Brackenbury",
+    "options_granted": 9800,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-11-25",
+    "grant_id": "OG-0238",
+    "holder": "Cormac Bailey",
+    "options_granted": 7500,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-12-25",
+    "grant_id": "OG-0239",
+    "holder": "Anjali Krishnan",
+    "options_granted": 5500,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2025-02-18",
+    "grant_id": "OG-0240",
+    "holder": "Elias Moreno",
+    "options_granted": 8000,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-04-26",
+    "grant_id": "OG-0241",
+    "holder": "Rashid Nawabi",
+    "options_granted": 6800,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-03-13",
+    "grant_id": "OG-0242",
+    "holder": "Fabien Roux",
+    "options_granted": 7600,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-06-01",
+    "grant_id": "OG-0243",
+    "holder": "Priya Raghunathan",
+    "options_granted": 9700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-11-01",
+    "grant_id": "OG-0244",
+    "holder": "Owen Brackenbury",
+    "options_granted": 7500,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-10-04",
+    "grant_id": "OG-0245",
+    "holder": "Maeve Donnelly",
+    "options_granted": 4600,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-10-06",
+    "grant_id": "OG-0246",
+    "holder": "Camila Duarte",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-12-22",
+    "grant_id": "OG-0247",
+    "holder": "Kwame Asante",
+    "options_granted": 7400,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-03-27",
+    "grant_id": "OG-0248",
+    "holder": "Junia Alvarez",
+    "options_granted": 8000,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-01-27",
+    "grant_id": "OG-0249",
+    "holder": "Sasha Lindqvist",
+    "options_granted": 4500,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-03-13",
+    "grant_id": "OG-0250",
+    "holder": "Cormac Bailey",
+    "options_granted": 9500,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-07-24",
+    "grant_id": "OG-0251",
+    "holder": "Odile Bergstrom",
+    "options_granted": 9200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2024-08-28",
+    "grant_id": "OG-0252",
+    "holder": "Marcus Oyelaran",
+    "options_granted": 5900,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-07-03",
+    "grant_id": "OG-0253",
+    "holder": "Bartholomew Ng",
+    "options_granted": 3900,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-06-19",
+    "grant_id": "OG-0254",
+    "holder": "Simona Vitale",
+    "options_granted": 4700,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-06-04",
+    "grant_id": "OG-0255",
+    "holder": "Hector Salcedo",
+    "options_granted": 3900,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-03-15",
+    "grant_id": "OG-0256",
+    "holder": "Rune Halvorsen",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-04-25",
+    "grant_id": "OG-0257",
+    "holder": "Tomas Ferreira",
+    "options_granted": 6700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-12-27",
+    "grant_id": "OG-0258",
+    "holder": "Wesley Hartnell",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-12-21",
+    "grant_id": "OG-0259",
+    "holder": "Hector Salcedo",
+    "options_granted": 7700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-12-27",
+    "grant_id": "OG-0260",
+    "holder": "Beatrix Sorensen",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2024-07-23",
+    "grant_id": "OG-0261",
+    "holder": "Fabien Roux",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-06-25",
+    "grant_id": "OG-0262",
+    "holder": "Idris Chaudhry",
+    "options_granted": 8200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-09-23",
+    "grant_id": "OG-0263",
+    "holder": "Fabien Roux",
+    "options_granted": 9300,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-08-13",
+    "grant_id": "OG-0264",
+    "holder": "Tobias Reinholt",
+    "options_granted": 7900,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-06-24",
+    "grant_id": "OG-0265",
+    "holder": "Ellis Trantham",
+    "options_granted": 9900,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-11-25",
+    "grant_id": "OG-0266",
+    "holder": "Priya Raghunathan",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-04-20",
+    "grant_id": "OG-0267",
+    "holder": "Owen Brackenbury",
+    "options_granted": 9400,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-10-08",
+    "grant_id": "OG-0268",
+    "holder": "Bartholomew Ng",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-06-17",
+    "grant_id": "OG-0269",
+    "holder": "Priya Raghunathan",
+    "options_granted": 6100,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-09-14",
+    "grant_id": "OG-0270",
+    "holder": "Freya Lindstrom",
+    "options_granted": 6200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-06-24",
+    "grant_id": "OG-0271",
+    "holder": "Portia Nwosu",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-12-03",
+    "grant_id": "OG-0272",
+    "holder": "Bartholomew Ng",
+    "options_granted": 7900,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-01-21",
+    "grant_id": "OG-0273",
+    "holder": "Maeve Donnelly",
+    "options_granted": 6800,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2022-01-01",
+    "grant_id": "OG-0274",
+    "holder": "Camila Duarte",
+    "options_granted": 3700,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-03-11",
+    "grant_id": "OG-0275",
+    "holder": "Rune Halvorsen",
+    "options_granted": 9100,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-12-11",
+    "grant_id": "OG-0276",
+    "holder": "Sunniva Aalto",
+    "options_granted": 9800,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2024-05-27",
+    "grant_id": "OG-0277",
+    "holder": "Rashid Nawabi",
+    "options_granted": 9900,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-05-15",
+    "grant_id": "OG-0278",
+    "holder": "Dara Whitfield",
+    "options_granted": 9600,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-11-17",
+    "grant_id": "OG-0279",
+    "holder": "Wesley Hartnell",
+    "options_granted": 9300,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-02-07",
+    "grant_id": "OG-0280",
+    "holder": "Beatrix Sorensen",
+    "options_granted": 4000,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-06-17",
+    "grant_id": "OG-0281",
+    "holder": "Devraj Iyer",
+    "options_granted": 6500,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-10-04",
+    "grant_id": "OG-0282",
+    "holder": "Kwame Asante",
+    "options_granted": 4900,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-10-07",
+    "grant_id": "OG-0283",
+    "holder": "Anjali Krishnan",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-02-04",
+    "grant_id": "OG-0284",
+    "holder": "Gideon Marsh",
+    "options_granted": 5800,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-06-10",
+    "grant_id": "OG-0285",
+    "holder": "Anjali Krishnan",
+    "options_granted": 5700,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-04-28",
+    "grant_id": "OG-0286",
+    "holder": "Rashid Nawabi",
+    "options_granted": 9600,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2025-06-04",
+    "grant_id": "OG-0287",
+    "holder": "Rashid Nawabi",
+    "options_granted": 7200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-12-18",
+    "grant_id": "OG-0288",
+    "holder": "Gordon Pike",
+    "options_granted": 7900,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2021-01-10",
+    "grant_id": "OG-0289",
+    "holder": "Marta Kubiak",
+    "options_granted": 5900,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-10-03",
+    "grant_id": "OG-0290",
+    "holder": "Bartholomew Ng",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2025-03-14",
+    "grant_id": "OG-0291",
+    "holder": "Owen Brackenbury",
+    "options_granted": 6400,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-02-20",
+    "grant_id": "OG-0292",
+    "holder": "Yuki Sandoval",
+    "options_granted": 9600,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2024-09-10",
+    "grant_id": "OG-0293",
+    "holder": "Winifred Achebe",
+    "options_granted": 9600,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2021-01-14",
+    "grant_id": "OG-0294",
+    "holder": "Nadia Berkovich",
+    "options_granted": 6900,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-08-26",
+    "grant_id": "OG-0295",
+    "holder": "Junia Alvarez",
+    "options_granted": 4500,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-03-07",
+    "grant_id": "OG-0296",
+    "holder": "Yuki Sandoval",
+    "options_granted": 4200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-12-08",
+    "grant_id": "OG-0297",
+    "holder": "Kwame Asante",
+    "options_granted": 3800,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2024-09-10",
+    "grant_id": "OG-0298",
+    "holder": "Tobias Reinholt",
+    "options_granted": 9600,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2022-05-02",
+    "grant_id": "OG-0299",
+    "holder": "Delia Mwangi",
+    "options_granted": 6600,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2021-02-26",
+    "grant_id": "OG-0300",
+    "holder": "Maeve Donnelly",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2023-09-14",
+    "grant_id": "OG-0301",
+    "holder": "Sunniva Aalto",
+    "options_granted": 9300,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2022-11-02",
+    "grant_id": "OG-0302",
+    "holder": "Anjali Krishnan",
+    "options_granted": 5500,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2024-05-24",
+    "grant_id": "OG-0303",
+    "holder": "Noor Farahani",
+    "options_granted": 5200,
+    "status": "Active",
+    "strike_price": 1.85
+  },
+  {
+    "grant_date": "2023-05-10",
+    "grant_id": "OG-0304",
+    "holder": "Delia Mwangi",
+    "options_granted": 3600,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2021-09-07",
+    "grant_id": "OG-0305",
+    "holder": "Tomas Ferreira",
+    "options_granted": 8800,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-07-28",
+    "grant_id": "OG-0306",
+    "holder": "Elias Moreno",
+    "options_granted": 6500,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2025-08-22",
+    "grant_id": "OG-0307",
+    "holder": "Sasha Lindqvist",
+    "options_granted": 7200,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-04-25",
+    "grant_id": "OG-0308",
+    "holder": "Ellis Trantham",
+    "options_granted": 6200,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2025-10-23",
+    "grant_id": "OG-0309",
+    "holder": "Devraj Iyer",
+    "options_granted": 6800,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2021-11-18",
+    "grant_id": "OG-0310",
+    "holder": "Camila Duarte",
+    "options_granted": 6300,
+    "status": "Active",
+    "strike_price": 0.62
+  },
+  {
+    "grant_date": "2022-01-05",
+    "grant_id": "OG-0311",
+    "holder": "Maeve Donnelly",
+    "options_granted": 8600,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2022-07-14",
+    "grant_id": "OG-0312",
+    "holder": "Gideon Marsh",
+    "options_granted": 9400,
+    "status": "Active",
+    "strike_price": 0.94
+  },
+  {
+    "grant_date": "2023-05-26",
+    "grant_id": "OG-0313",
+    "holder": "Marta Kubiak",
+    "options_granted": 8900,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-11-11",
+    "grant_id": "OG-0314",
+    "holder": "Wesley Hartnell",
+    "options_granted": 7300,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2023-12-14",
+    "grant_id": "OG-0315",
+    "holder": "Simona Vitale",
+    "options_granted": 9500,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2023-03-13",
+    "grant_id": "OG-0316",
+    "holder": "Rune Halvorsen",
+    "options_granted": 8700,
+    "status": "Active",
+    "strike_price": 1.35
+  },
+  {
+    "grant_date": "2025-04-23",
+    "grant_id": "OG-0317",
+    "holder": "Priya Raghunathan",
+    "options_granted": 4000,
+    "status": "Active",
+    "strike_price": 2.1
+  },
+  {
+    "grant_date": "2024-07-07",
+    "grant_id": "OG-0318",
+    "holder": "Fabien Roux",
+    "options_granted": 4300,
+    "status": "Active",
+    "strike_price": 1.85
+  }
+]

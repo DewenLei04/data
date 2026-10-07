@@ -1,0 +1,34 @@
+From: Kenji Aoyama <kaoyama@vaultroom.example>
+To: Devin Marchetti <dmarch@ardentpeak.example>
+Cc: Talia Pell <tpell@ardentpeak.example>
+Date: Wed, 05 Aug 2026 10:18:00 -0700
+Subject: Bulk download - it will work but it will be slow, and it is logged
+Message-ID: <e66055d67d650260.065@vaultroom.example>
+In-Reply-To: <358695e6ba5b3914.056@ardentpeak.example>
+References: <358695e6ba5b3914.056@ardentpeak.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Devin, answering both your question and Kip's from last week in one message.
+
+Bulk download is enabled for Tier 1 and Tier 2 credentials. It queues rather =
+than streaming, so a folder the size of the financials directory takes roughl=
+y forty minutes to package and you get a notification rather than a browser d=
+ownload. People assume it has failed and start it again, which puts them behi=
+nd their own first job in the queue.
+
+On Kip's observation about weekday-only timestamps: he is right and the expla=
+nation is duller than either of his theories. Our platform stamps events in t=
+he account's business timezone and the review window has genuinely had no wee=
+kend activity. Nothing is filtered. I would rather he asked than assumed, so =
+please tell him that.
+
+Talia, the export limit is fifty gigabytes per credential per rolling week, w=
+hich nobody on this engagement is close to.
+
+--=20
+Kenji Aoyama
+Support Engineer
+VaultRoom Data Rooms
+701 Pike Street, Seattle WA 98101

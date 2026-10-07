@@ -1,0 +1,32 @@
+From: Wesley Hartnell <whartnell@helioscope.example>
+To: Devin Marchetti <dmarch@ardentpeak.example>
+Cc: Bennett Oduya <boduya@ardentpeak.example>
+Date: Wed, 15 Apr 2026 19:22:00 -0700
+Subject: Technical session - what I would rather spend the time on
+Message-ID: <d6467bee4ac11f25.013@helioscope.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Devin, I have the list of questions your team sent and I want to propose a di=
+fferent shape for the session, because half of the list is answerable in writ=
+ing and the other half really is not.
+
+The architecture questions I can answer in a document. The interesting conver=
+sation is about how the safety controller behaves when the warehouse network =
+degrades, and that is much better as a whiteboard discussion with Maeve than =
+as a written answer.
+
+I would also rather show you the incident review from February than describe =
+it. It was a genuine failure and we handled the second half of it much better=
+ than the first half. You will learn more from the timeline than from my summ=
+ary of the timeline.
+
+If you want to keep the written questions as well, fine, but send them to me =
+rather than to the general mailbox. The last batch went to three different pe=
+ople and we answered two of them twice.
+
+Best regards,
+Wesley Hartnell
+VP Engineering, Helioscope Robotics
+whartnell@helioscope.example | +1 (415) 555-0439

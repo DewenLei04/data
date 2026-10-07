@@ -1,0 +1,16 @@
+snapshots:
+  finance001-ubuntu22:
+    provider: gcloud
+    image: finance001-ubuntu22
+    gcloud:
+      project: ${env:GCP_PROJECT}
+      service_account_key: ${env:GCP_SA_KEY}
+      instance_prefix: ale-finance001
+      network: ale-vpc
+      subnet: ale-vpc
+      zones: [us-central1-a, us-east1-b, us-west1-a]
+
+task_data_source: baked_in_sandbox
+gcs_sa_key: secret/gcp_key.json
+output_path: local
+

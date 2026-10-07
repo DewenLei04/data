@@ -1,0 +1,23 @@
+# env/packages-pip.txt
+#
+# Runtime pip manifest for the Python interpreter INSIDE the lean ubuntu:22.04 image.
+# This is not the authoring-host toolchain (which has its own, larger
+# table) -- the runtime sandbox needs only the spreadsheet/PDF read paths plus the browser.
+#
+# Line grammar: name==version [INDEX-VERIFIED|INDEX-UNVERIFIED] requires_python<=3.10
+# (a) ocrmypdf is intentionally ABSENT from this file. Ubuntu 22.04 ships python3 3.10.6,
+#     but PyPI's current ocrmypdf requires Python >= 3.11; a pip install/upgrade of ocrmypdf
+#     inside this image would break OCR at import time. ocrmypdf comes from apt only --
+#     see packages-apt.txt LAYER 3.
+# (b) No GPU/CUDA wheels and no licensed packages appear in this file.
+# (c) Any pin whose upstream requires_python exceeds 3.10 is forbidden in this file; the
+#     trailing requires_python<=3.10 token on every line is the evidence field this
+#     case's own manifest gate enforces.
+
+openpyxl==3.1.5 [INDEX-VERIFIED] requires_python<=3.10
+pypdf==6.16.1 [INDEX-VERIFIED] requires_python<=3.10
+# Snap-free Chromium route: on jammy both `chromium` and `chromium-browser` are transitional
+# stubs that pull the snap, which does not run in a plain container. Pinned to an exact
+# release, not a 1.* wildcard, so the build confirms the resolved version rather than
+# floating.
+playwright==1.55.0 [INDEX-UNVERIFIED] requires_python<=3.10

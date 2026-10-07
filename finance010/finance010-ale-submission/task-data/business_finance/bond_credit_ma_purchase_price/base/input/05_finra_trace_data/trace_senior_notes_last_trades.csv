@@ -1,0 +1,4 @@
+trade_date,price,reported_size,side,dissemination_cap_note
+2026-06-26,98.375,750K,customer_sell,
+2026-06-29,98.250,1MM+,customer_sell,"capped at reported_size label per HY dissemination cap (1,000,000.00 par)"
+2026-06-30,98.250,1MM+,customer_sell,"capped at reported_size label per HY dissemination cap (1,000,000.00 par)"

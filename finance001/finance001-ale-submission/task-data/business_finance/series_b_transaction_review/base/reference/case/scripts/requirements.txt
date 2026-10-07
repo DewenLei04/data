@@ -1,0 +1,12 @@
+# Evaluator-layer environment contract for case/scripts/score_outputs.py.
+#
+# This is the scoring host's requirement set, not the agent container's
+# (env/requirements.txt covers that one). The scorer reads negotiation_memo.pdf
+# through pypdf; without it the PDF text layer used to come back empty and a
+# compliant memo was scored as non-compliant, so the dependency is declared and
+# checked rather than discovered.
+#
+# Python >= 3.10 is also required; score_outputs.py refuses to run below that.
+#
+#   python -m pip install -r case/scripts/requirements.txt
+pypdf==6.10.2

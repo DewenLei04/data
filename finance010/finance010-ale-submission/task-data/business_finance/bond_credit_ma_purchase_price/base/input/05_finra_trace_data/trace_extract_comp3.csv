@@ -1,0 +1,4 @@
+CUSIP_ID,BOND_SYM_ID,TRD_EXCTN_DT,TRD_EXCTN_TM,RPTD_PR,YLD_SIGN_CD,YLD_PT,RPT_SIDE_CD,CNTRA_MP_ID,TRC_ST,ATS_IND,SCRTY_TYPE_CD,RPTD_VOL_LABEL,ISSUE_DESCRIPTION,SPRD_BASIS,SPRD_BP
+C0300XAA4,COMPC4A,20260626,093000,91.982,,6.120,S,D,T,Y,CORP,500K,4.25% due 2031-06-01 rated BB+ (Atkore),spread to interpolated swap curve (I-spread convention),204
+C0300XAA4,COMPC4A,20260629,114500,92.232,,6.062,B,C,T,N,CORP,1MM+,4.25% due 2031-06-01 rated BB+ (Atkore),spread to interpolated swap curve (I-spread convention),198
+C0300XAA4,COMPC4A,20260630,140000,92.357,,6.033,S,D,T,Y,CORP,1MM+,4.25% due 2031-06-01 rated BB+ (Atkore),spread to interpolated swap curve (I-spread convention),195

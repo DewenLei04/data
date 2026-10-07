@@ -1,0 +1,4 @@
+CUSIP,SECURITY_DESCRIPTION,TRADE_DATE,TRADE_TIME,SETTLEMENT_DATE,PAR_TRADED,YIELD,PRICE,TRADE_TYPE
+M0100XAH1,Industrial Development Revenue Bonds (Company Project) Series 2019 Term Bond,20260626,100000,20260701,250000,4.325,99.242,Inter-Dealer Trade
+M0100XAH1,Industrial Development Revenue Bonds (Company Project) Series 2019 Term Bond,20260629,122000,20260701,150000,4.285,99.646,Sale to Customer
+M0100XAH1,Industrial Development Revenue Bonds (Company Project) Series 2019 Term Bond,20260630,144000,20260701,100000,4.250,100.000,Purchase from Customer

@@ -1,0 +1,11 @@
+{
+  "description": "finance001 OCR, office, Stirling-PDF and protected Ledgerline runtime",
+  "os": "linux",
+  "provides": [
+    "/usr/local/bin/finance001-services-health",
+    "/usr/local/bin/start-finance001-stirling",
+    "/usr/local/bin/start-finance001-ledgerline"
+  ],
+  "verify": "/usr/local/bin/finance001-services-health --check-installed"
+}
+

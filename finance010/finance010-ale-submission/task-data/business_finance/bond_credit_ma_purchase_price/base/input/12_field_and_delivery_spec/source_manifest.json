@@ -1,0 +1,662 @@
+{
+  "artifacts": [
+    {
+      "path": "input/00_engagement_and_policy/approval_matrix.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/00_engagement_and_policy/authorization_memo.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/00_engagement_and_policy/engagement_letter.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/00_engagement_and_policy/internal_credit_policy.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/board_minutes_2026_03.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/board_minutes_2026_04.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/credit_committee_memo.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/data_room_index.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/disclosure_schedules.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-07-24",
+      "note": "case-authored, wholly fictional deal document - the target, the buyer, and every dollar figure, rate, and date are this case's own fabricated facts, rendered from its frozen fact base and never a hand-typed literal; a genuine download or reconstruction-from-a-real-filing basis can never exist for a fictional instrument, regardless of network access."
+    },
+    {
+      "path": "input/01_deal_process_ma/earnout_schedule.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-07-24",
+      "note": "case-authored, wholly fictional deal document - the target, the buyer, and every dollar figure, rate, and date are this case's own fabricated facts, rendered from its frozen fact base and never a hand-typed literal; a genuine download or reconstruction-from-a-real-filing basis can never exist for a fictional instrument, regardless of network access."
+    },
+    {
+      "path": "input/01_deal_process_ma/funds_flow_memo.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-07-24",
+      "note": "case-authored, wholly fictional deal document - the target, the buyer, and every dollar figure, rate, and date are this case's own fabricated facts, rendered from its frozen fact base and never a hand-typed literal; a genuine download or reconstruction-from-a-real-filing basis can never exist for a fictional instrument, regardless of network access."
+    },
+    {
+      "path": "input/01_deal_process_ma/ic_minutes_2026_05.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/ic_minutes_2026_06.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/locked_box_completion_accounts_memo.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-08-25",
+      "note": "case-authored, wholly fictional deal document - the target, the buyer, and every dollar figure, rate, and date are this case's own fabricated facts, rendered from its frozen fact base and never a hand-typed literal; a genuine download or reconstruction-from-a-real-filing basis can never exist for a fictional instrument, regardless of network access."
+    },
+    {
+      "path": "input/01_deal_process_ma/management_presentation.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored engagement, authorization, minutes, data-room-index, management-presentation and internal-credit-policy content for this case's own fabricated advisory firm, Sponsor, Buyer entity and target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. Where a document quotes a market convention or a regulatory provision (e.g. Section 59(k), Section 141), that convention or provision is genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/modeling_conventions_memo.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored quality-of-earnings report / addback-by-addback EBITDA analysis / modelling-conventions memo content for this case's own fabricated target company, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. The accounting and modelling conventions it describes are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/sample_working_capital_statement.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored quality-of-earnings / financial-statement / working-capital content for this case's own fabricated target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/01_deal_process_ma/spa_executed.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-07-24",
+      "note": "case-authored, wholly fictional deal document - the target, the buyer, and every dollar figure, rate, and date are this case's own fabricated facts, rendered from its frozen fact base and never a hand-typed literal; a genuine download or reconstruction-from-a-real-filing basis can never exist for a fictional instrument, regardless of network access."
+    },
+    {
+      "path": "input/01_deal_process_ma/spa_locked_box_precedent.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-08-25",
+      "note": "case-authored, wholly fictional deal document - the target, the buyer, and every dollar figure, rate, and date are this case's own fabricated facts, rendered from its frozen fact base and never a hand-typed literal; a genuine download or reconstruction-from-a-real-filing basis can never exist for a fictional instrument, regardless of network access."
+    },
+    {
+      "path": "input/02_target_financials/adjusted_ebitda_bridge.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored financial statement / management-accounts / working-capital / EBITDA-bridge content for this case's own fabricated target company, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/audited_financials_fy2023.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored financial statement / management-accounts / working-capital / EBITDA-bridge content for this case's own fabricated target company, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/audited_financials_fy2024.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored financial statement / management-accounts / working-capital / EBITDA-bridge content for this case's own fabricated target company, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/audited_financials_fy2025.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored quality-of-earnings / financial-statement / working-capital content for this case's own fabricated target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/management_accounts_q1_2026.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored financial statement / management-accounts / working-capital / EBITDA-bridge content for this case's own fabricated target company, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/management_accounts_q2_2026.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored quality-of-earnings / financial-statement / working-capital content for this case's own fabricated target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/qofe_adjusted_ebitda_analysis.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored quality-of-earnings report / addback-by-addback EBITDA analysis / modelling-conventions memo content for this case's own fabricated target company, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. The accounting and modelling conventions it describes are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/qofe_net_debt_cash_analysis.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored quality-of-earnings / financial-statement / working-capital content for this case's own fabricated target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/qofe_net_working_capital_analysis.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored quality-of-earnings / financial-statement / working-capital content for this case's own fabricated target company, rendered from the frozen fact base held by this case; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/qofe_report.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored quality-of-earnings report / addback-by-addback EBITDA analysis / modelling-conventions memo content for this case's own fabricated target company, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. The accounting and modelling conventions it describes are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/02_target_financials/working_capital_true_up_schedule.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored financial statement / management-accounts / working-capital / EBITDA-bridge content for this case's own fabricated target company, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. The GAAP standards, defined-term mechanics, and accounting conventions it applies are genuine and independently verifiable, but the underlying figures and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/03_bond_credit_docs/compliance_certificate_draft.pdf",
+      "provenance": "authored",
+      "publication_date": "2023-06-15",
+      "note": "case-authored base credit agreement and draft compliance certificate for this case's own fabricated Borrower, Administrative Agent, and Lenders, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/03_bond_credit_docs/credit_agreement.pdf",
+      "provenance": "authored",
+      "publication_date": "2023-06-15",
+      "note": "case-authored base credit agreement and draft compliance certificate for this case's own fabricated Borrower, Administrative Agent, and Lenders, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/03_bond_credit_docs/credit_agreement_amendment_1.pdf",
+      "provenance": "authored",
+      "publication_date": "2025-03-31",
+      "note": "case-authored credit-agreement amendment and closing-set collateral/legal/servicing documents for this case's own fabricated Borrower, Administrative Agent, and Trustee, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction. "
+    },
+    {
+      "path": "input/03_bond_credit_docs/guarantee.pdf",
+      "provenance": "authored",
+      "publication_date": "2023-06-15",
+      "note": "case-authored credit-agreement amendment and closing-set collateral/legal/servicing documents for this case's own fabricated Borrower, Administrative Agent, and Trustee, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction. "
+    },
+    {
+      "path": "input/03_bond_credit_docs/intercreditor_agreement.pdf",
+      "provenance": "authored",
+      "publication_date": "2023-06-15",
+      "note": "case-authored credit-agreement amendment and closing-set collateral/legal/servicing documents for this case's own fabricated Borrower, Administrative Agent, and Trustee, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction. "
+    },
+    {
+      "path": "input/03_bond_credit_docs/legal_opinion.pdf",
+      "provenance": "authored",
+      "publication_date": "2023-06-15",
+      "note": "case-authored credit-agreement amendment and closing-set collateral/legal/servicing documents for this case's own fabricated Borrower, Administrative Agent, and Trustee, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction. "
+    },
+    {
+      "path": "input/03_bond_credit_docs/note_purchase_registration_rights_agreement.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored senior notes indenture / note purchase and registration rights agreement content for this case's own fabricated bond issuance, rendered from the frozen fact base; not a reproduction of any specific real-world indenture or note purchase agreement. The covenant structures, redemption mechanics and registration-rights procedures it describes are genuine, real-world-standard high-yield-indenture drafting conventions, independently verifiable against public precedent, but the underlying figures, defined terms and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/03_bond_credit_docs/officers_certificate.pdf",
+      "provenance": "authored",
+      "publication_date": "2023-06-15",
+      "note": "case-authored credit-agreement amendment and closing-set collateral/legal/servicing documents for this case's own fabricated Borrower, Administrative Agent, and Trustee, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction. "
+    },
+    {
+      "path": "input/03_bond_credit_docs/security_agreement.pdf",
+      "provenance": "authored",
+      "publication_date": "2023-06-15",
+      "note": "case-authored credit-agreement amendment and closing-set collateral/legal/servicing documents for this case's own fabricated Borrower, Administrative Agent, and Trustee, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction. "
+    },
+    {
+      "path": "input/03_bond_credit_docs/senior_notes_indenture.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored senior notes indenture / note purchase and registration rights agreement content for this case's own fabricated bond issuance, rendered from the frozen fact base; not a reproduction of any specific real-world indenture or note purchase agreement. The covenant structures, redemption mechanics and registration-rights procedures it describes are genuine, real-world-standard high-yield-indenture drafting conventions, independently verifiable against public precedent, but the underlying figures, defined terms and the document itself are this project's own authored construction."
+    },
+    {
+      "path": "input/03_bond_credit_docs/trustee_fee_letter.pdf",
+      "provenance": "authored",
+      "publication_date": "2023-06-15",
+      "note": "case-authored credit-agreement amendment and closing-set collateral/legal/servicing documents for this case's own fabricated Borrower, Administrative Agent, and Trustee, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction. "
+    },
+    {
+      "path": "input/03_bond_credit_docs/waiver_letter.pdf",
+      "provenance": "authored",
+      "publication_date": "2025-11-14",
+      "note": "case-authored credit-agreement amendment and closing-set collateral/legal/servicing documents for this case's own fabricated Borrower, Administrative Agent, and Trustee, rendered from this case's own frozen fact base; not a reproduction of any specific real-world filing. Where a document states a market convention or a statutory reference (e.g. the UCC, the Bankruptcy Code, SOFR benchmark mechanics), that convention or reference is genuine and independently verifiable, but the underlying figures, dates, and the document itself are this project's own authored construction. "
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/dtb3_tb3ms_discount_basis_extract.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-08-20",
+      "url": "DTB3: https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTB3; TB3MS: https://fred.stlouisfed.org/graph/fredgraph.csv?id=TB3MS",
+      "retrieval_date": "2026-08-22",
+      "sha256": "3d9a8481dc54b9f27b1cca31d7c540818c4795860acea440c99d85e605986981",
+      "note": "two real FRED series on a discount basis, each kept in its own native frequency (DTB3 daily, TB3MS monthly) rather than fabricating a joined row - windowed to 2024-07-01..2026-06-30."
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/fred_dgs10.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-08-14",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "retrieval_date": "2026-08-18",
+      "sha256": "cba127a15faa6b1c13144dd6f54cbae2e629cbf7656f89a59b7a637d688c7eb4"
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/fred_dgs2.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-08-20",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2",
+      "retrieval_date": "2026-08-22",
+      "sha256": "2271b3ca1a306a4c8fdde0d752b73f71fe011341ab5921bee3cd304142c05dfd"
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/fred_dgs20.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-08-20",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS20",
+      "retrieval_date": "2026-08-22",
+      "sha256": "fade97dc512eefb96312121aa9bd12da3705cfb09bcc9b30324ba86661309dc8"
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/fred_dgs3.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-08-20",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS3",
+      "retrieval_date": "2026-08-22",
+      "sha256": "3e5125666cb57e2c0ee2334c36bb8c4aa3f852b6941431448c84fb1eabd8b66a"
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/fred_dgs5.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-08-20",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS5",
+      "retrieval_date": "2026-08-22",
+      "sha256": "7bcff6ece6ee24d723b0f4f2002c1c067bec5f76a7e0040d54f755e365007c3d"
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/fred_dgs7.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-08-20",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS7",
+      "retrieval_date": "2026-08-22",
+      "sha256": "b69f6b6914a5701da03a7aad2374de85a2a8b9ac1d8a9a4694104d3b1040051b"
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/h15_extract.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-06-30",
+      "url": "https://www.federalreserve.gov/datadownload/Output.aspx?rel=H15&series=bf17364827e38702b42a58cf8eaa3f78&lastobs=&from=&to=&filetype=csv&label=include&layout=seriescolumn",
+      "retrieval_date": "2026-08-22",
+      "sha256": "7258ecc95fa434774f5171c9923d1c15b8b713962d5d4f5c3b61ce237583ee98",
+      "note": "real Federal Reserve H.15 'Selected Interest Rates' release, windowed to 2026-04-01..2026-06-30 (the case's valuation date); the real downloaded column-mnemonic header (RIFLGFCY10_N.B style) is kept verbatim, because a genuinely downloaded header governs over any reconstruction of the release's format."
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/sofr_transition_note.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored reference/context narrative, not a reproduction of a specific real-world filing or release; the real-world mechanics it describes (FINRA dissemination caps, the USD LIBOR-to-SOFR transition, TIPS/breakeven conventions, Rule 144A/Regulation S eligibility mechanics) are genuine and independently verifiable, but the document itself is not sourced from a single external artifact."
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/tips_breakeven_note.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored reference/context narrative, not a reproduction of a specific real-world filing or release; the real-world mechanics it describes (FINRA dissemination caps, the USD LIBOR-to-SOFR transition, TIPS/breakeven conventions, Rule 144A/Regulation S eligibility mechanics) are genuine and independently verifiable, but the document itself is not sourced from a single external artifact."
+    },
+    {
+      "path": "input/04_market_data_treasury_fred_fed/treasury_par_yield_curve_2026_full.csv",
+      "provenance": "downloaded",
+      "publication_date": "2026-08-14",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+      "retrieval_date": "2026-08-17",
+      "sha256": "316682c8f521e4001a021477652ad04d7462e4a940f84287cc4ad8bc832ce9c9"
+    },
+    {
+      "path": "input/05_finra_trace_data/rule_144a_eligibility_notice.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored reference/context narrative, not a reproduction of a specific real-world filing or release; the real-world mechanics it describes (FINRA dissemination caps, the USD LIBOR-to-SOFR transition, TIPS/breakeven conventions, Rule 144A/Regulation S eligibility mechanics) are genuine and independently verifiable, but the document itself is not sourced from a single external artifact."
+    },
+    {
+      "path": "input/05_finra_trace_data/trace_dissemination_cap_faq.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored reference/context narrative, not a reproduction of a specific real-world filing or release; the real-world mechanics it describes (FINRA dissemination caps, the USD LIBOR-to-SOFR transition, TIPS/breakeven conventions, Rule 144A/Regulation S eligibility mechanics) are genuine and independently verifiable, but the document itself is not sourced from a single external artifact."
+    },
+    {
+      "path": "input/05_finra_trace_data/trace_extract_comp1.csv",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "Wabash National Corporation 4.50% senior notes due 2028-10-15 ($400MM), verified outstanding 2026-06-30 from the issuer's FY2025 Form 10-K filed 2026-02-18; spread level anchored to the real 2026-06-30 ICE BofA B-band OAS fetched from FRED; the comparable issuer's bond may be real, but FINRA's bulk TRACE trade-history feed requires a paid data-feed subscription this project does not hold; a genuine download requires credentials this project does not hold, which is a different impossibility than the target's own instruments."
+    },
+    {
+      "path": "input/05_finra_trace_data/trace_extract_comp2.csv",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "Sensata Technologies Holding plc 5.875% senior notes due 2030-09-01 ($500MM), verified outstanding 2026-06-30 from the issuer's FY2025 Form 10-K filed 2026-02-27; spread level anchored to the real 2026-06-30 ICE BofA BB-band OAS fetched from FRED; the comparable issuer's bond may be real, but FINRA's bulk TRACE trade-history feed requires a paid data-feed subscription this project does not hold; a genuine download requires credentials this project does not hold, which is a different impossibility than the target's own instruments."
+    },
+    {
+      "path": "input/05_finra_trace_data/trace_extract_comp3.csv",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "Atkore Inc. 4.25% senior notes due 2031-06-01 ($400MM), verified outstanding 2026-06-30 from the issuer's FY2025 Form 10-K filed 2025-11-26 and the June 2021 Form 8-K note terms; spread level anchored to the real 2026-06-30 ICE BofA BB-band OAS fetched from FRED; the comparable issuer's bond may be real, but FINRA's bulk TRACE trade-history feed requires a paid data-feed subscription this project does not hold; a genuine download requires credentials this project does not hold, which is a different impossibility than the target's own instruments."
+    },
+    {
+      "path": "input/05_finra_trace_data/trace_extract_comp4.csv",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "O-I Glass, Inc. 7.375% senior notes due 2032-06-01 ($300MM), verified outstanding 2026-06-30 from the issuer's FY2025 Form 10-K filed 2026-02-12 and the May 2024 indenture exhibit; spread level anchored to the real 2026-06-30 ICE BofA BB-band OAS fetched from FRED; the comparable issuer's bond may be real, but FINRA's bulk TRACE trade-history feed requires a paid data-feed subscription this project does not hold; a genuine download requires credentials this project does not hold, which is a different impossibility than the target's own instruments."
+    },
+    {
+      "path": "input/05_finra_trace_data/trace_extract_comp5.csv",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "Dauch Corporation (formerly American Axle & Manufacturing Holdings) 7.75% senior notes due 2033-10-15 ($1,250MM, issued by AAM, Inc.), verified outstanding 2026-06-30 from the issuer's FY2025 Form 10-K filed 2026-02-13 and the October 2025 Form 8-K note-form exhibit; spread level anchored to the real 2026-06-30 ICE BofA B-band OAS fetched from FRED; the comparable issuer's bond may be real, but FINRA's bulk TRACE trade-history feed requires a paid data-feed subscription this project does not hold; a genuine download requires credentials this project does not hold, which is a different impossibility than the target's own instruments."
+    },
+    {
+      "path": "input/05_finra_trace_data/trace_extract_target_notes.csv",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the target notes are this case's own fabricated instrument; the security does not exist, so a genuine TRACE download for it can never exist either, regardless of network access."
+    },
+    {
+      "path": "input/05_finra_trace_data/trace_senior_notes_last_trades.csv",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "FINRA TRACE corporate-bond last-trade dissemination report format (trade date/time, price, yield, quantity-capped-per-dissemination-rules, reporting side) - live TRACE bulk-download reachability was not established before this task."
+    },
+    {
+      "path": "input/06_msrb_emma_data/emma_filing_index.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/emma_irb_official_statement_excerpt.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/irb_continuing_disclosure_report_2023.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/irb_continuing_disclosure_report_2024.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/irb_continuing_disclosure_report_2025.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/irb_material_event_notice_bond_call.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/irb_material_event_notice_category15.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/irb_material_event_notice_category16.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/irb_material_event_notice_rating_change.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/irb_official_statement_2019.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/06_msrb_emma_data/muni_trade_data.csv",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the IRB conduit bond and its issuer are this case's own fabricated municipal instrument; the security does not exist, so a genuine EMMA download for any of its Official Statement, continuing-disclosure filings, material event notices, trade data or filing index could never exist either, regardless of network access. EMMA itself returns a server-rendered HTML shell rather than a JSON API, so even a real HTTP 200 there would prove only that a page rendered, never that data for this fictional bond was retrieved."
+    },
+    {
+      "path": "input/07_rating_agency_reports/rating_action_corporate_notes.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the rated obligor (the corporate notes issuer and the municipal conduit issuer guaranteed by its corporate parent) is this case's own fabricated construction; the security does not exist, so a genuine rating-agency credit opinion or rating-action report for it can never exist either, regardless of network access. The rating-agency genre conventions the report follows - the Key Indicators exhibit, the ESG considerations section, the scorecard's Scorecard-Indicated Outcome/Assigned Rating distinction, and the agency-specific rating-scale and watch/review vocabulary - are genuine and independently verifiable; the specific obligor, its ratings and its scorecard inputs are this project's own authored construction."
+    },
+    {
+      "path": "input/07_rating_agency_reports/rating_action_corporate_review.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the rated obligor (the corporate notes issuer and the municipal conduit issuer guaranteed by its corporate parent) is this case's own fabricated construction; the security does not exist, so a genuine rating-agency credit opinion or rating-action report for it can never exist either, regardless of network access. The rating-agency genre conventions the report follows - the Key Indicators exhibit, the ESG considerations section, the scorecard's Scorecard-Indicated Outcome/Assigned Rating distinction, and the agency-specific rating-scale and watch/review vocabulary - are genuine and independently verifiable; the specific obligor, its ratings and its scorecard inputs are this project's own authored construction."
+    },
+    {
+      "path": "input/07_rating_agency_reports/rating_action_irb_1.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the rated obligor (the corporate notes issuer and the municipal conduit issuer guaranteed by its corporate parent) is this case's own fabricated construction; the security does not exist, so a genuine rating-agency credit opinion or rating-action report for it can never exist either, regardless of network access. The rating-agency genre conventions the report follows - the Key Indicators exhibit, the ESG considerations section, the scorecard's Scorecard-Indicated Outcome/Assigned Rating distinction, and the agency-specific rating-scale and watch/review vocabulary - are genuine and independently verifiable; the specific obligor, its ratings and its scorecard inputs are this project's own authored construction."
+    },
+    {
+      "path": "input/07_rating_agency_reports/rating_action_irb_2.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the rated obligor (the corporate notes issuer and the municipal conduit issuer guaranteed by its corporate parent) is this case's own fabricated construction; the security does not exist, so a genuine rating-agency credit opinion or rating-action report for it can never exist either, regardless of network access. The rating-agency genre conventions the report follows - the Key Indicators exhibit, the ESG considerations section, the scorecard's Scorecard-Indicated Outcome/Assigned Rating distinction, and the agency-specific rating-scale and watch/review vocabulary - are genuine and independently verifiable; the specific obligor, its ratings and its scorecard inputs are this project's own authored construction."
+    },
+    {
+      "path": "input/07_rating_agency_reports/rating_action_irb_3.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the rated obligor (the corporate notes issuer and the municipal conduit issuer guaranteed by its corporate parent) is this case's own fabricated construction; the security does not exist, so a genuine rating-agency credit opinion or rating-action report for it can never exist either, regardless of network access. The rating-agency genre conventions the report follows - the Key Indicators exhibit, the ESG considerations section, the scorecard's Scorecard-Indicated Outcome/Assigned Rating distinction, and the agency-specific rating-scale and watch/review vocabulary - are genuine and independently verifiable; the specific obligor, its ratings and its scorecard inputs are this project's own authored construction."
+    },
+    {
+      "path": "input/07_rating_agency_reports/rating_action_revolver.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "the rated obligor (the corporate notes issuer and the municipal conduit issuer guaranteed by its corporate parent) is this case's own fabricated construction; the security does not exist, so a genuine rating-agency credit opinion or rating-action report for it can never exist either, regardless of network access. The rating-agency genre conventions the report follows - the Key Indicators exhibit, the ESG considerations section, the scorecard's Scorecard-Indicated Outcome/Assigned Rating distinction, and the agency-specific rating-scale and watch/review vocabulary - are genuine and independently verifiable; the specific obligor, its ratings and its scorecard inputs are this project's own authored construction."
+    },
+    {
+      "path": "input/08_comparable_bonds_universe/comp_factsheet_1.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "modelled on a real-issue-like corporate bond (coupon, maturity and rating drawn from a realistic single-B/high-yield profile), but a genuine download of that real issue's own TRACE trade-level history would require a paid FINRA data-feed subscription this project does not hold; the specific issuer identity, CUSIP and trade history are accordingly fictionalized rather than reproduced from a real issuer, consistent with this comp's own trace_extract_compN.csv sibling (same determination). A per-issuer relative-value factsheet of this kind is itself internal desk work product with no standardized public genre - no real desk publishes this document externally regardless of credentials - which is why this entry is 'authored' rather than 'reconstructed', unlike its CSV sibling."
+    },
+    {
+      "path": "input/08_comparable_bonds_universe/comp_factsheet_2.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "modelled on a real-issue-like corporate bond (coupon, maturity and rating drawn from a realistic single-B/high-yield profile), but a genuine download of that real issue's own TRACE trade-level history would require a paid FINRA data-feed subscription this project does not hold; the specific issuer identity, CUSIP and trade history are accordingly fictionalized rather than reproduced from a real issuer, consistent with this comp's own trace_extract_compN.csv sibling (same determination). A per-issuer relative-value factsheet of this kind is itself internal desk work product with no standardized public genre - no real desk publishes this document externally regardless of credentials - which is why this entry is 'authored' rather than 'reconstructed', unlike its CSV sibling."
+    },
+    {
+      "path": "input/08_comparable_bonds_universe/comp_factsheet_3.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "modelled on a real-issue-like corporate bond (coupon, maturity and rating drawn from a realistic single-B/high-yield profile), but a genuine download of that real issue's own TRACE trade-level history would require a paid FINRA data-feed subscription this project does not hold; the specific issuer identity, CUSIP and trade history are accordingly fictionalized rather than reproduced from a real issuer, consistent with this comp's own trace_extract_compN.csv sibling (same determination). A per-issuer relative-value factsheet of this kind is itself internal desk work product with no standardized public genre - no real desk publishes this document externally regardless of credentials - which is why this entry is 'authored' rather than 'reconstructed', unlike its CSV sibling."
+    },
+    {
+      "path": "input/08_comparable_bonds_universe/comp_factsheet_4.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "modelled on a real-issue-like corporate bond (coupon, maturity and rating drawn from a realistic single-B/high-yield profile), but a genuine download of that real issue's own TRACE trade-level history would require a paid FINRA data-feed subscription this project does not hold; the specific issuer identity, CUSIP and trade history are accordingly fictionalized rather than reproduced from a real issuer, consistent with this comp's own trace_extract_compN.csv sibling (same determination). A per-issuer relative-value factsheet of this kind is itself internal desk work product with no standardized public genre - no real desk publishes this document externally regardless of credentials - which is why this entry is 'authored' rather than 'reconstructed', unlike its CSV sibling."
+    },
+    {
+      "path": "input/08_comparable_bonds_universe/comp_factsheet_5.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "modelled on a real-issue-like corporate bond (coupon, maturity and rating drawn from a realistic single-B/high-yield profile), but a genuine download of that real issue's own TRACE trade-level history would require a paid FINRA data-feed subscription this project does not hold; the specific issuer identity, CUSIP and trade history are accordingly fictionalized rather than reproduced from a real issuer, consistent with this comp's own trace_extract_compN.csv sibling (same determination). A per-issuer relative-value factsheet of this kind is itself internal desk work product with no standardized public genre - no real desk publishes this document externally regardless of credentials - which is why this entry is 'authored' rather than 'reconstructed', unlike its CSV sibling."
+    },
+    {
+      "path": "input/09_correspondence_emails/email_bondholder_inquiry.eml",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored correspondence content, not a reproduction of any real message; the RFC 5322 header/threading convention itself (From/To/Subject/Date/Message-ID, In-Reply-To/References for a quoted reply) is a real, verified IETF standard (FACTS.md), applied here to fictional case narrative."
+    },
+    {
+      "path": "input/09_correspondence_emails/email_data_room_access_grant.eml",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored correspondence content, not a reproduction of any real message; the RFC 5322 header/threading convention itself (From/To/Subject/Date/Message-ID, In-Reply-To/References for a quoted reply) is a real, verified IETF standard (FACTS.md), applied here to fictional case narrative."
+    },
+    {
+      "path": "input/09_correspondence_emails/email_emma_filing_confirmation.eml",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored correspondence content, not a reproduction of any real message; the RFC 5322 header/threading convention itself (From/To/Subject/Date/Message-ID, In-Reply-To/References for a quoted reply) is a real, verified IETF standard (FACTS.md), applied here to fictional case narrative."
+    },
+    {
+      "path": "input/09_correspondence_emails/email_ic_followup.eml",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored correspondence content, not a reproduction of any real message; the RFC 5322 header/threading convention itself (From/To/Subject/Date/Message-ID, In-Reply-To/References for a quoted reply) is a real, verified IETF standard (FACTS.md), applied here to fictional case narrative."
+    },
+    {
+      "path": "input/09_correspondence_emails/email_outside_counsel_put_query.eml",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored correspondence content, not a reproduction of any real message; the RFC 5322 header/threading convention itself (From/To/Subject/Date/Message-ID, In-Reply-To/References for a quoted reply) is a real, verified IETF standard (FACTS.md), applied here to fictional case narrative."
+    },
+    {
+      "path": "input/09_correspondence_emails/email_rating_agency_outreach.eml",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored correspondence content, not a reproduction of any real message; the RFC 5322 header/threading convention itself (From/To/Subject/Date/Message-ID, In-Reply-To/References for a quoted reply) is a real, verified IETF standard (FACTS.md), applied here to fictional case narrative."
+    },
+    {
+      "path": "input/09_correspondence_emails/email_revolver_amendment_negotiation.eml",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored correspondence content, not a reproduction of any real message; the RFC 5322 header/threading convention itself (From/To/Subject/Date/Message-ID, In-Reply-To/References for a quoted reply) is a real, verified IETF standard (FACTS.md), applied here to fictional case narrative."
+    },
+    {
+      "path": "input/09_correspondence_emails/email_trustee_notice.eml",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored correspondence content, not a reproduction of any real message; the RFC 5322 header/threading convention itself (From/To/Subject/Date/Message-ID, In-Reply-To/References for a quoted reply) is a real, verified IETF standard (FACTS.md), applied here to fictional case narrative."
+    },
+    {
+      "path": "input/10_scanned_legacy/scanned_covenant_compliance_certificate.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored imaged legacy/scanned attachment for this case's own fabricated advisory engagement, credit facility and legacy model, rendered from the frozen fact base held by this case and, for the legacy model page, from the same routine that populates the depicted page of financial_model.xlsx, so the two can never show different figures for one page. Not a reproduction of any specific real-world filing or fax; the imaging treatment itself is authored."
+    },
+    {
+      "path": "input/10_scanned_legacy/scanned_covenant_waiver_fax.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored imaged legacy/scanned attachments for this case's own fabricated credit facility and investment-committee process, rendered from the frozen fact base held by this case and authored during this case's own earlier vertical-slice build, before the main corpus-authoring wave, and carried unchanged since. Not a reproduction of any specific real-world filing or fax; the imaging treatment itself is authored."
+    },
+    {
+      "path": "input/10_scanned_legacy/scanned_engagement_letter_signature_page.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored imaged legacy/scanned attachment for this case's own fabricated advisory engagement, credit facility and legacy model, rendered from the frozen fact base held by this case and, for the legacy model page, from the same routine that populates the depicted page of financial_model.xlsx, so the two can never show different figures for one page. Not a reproduction of any specific real-world filing or fax; the imaging treatment itself is authored."
+    },
+    {
+      "path": "input/10_scanned_legacy/scanned_ic_approval_sheet.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored imaged legacy/scanned attachments for this case's own fabricated credit facility and investment-committee process, rendered from the frozen fact base held by this case and authored during this case's own earlier vertical-slice build, before the main corpus-authoring wave, and carried unchanged since. Not a reproduction of any specific real-world filing or fax; the imaging treatment itself is authored."
+    },
+    {
+      "path": "input/10_scanned_legacy/scanned_legacy_model_page.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored imaged legacy/scanned attachment for this case's own fabricated advisory engagement, credit facility and legacy model, rendered from the frozen fact base held by this case and, for the legacy model page, from the same routine that populates the depicted page of financial_model.xlsx, so the two can never show different figures for one page. Not a reproduction of any specific real-world filing or fax; the imaging treatment itself is authored."
+    },
+    {
+      "path": "input/11_legacy_model_workbook/financial_model.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored internal legacy financial model for this case's own fabricated senior notes / municipal IRB complex, rendered from the frozen fact base held by this case. Not a reproduction of any specific real-world model; the discounting/day-count/gross-up METHODS it applies (semiannual bond-equivalent PV, 30/360 vs Actual/Actual ICMA day count, tax-equivalent-yield gross-up) are genuine market conventions, but the underlying figures and the document itself are this project's own authored construction, including deliberately planted stale/hard-coded readings."
+    },
+    {
+      "path": "input/12_field_and_delivery_spec/field_and_delivery_spec.xlsx",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "internal work product: the claim-to-file-and-section mapping, the 107-row file inventory and the delivery field spec, generated by this case's own build rather than taken from an external artifact of any kind; it resolves as 'authored' because there is no external source to cite."
+    },
+    {
+      "path": "input/13_noise_adjacent_reports/adjacent_sector_report.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored content following real sell-side/wire-service genre convention (reconstructed genre - sector research note, wire-service article, or internal advisory memo format); no single external source is reproduced. Genuinely irrelevant to the target's own entity, CUSIPs and deal figures by design."
+    },
+    {
+      "path": "input/13_noise_adjacent_reports/fed_regional_economic_conditions.pdf",
+      "provenance": "reconstructed",
+      "publication_date": "2026-06-30",
+      "reconstruction_basis": "modelled on the real Federal Reserve Beige Book's National Summary structure (current three-section wording - Overall Economic Activity, Labor Markets, Prices - verified live 2026-08-21, FACTS.md) and its District-report convention; the specific district (Eighth District - St. Louis, services/retail/agriculture emphasis) and its narrative content are case-authored rather than a reproduction of any single real Beige Book issue's exact text."
+    },
+    {
+      "path": "input/13_noise_adjacent_reports/general_industry_news_item.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored content following real sell-side/wire-service genre convention (reconstructed genre - sector research note, wire-service article, or internal advisory memo format); no single external source is reproduced. Genuinely irrelevant to the target's own entity, CUSIPs and deal figures by design."
+    },
+    {
+      "path": "input/13_noise_adjacent_reports/hy_market_outlook_note.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored content following real sell-side/wire-service genre convention (reconstructed genre - sector research note, wire-service article, or internal advisory memo format); no single external source is reproduced. Genuinely irrelevant to the target's own entity, CUSIPs and deal figures by design."
+    },
+    {
+      "path": "input/13_noise_adjacent_reports/macro_rates_outlook_note.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored content following real sell-side/wire-service genre convention (reconstructed genre - sector research note, wire-service article, or internal advisory memo format); no single external source is reproduced. Genuinely irrelevant to the target's own entity, CUSIPs and deal figures by design. Additionally cites the real, verified 2026-06-30 U.S. Treasury par yield curve (front-end 6Mo/1Yr and long-end 20Yr/30Yr tenors) for its curve-shape discussion; states no interpolated rate, spread, make-whole premium or discount factor."
+    },
+    {
+      "path": "input/13_noise_adjacent_reports/unrelated_peer_ma_case_study.pdf",
+      "provenance": "authored",
+      "publication_date": "2026-06-30",
+      "note": "case-authored content following real sell-side/wire-service genre convention (reconstructed genre - sector research note, wire-service article, or internal advisory memo format); no single external source is reproduced. Genuinely irrelevant to the target's own entity, CUSIPs and deal figures by design."
+    }
+  ],
+  "derived": [
+    {
+      "path": "input/04_market_data_treasury_fred_fed/treasury_daily_par_yield_curve_extract.csv",
+      "derived_from": "input/04_market_data_treasury_fred_fed/treasury_par_yield_curve_2026_full.csv",
+      "note": "the case's own 14-published-tenor extract for the 2026-06-30 valuation date row"
+    }
+  ],
+  "fiction_notice": "The scenario institution (the target company and its senior notes / municipal conduit bond), its counterparties, and all business, financial and deal-specific data in this corpus are fictional or anonymized. Official market reference material - Treasury and FRED yield series, the Federal Reserve H.15 release, SEC rule releases and rating-scale conventions - is genuinely real and retains its true source URL, publication date and retrieval date wherever it was genuinely downloaded; it is not fictionalized."
+}

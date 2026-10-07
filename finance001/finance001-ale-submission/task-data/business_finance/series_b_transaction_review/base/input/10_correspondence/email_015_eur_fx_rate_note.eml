@@ -1,0 +1,38 @@
+From: Marguerite Sable <msable@ardentpeak.example>
+To: Devin Marchetti <dmarch@ardentpeak.example>
+Cc: Kip Toranaga <ktoranaga@ardentpeak.example>
+Date: Thu, 23 Apr 2026 16:08:00 -0400
+Subject: Currency convention for the euro instrument
+Message-ID: <10a0a067735ef993.015@ardentpeak.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Devin, you asked what rate to use for the euro-denominated instrument and I w=
+ant to answer it properly rather than quickly, because this is the sort of th=
+ing that quietly corrupts a model.
+
+There are three candidates in play: the rate on the instrument date, the rate=
+ on the measurement date named in the fund's conventions memorandum, and what=
+ever rate the intern's working file picked up from a spreadsheet. Only one of=
+ those is the policy answer.
+
+Kip's note from the working file is below, reproduced as written. I am includ=
+ing it because it shows how easy it is to pick up the wrong one.
+
+Working figure carried forward from the earlier thread: 1.0900. A treasury-te=
+am email quotes an FX rate for the EUR SAFE conversion that does not match th=
+e governing source. Please reconcile against the source-of-record instrument =
+and its effective date before this reaches a model.
+
+The policy answer is the one in the conventions memorandum, and the memorandu=
+m names the measurement date explicitly. Do not substitute a date that happen=
+s to be more convenient, and do not average.
+
+Kip, this is not a criticism. The working file did exactly what a working fil=
+e does. It just cannot be the source for the deliverable.
+
+Best regards,
+Marguerite Sable
+Fund Controller, Ardent Peak Ventures
+msable@ardentpeak.example | +1 (212) 555-0170

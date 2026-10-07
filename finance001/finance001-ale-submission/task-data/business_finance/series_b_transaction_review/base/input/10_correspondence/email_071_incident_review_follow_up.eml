@@ -1,0 +1,34 @@
+From: Bennett Oduya <boduya@ardentpeak.example>
+To: Wesley Hartnell <whartnell@helioscope.example>
+Cc: Devin Marchetti <dmarch@ardentpeak.example>
+Date: Thu, 13 Aug 2026 18:16:00 -0400
+Subject:
+ Following up on the incident review - one thing I want to understand better
+Message-ID: <930b538d4bbd17f2.071@ardentpeak.example>
+In-Reply-To: <25a85ae0fa416fb5.048@helioscope.example>
+References: <d6467bee4ac11f25.013@helioscope.example>
+ <aff5b25c806a0a9f.031@ardentpeak.example>
+ <25a85ae0fa416fb5.048@helioscope.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Wesley, thank you for the walkthrough and for not sanding the edges off it. T=
+wo comments and one question.
+
+The comments: the detection path was the weak part rather than the response, =
+and you clearly know that. And the fact that the second half went better than=
+ the first is the most useful thing about the whole timeline, because it show=
+s the organization learning inside a single event rather than afterwards.
+
+The question is about the escapes. Both were in the same subsystem, and you a=
+ttributed that to test coverage. I want to understand whether the coverage ga=
+p was known before February or discovered because of February. Those imply ve=
+ry different things about your engineering process, and neither answer is a b=
+ad answer.
+
+I am asking because I will be asked, and I would rather quote you than infer.
+
+Thanks,
+Bennett
+Operating Partner, Ardent Peak Ventures

@@ -1,0 +1,41 @@
+From: Kip Toranaga <ktoranaga@ardentpeak.example>
+To: Marguerite Sable <msable@ardentpeak.example>
+Cc: Devin Marchetti <dmarch@ardentpeak.example>
+Date: Fri, 19 Jun 2026 21:47:00 -0400
+Subject: Day count - why I simplified it, and why I now think I was wrong
+Message-ID: <05a614b6baec371c.035@ardentpeak.example>
+In-Reply-To: <10a0a067735ef993.015@ardentpeak.example>
+References: <10a0a067735ef993.015@ardentpeak.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Marguerite, this is the note I said I would write. I simplified the day-count=
+ treatment in the working file and I want to explain the reasoning rather tha=
+n have you find it.
+
+My thinking was that the differences between the conventions are small in abs=
+olute terms over the periods involved, and that using one convention througho=
+ut made the file easier to check. That is a real argument and I still think i=
+t is a real argument for a scratch file.
+
+The paragraph I wrote in the file at the time is below, unedited, so you can =
+see how I justified it to myself.
+
+Working figure carried forward from the earlier thread: 30/360 for all three =
+notes. A bookkeeping email argues all three convertible notes should be model=
+led on a single 30/360 day-count convention for simplicity; each note in fact=
+ carries its own convention. Please reconcile against the source-of-record in=
+strument and its effective date before this reaches a model.
+
+Having read the conventions memorandum properly, I do not think it survives. =
+The memorandum does not offer a materiality exception, and more importantly e=
+ach instrument states its own convention, which means the simplification subs=
+titutes my judgement for the instrument's terms.
+
+I have not corrected the file yet because I did not want to change it and the=
+n tell you. Say the word and I will rebuild it instrument by instrument.
+
+Thanks,
+Kip
+Summer Analyst, Ardent Peak Ventures

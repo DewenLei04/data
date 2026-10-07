@@ -1,0 +1,28 @@
+{
+  "taskId": "business_finance/series_b_transaction_review",
+  "title": "Series B Transaction Review",
+  "summary": "Review a Series B transaction data room, reconcile governing terms, model capitalization and returns, and produce nine cited investment work products.",
+  "category": "business_finance",
+  "taskPrompt": "# Series B Transaction Review\n\nYou are an investment analyst at Ardent Peak Ventures III. Review the transaction materials in the read-only `input/` directory as of the date stated in the corpus. Apply the fund's governing policies and conventions found in those materials.\n\nWrite all work products to the writable `output/` directory. Produce exactly these files:\n\n- `output/term_sheet_extract.json`\n- `output/capitalization.xlsx`\n- `output/economics.json`\n- `output/deviation_register.csv`\n- `output/negotiation_memo.pdf`\n- `output/redline_positions.csv`\n- `output/ic_recommendation.json`\n- `output/reconciliation.csv`\n- `output/instrument_register.csv`\n\nStructure each file according to the corresponding document in `input/00_task/output_schemas/`. Those documents define output structure only. Business definitions, evidence requirements, calculations, applicability, and decision standards come from the transaction documents and fund policies in the corpus.\n\n## Available tools\n\n- LibreOffice is available for spreadsheet and document work.\n- OCRmyPDF and Tesseract are available for scanned materials.\n- A PDF service is available on `127.0.0.1:8090`.\n- The Ledgerline service is available on `127.0.0.1:8091`. Its API key is stored at `/etc/ledgerline_api_key`; read the API description in the corpus before using it.\n\nThe environment has no external network access. Loopback services remain available. Treat partial responses and application errors as recoverable: inspect documentation, retry appropriately, preserve completed work, and continue with unaffected deliverables rather than abandoning the entire task.\n\nDo not modify `input/`. Do not place drafts or logs outside `output/`. Support every material conclusion with a file and section citation.\n",
+  "outputFiles": [
+    "term_sheet_extract.json",
+    "capitalization.xlsx",
+    "economics.json",
+    "deviation_register.csv",
+    "negotiation_memo.pdf",
+    "redline_positions.csv",
+    "ic_recommendation.json",
+    "reconciliation.csv",
+    "instrument_register.csv"
+  ],
+  "requiredSystemPackages": [
+    "finance001-runtime"
+  ],
+  "vm": {
+    "snapshot": "finance001-ubuntu22",
+    "vcpus": 4,
+    "memory_gb": 16,
+    "disk_gb": 200,
+    "timeout_s": 14400
+  }
+}

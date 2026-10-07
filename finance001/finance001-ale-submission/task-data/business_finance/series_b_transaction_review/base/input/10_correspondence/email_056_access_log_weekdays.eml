@@ -1,0 +1,30 @@
+From: Kip Toranaga <ktoranaga@ardentpeak.example>
+To: Devin Marchetti <dmarch@ardentpeak.example>
+Cc: Talia Pell <tpell@ardentpeak.example>
+Date: Thu, 23 Jul 2026 08:26:00 -0400
+Subject: The access log has weekday-only timestamps - is that a problem?
+Message-ID: <358695e6ba5b3914.056@ardentpeak.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Devin, I noticed something in the access log and I cannot tell whether it is =
+interesting or obvious.
+
+Every timestamp falls on a weekday. Not a single weekend entry across four mo=
+nths, which struck me as odd for a diligence process where people definitely =
+work weekends.
+
+Two explanations occur to me. Either the provider aggregates weekend activity=
+ into the following Monday, or the log is filtered before it is exported and =
+nobody told us. There is probably a third explanation I have not thought of.
+
+I have not raised it with Kenji because I did not want to accuse a vendor of =
+filtering a log on the basis of a pattern. Should I ask, and if so, how do I =
+ask it neutrally?
+
+--=20
+Kip Toranaga
+Summer Analyst
+Ardent Peak Ventures
+1 Bryant Park, 41st Floor, New York NY 10036

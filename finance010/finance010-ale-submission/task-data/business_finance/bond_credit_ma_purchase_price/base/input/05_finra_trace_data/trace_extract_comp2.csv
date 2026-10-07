@@ -1,0 +1,4 @@
+CUSIP_ID,BOND_SYM_ID,TRD_EXCTN_DT,TRD_EXCTN_TM,RPTD_PR,YLD_SIGN_CD,YLD_PT,RPT_SIDE_CD,CNTRA_MP_ID,TRC_ST,ATS_IND,SCRTY_TYPE_CD,RPTD_VOL_LABEL,ISSUE_DESCRIPTION,SPRD_BASIS,SPRD_BP
+C0200XAA3,COMPB4A,20260626,093000,97.406,,6.580,S,D,T,Y,CORP,500K,5.875% due 2030-09-01 rated BB+ (Sensata Technologies),spread to interpolated Treasury (G-spread convention),241
+C0200XAA3,COMPB4A,20260629,114500,97.656,,6.512,B,C,T,N,CORP,1MM+,5.875% due 2030-09-01 rated BB+ (Sensata Technologies),spread to interpolated Treasury (G-spread convention),234
+C0200XAA3,COMPB4A,20260630,140000,97.781,,6.478,S,D,T,Y,CORP,1MM+,5.875% due 2030-09-01 rated BB+ (Sensata Technologies),spread to interpolated Treasury (G-spread convention),230

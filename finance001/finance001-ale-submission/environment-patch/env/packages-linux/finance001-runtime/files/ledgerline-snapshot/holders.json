@@ -1,0 +1,387 @@
+[
+  {
+    "holder_id": "H-0001",
+    "name": "Renata Okonjo",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0002",
+    "name": "Lucia Marchetti",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0003",
+    "name": "Wesley Hartnell",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0004",
+    "name": "Tomas Ferreira",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0005",
+    "name": "Junia Alvarez",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0006",
+    "name": "Nadia Berkovich",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0007",
+    "name": "Ellis Trantham",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0008",
+    "name": "Camila Duarte",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0009",
+    "name": "Hollis Ferrand",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0010",
+    "name": "Owen Brackenbury",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0011",
+    "name": "Rashid Nawabi",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0012",
+    "name": "Delia Mwangi",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0013",
+    "name": "Gordon Pike",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0014",
+    "name": "Bay Meridian Seed Fund II, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0015",
+    "name": "Halverson Angel Syndicate LLC",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0016",
+    "name": "Corinne Grimaldi",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0017",
+    "name": "Eloise Fontaine",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0018",
+    "name": "Isolde Grimaldi",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0019",
+    "name": "Braddock Capital Partners, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0020",
+    "name": "Fenwicke Family Trust",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0021",
+    "name": "Braddock Holdings, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0022",
+    "name": "Draymoor Investment Company",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0023",
+    "name": "Tessellate Ventures I, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0024",
+    "name": "Northgate Crossing Capital, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0025",
+    "name": "Kadence Industrial Holdings, Inc.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0026",
+    "name": "Jerricault Ventures, LLC",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0027",
+    "name": "Stannforth Ventures, LLC",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0028",
+    "name": "Netherfield Investment Company",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0029",
+    "name": "Hollingsworth Holdings, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0030",
+    "name": "Stannforth Holdings, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0031",
+    "name": "Jessop Holdings, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0032",
+    "name": "Lowdermilk Equity Partners, LLC",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0033",
+    "name": "Quarrenden Investment Company",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0034",
+    "name": "Bellweather Investment Company",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0035",
+    "name": "Ilminster Holdings, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0036",
+    "name": "Harrowgate Capital Partners, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0037",
+    "name": "Thorneycroft Growth Fund, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0038",
+    "name": "Lowdermilk Family Trust",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0039",
+    "name": "Garrowby Holdings, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0040",
+    "name": "Quarrenden Equity Partners, LLC",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0041",
+    "name": "Wrentham Capital Partners, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0042",
+    "name": "Ullswater Holdings, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0043",
+    "name": "Everly Growth Fund, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0044",
+    "name": "Jerricault Family Trust",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0045",
+    "name": "Jerricault Holdings, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0046",
+    "name": "Marchmont Ventures, LLC",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0047",
+    "name": "Calverton Growth Fund, L.P.",
+    "type": "Entity"
+  },
+  {
+    "holder_id": "H-0048",
+    "name": "Dashiell Vance",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0049",
+    "name": "Odile Bergstrom",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0050",
+    "name": "Idris Chaudhry",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0051",
+    "name": "Sasha Lindqvist",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0052",
+    "name": "Freya Lindstrom",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0053",
+    "name": "Kwame Asante",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0054",
+    "name": "Portia Nwosu",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0055",
+    "name": "Priya Raghunathan",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0056",
+    "name": "Gideon Marsh",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0057",
+    "name": "Cassian Boyle",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0058",
+    "name": "Marcus Oyelaran",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0059",
+    "name": "Simona Vitale",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0060",
+    "name": "Fabien Roux",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0061",
+    "name": "Noor Farahani",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0062",
+    "name": "Tobias Reinholt",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0063",
+    "name": "Anjali Krishnan",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0064",
+    "name": "Rune Halvorsen",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0065",
+    "name": "Devraj Iyer",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0066",
+    "name": "Marta Kubiak",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0067",
+    "name": "Cormac Bailey",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0068",
+    "name": "Elias Moreno",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0069",
+    "name": "Leandra Ossipova",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0070",
+    "name": "Winifred Achebe",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0071",
+    "name": "Beatrix Sorensen",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0072",
+    "name": "Dara Whitfield",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0073",
+    "name": "Sunniva Aalto",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0074",
+    "name": "Yuki Sandoval",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0075",
+    "name": "Bartholomew Ng",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0076",
+    "name": "Maeve Donnelly",
+    "type": "Individual"
+  },
+  {
+    "holder_id": "H-0077",
+    "name": "Hector Salcedo",
+    "type": "Individual"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "taskId": "legal/us_crfa_preenactment_review_01",
+  "title": "Pre-Enactment Constitutional Review of a State Climate Funding Act",
+  "summary": "Review a state climate funding bill awaiting the Governor's signature against a 121-document legislative and economic file: apply the statutory coverage test to ten candidate entities, quantify the resulting burden allocation and proportionality, identify the constitutional and drafting exposures, and draft the amendments.",
+  "category": "legal",
+  "software": [
+    "Python"
+  ],
+  "taskPrompt": "# Pre-Enactment Constitutional Review\n\nYou are an Assistant Solicitor General in the Office of the Attorney General of the State of\nArden. The Climate Resilience Funding Act (\"CRFA\" or \"the bill\") has passed both chambers of the\nlegislature and is now before the Governor for signature. The Governor's office has asked this\nOffice to deliver, before the signature deadline, a constitutional risk review of the bill\ntogether with amendments that can be adopted as drafted.\n\nThe bill establishes the Arden Resilience Fund. It is funded by two classes of charge: a one-time\nassessment and an annual revenue charge levied on fossil fuel \"Producers\" as defined in the bill,\nand a property fee levied on the purchase or major renovation of certain property in designated\nEndangerment Zones.\n\nRead the two items that frame this review: the Governor's letter to the Attorney General and this\nOffice's internal assignment memorandum, items 0174 and 0180 in the file. They set out what is\nwanted and in what form.\n\n## The file\n\n`input/` is a flat file of 121 numbered documents (92 PDF, 29 XLSX),\nnumbered from 0002 to 0188. The numbering follows the order in which items were\nreceived and skips: not every item requested was produced.\n\n- `00_FILE_INDEX.pdf` is this Office's index of the file. It lists every item, whether or not a\n  document accompanies it, with a short description and the source it came from. Descriptions are\n  the ones used in this Office's file and are not always the title on the face of the document.\n- `00_MEMORANDUM_TEMPLATE.docx` is the form your deliverable must take.\n\nThe file contains materials this review does not need. Working out what bears on the questions and\nwhat does not is part of the task.\n\n## Deliverable\n\nWrite one file to `output/memorandum.docx`, built from the supplied template. Nothing else in\n`output/` is read.\n\nThe template sets out the parts the memorandum must have and the two schedules it must carry. Do\nnot add, remove, rename or reorder the columns of either schedule. Both schedules are supplied\nempty; what belongs in them is for you to decide. Monetary amounts in millions of dollars.\n\n## Constraints\n\n- The authorities are not in the file. Federal statutory text and the decisions of the\n  Supreme Court stating the applicable rules are for you to identify and\n  cite. A research service is installed under `software/`; start it as its README directs and\n  work from what it holds. Read that README on coverage before you treat a nil return as\n  settling anything. The Arden constitutional provisions are in the record; nothing else is.\n- The state of federal law is as stated in this Office's memorandum on the federal regulatory\n  posture, which is in the file. Do not substitute your own knowledge of any later development.\n- Every figure that supports a conclusion must appear in Schedule A with its provision and a\n  recomputable derivation.\n- Cite the smallest lettered or numbered subdivision that carries the point.\n- Do not modify anything under `input/`.\n\n",
+  "agentMustDo": [
+    "Do not use outside legal research or web search; the research service installed under `software/` is the only permitted source of federal authority.",
+    "Treat the memorandum in the file on the federal regulatory posture as the authoritative statement of federal law; do not substitute knowledge of later developments.",
+    "Every figure that supports a conclusion must appear in Schedule A with a recomputable derivation.",
+    "Write one file to `output/memorandum.docx`, built from the supplied template. Do not add, remove, rename or reorder the columns of either schedule.",
+    "Do not modify anything under `input/`."
+  ],
+  "inputFiles": [
+    {
+      "name": "00_TASK_PROMPT.md",
+      "format": "MD",
+      "path": "input/00_TASK_PROMPT.md",
+      "description": "The task statement."
+    },
+    {
+      "name": "00_FILE_INDEX.pdf",
+      "format": "PDF",
+      "path": "input/00_FILE_INDEX.pdf",
+      "description": "This Office's index of the file. Lists 188 items with a description and the source each came from, including items for which no document was produced."
+    },
+    {
+      "name": "00_MEMORANDUM_TEMPLATE.docx",
+      "format": "DOCX",
+      "path": "input/00_MEMORANDUM_TEMPLATE.docx",
+      "description": "The form the deliverable must take: four narrative parts and two empty schedules."
+    },
+    {
+      "name": "numbered file",
+      "format": "PDF/XLSX",
+      "path": "input/",
+      "description": "121 numbered documents (92 PDF, 29 XLSX), 0002 to 0188, stored flat. Numbering follows the order of receipt and skips where an item was requested but not produced. Filenames carry no description; the index is the means of navigation."
+    },
+    {
+      "name": "research service",
+      "format": "service",
+      "path": "software/",
+      "description": "The legal research service the task requires for federal authority: server, database and start scripts. Start it as its README directs."
+    }
+  ],
+  "referenceFiles": [
+    {
+      "name": "memorandum.docx",
+      "format": "DOCX",
+      "path": "output/memorandum.docx",
+      "description": "Memorandum on the constitutional risk of the bill, with Schedule A (schedule of figures) and Schedule B (exposures and recommendations)."
+    }
+  ],
+  "evaluation": "The evaluator reads `output/memorandum.docx` against a rubric of 89 criteria held privately with the reference key, and scores on two tracks. The script track (64 criteria, 1 of them negative, 66% of the positive weight) extracts figures from Schedule A and credits each on value against the statutory provision cited, within a stated tolerance; wording is not scored and an unlisted figure earns nothing. The model track (21 positive criteria, 34% of the positive weight) has an independent reader assess whether the exposures identified are the ones that matter, whether the legal characterisation holds, whether the amendments are operative, and whether the memorandum is internally consistent with its own schedules. Four negative criteria deduct where the memorandum asserts a proposition the file does not support; a fifth deducts in bands where provisions are not cited to the operative subsection. One provision of the bill fixes a threshold without stating the period over which it is measured; both readings are open, so every criterion that depends on the covered class carries an expected value for each reading and is scored against the reading that best fits the figures the submission reports, with criteria inapplicable on that reading excluded from the denominator. Eight gates then cap the result multiplicatively, taking the minimum rather than compounding. The strictest apply as follows: x0.30 for mistaking the direction of the principal conclusion; x0.35 for missing or miscomputing the principal disproportion; x0.35 where the margin by which a boundary entity fails the coverage threshold is left unquantified, so that the covered class rests on assertion rather than on a recomputable figure; x0.60 for getting the covered class wrong, and separately for miscomputing the annual charge; x0.55 for failing a basic requirement of the form, and separately for stating the threshold without working it into a share of statewide sales; x0.70 for leaving the length of the retroactive period unquantified. Gates are wired to script-scored criteria wherever one exists, so that the multiplier does not turn on a judgment call that is itself unstable. Judge determinism: on the reference answer the model criteria agreed across three runs. On real submissions, four model criteria (M-12, M-15, M-18, M-19; 13 weight in total) flipped between runs at the decision boundary in at least one pair of runs; votes=3 majority is used. All criteria wired to gates agreed 3:0 across runs, so gate outcomes are stable.",
+  "vm": {
+    "machineType": "c4-standard-4",
+    "snapshot": "cpu-free-ubuntu",
+    "timeout": 7200
+  },
+  "taxonomy": {
+    "domain_id": "7",
+    "domain_code": "legal",
+    "subdomain_id": "7.2",
+    "subdomain_code": "regulatory",
+    "subdomain_name": "Regulatory & Legislative Analysis"
+  },
+  "requiredSystemPackages": []
+}

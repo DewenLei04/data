@@ -1,0 +1,410 @@
+[
+  {
+    "certificate_id": "CS-0001",
+    "class": "Common",
+    "holder": "Renata Okonjo",
+    "issue_date": "2019-02-04",
+    "shares": 4200000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0003",
+    "class": "Common",
+    "holder": "Lucia Marchetti",
+    "issue_date": "2019-02-04",
+    "shares": 1400000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0004",
+    "class": "Common",
+    "holder": "Wesley Hartnell",
+    "issue_date": "2021-11-08",
+    "shares": 27500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0005",
+    "class": "Common",
+    "holder": "Tomas Ferreira",
+    "issue_date": "2021-11-08",
+    "shares": 50000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0006",
+    "class": "Common",
+    "holder": "Junia Alvarez",
+    "issue_date": "2021-11-08",
+    "shares": 47000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0007",
+    "class": "Common",
+    "holder": "Nadia Berkovich",
+    "issue_date": "2021-11-08",
+    "shares": 18000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0008",
+    "class": "Common",
+    "holder": "Ellis Trantham",
+    "issue_date": "2021-11-08",
+    "shares": 45000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0009",
+    "class": "Common",
+    "holder": "Camila Duarte",
+    "issue_date": "2021-11-08",
+    "shares": 18000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0010",
+    "class": "Common",
+    "holder": "Hollis Ferrand",
+    "issue_date": "2021-11-08",
+    "shares": 37000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0011",
+    "class": "Common",
+    "holder": "Owen Brackenbury",
+    "issue_date": "2021-11-08",
+    "shares": 24500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0012",
+    "class": "Common",
+    "holder": "Rashid Nawabi",
+    "issue_date": "2021-11-08",
+    "shares": 52500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0013",
+    "class": "Common",
+    "holder": "Delia Mwangi",
+    "issue_date": "2021-11-08",
+    "shares": 44000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0014",
+    "class": "Common",
+    "holder": "Gordon Pike",
+    "issue_date": "2021-11-08",
+    "shares": 23000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0001",
+    "class": "Series Seed Preferred",
+    "holder": "Bay Meridian Seed Fund II, L.P.",
+    "issue_date": "2020-03-02",
+    "shares": 2200000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0002",
+    "class": "Series Seed Preferred",
+    "holder": "Halverson Angel Syndicate LLC",
+    "issue_date": "2020-03-02",
+    "shares": 1200000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0003",
+    "class": "Series Seed Preferred",
+    "holder": "Corinne Grimaldi",
+    "issue_date": "2020-03-02",
+    "shares": 107500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0004",
+    "class": "Series Seed Preferred",
+    "holder": "Eloise Fontaine",
+    "issue_date": "2020-03-02",
+    "shares": 105000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0005",
+    "class": "Series Seed Preferred",
+    "holder": "Isolde Grimaldi",
+    "issue_date": "2020-03-02",
+    "shares": 67500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0006",
+    "class": "Series Seed Preferred",
+    "holder": "Braddock Capital Partners, L.P.",
+    "issue_date": "2020-03-02",
+    "shares": 102500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0007",
+    "class": "Series Seed Preferred",
+    "holder": "Fenwicke Family Trust",
+    "issue_date": "2020-03-02",
+    "shares": 50000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0008",
+    "class": "Series Seed Preferred",
+    "holder": "Braddock Holdings, L.P.",
+    "issue_date": "2020-03-02",
+    "shares": 112500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-SEED-0009",
+    "class": "Series Seed Preferred",
+    "holder": "Draymoor Investment Company",
+    "issue_date": "2020-03-02",
+    "shares": 55000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0001",
+    "class": "Series A Preferred",
+    "holder": "Tessellate Ventures I, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 1250000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0002",
+    "class": "Series A Preferred",
+    "holder": "Northgate Crossing Capital, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 1000000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0003",
+    "class": "Series A Preferred",
+    "holder": "Kadence Industrial Holdings, Inc.",
+    "issue_date": "2022-05-17",
+    "shares": 750000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0004",
+    "class": "Series A Preferred",
+    "holder": "Bay Meridian Seed Fund II, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 500000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0005",
+    "class": "Series A Preferred",
+    "holder": "Jerricault Ventures, LLC",
+    "issue_date": "2022-05-17",
+    "shares": 60000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0006",
+    "class": "Series A Preferred",
+    "holder": "Fenwicke Family Trust",
+    "issue_date": "2022-05-17",
+    "shares": 105000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0007",
+    "class": "Series A Preferred",
+    "holder": "Stannforth Ventures, LLC",
+    "issue_date": "2022-05-17",
+    "shares": 77500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0008",
+    "class": "Series A Preferred",
+    "holder": "Netherfield Investment Company",
+    "issue_date": "2022-05-17",
+    "shares": 115000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0009",
+    "class": "Series A Preferred",
+    "holder": "Hollingsworth Holdings, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 80000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0010",
+    "class": "Series A Preferred",
+    "holder": "Stannforth Holdings, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 42500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0011",
+    "class": "Series A Preferred",
+    "holder": "Jessop Holdings, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 92500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0012",
+    "class": "Series A Preferred",
+    "holder": "Lowdermilk Equity Partners, LLC",
+    "issue_date": "2022-05-17",
+    "shares": 50000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0013",
+    "class": "Series A Preferred",
+    "holder": "Quarrenden Investment Company",
+    "issue_date": "2022-05-17",
+    "shares": 62500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0014",
+    "class": "Series A Preferred",
+    "holder": "Bellweather Investment Company",
+    "issue_date": "2022-05-17",
+    "shares": 120000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0015",
+    "class": "Series A Preferred",
+    "holder": "Ilminster Holdings, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 92500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0016",
+    "class": "Series A Preferred",
+    "holder": "Harrowgate Capital Partners, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 97500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0017",
+    "class": "Series A Preferred",
+    "holder": "Thorneycroft Growth Fund, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 80000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0018",
+    "class": "Series A Preferred",
+    "holder": "Lowdermilk Family Trust",
+    "issue_date": "2022-05-17",
+    "shares": 57500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0019",
+    "class": "Series A Preferred",
+    "holder": "Garrowby Holdings, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 110000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0020",
+    "class": "Series A Preferred",
+    "holder": "Quarrenden Equity Partners, LLC",
+    "issue_date": "2022-05-17",
+    "shares": 110000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0021",
+    "class": "Series A Preferred",
+    "holder": "Wrentham Capital Partners, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 50000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0022",
+    "class": "Series A Preferred",
+    "holder": "Ullswater Holdings, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 75000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0023",
+    "class": "Series A Preferred",
+    "holder": "Everly Growth Fund, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 50000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0024",
+    "class": "Series A Preferred",
+    "holder": "Jerricault Family Trust",
+    "issue_date": "2022-05-17",
+    "shares": 72500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0025",
+    "class": "Series A Preferred",
+    "holder": "Jerricault Holdings, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 75000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0026",
+    "class": "Series A Preferred",
+    "holder": "Marchmont Ventures, LLC",
+    "issue_date": "2022-05-17",
+    "shares": 55000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "PS-A-0027",
+    "class": "Series A Preferred",
+    "holder": "Calverton Growth Fund, L.P.",
+    "issue_date": "2022-05-17",
+    "shares": 82500,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0113",
+    "class": "Common",
+    "holder": "Dashiell Vance",
+    "issue_date": "2025-04-15",
+    "shares": 1610000,
+    "status": "Outstanding"
+  },
+  {
+    "certificate_id": "CS-0114",
+    "class": "Common",
+    "holder": "Tessellate Ventures I, L.P.",
+    "issue_date": "2025-04-15",
+    "shares": 1540000,
+    "status": "Outstanding"
+  }
+]

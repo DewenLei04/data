@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://harborview.local/finance010/output_schemas/assumptions_and_sources.schema.json",
+  "title": "assumptions_and_sources.xlsx content contract",
+  "description": "Describes the required rows of assumptions_and_sources.xlsx: one row per modeling assumption made in producing decision_memo.pdf and financial_model.xlsx, each grounded in a source via a nested provenance envelope.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["assumptions"],
+  "properties": {
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "assumption_id",
+          "assumption_label",
+          "assumption_value",
+          "unit",
+          "basis",
+          "alternative_method_note",
+          "confidence",
+          "provenance"
+        ],
+        "properties": {
+          "assumption_id": {
+            "type": "string",
+            "pattern": "^ASM-[0-9]{3,4}$",
+            "description": "A unique identifier for this assumption row."
+          },
+          "assumption_label": {
+            "type": "string",
+            "description": "A short human-readable label naming what this assumption governs."
+          },
+          "assumption_value": {
+            "type": "string",
+            "description": "The assumed value or method itself, rendered as text regardless of its underlying type (number, date or string)."
+          },
+          "unit": {
+            "type": "string",
+            "description": "The unit assumption_value is expressed in (e.g. a currency, a rate convention, or 'n/a' for a non-numeric assumption)."
+          },
+          "basis": {
+            "type": "string",
+            "description": "The in-corpus document or governing definition this assumption is grounded in."
+          },
+          "alternative_method_note": {
+            "type": "string",
+            "description": "Where a defensible alternative method exists, a note explaining why the chosen method was preferred over that alternative. Read by the scorer's alternative-method credit check."
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "This assumption's confidence level."
+          },
+          "provenance": {
+            "$ref": "provenance_envelope.schema.json",
+            "description": "The source this assumption is grounded in."
+          }
+        }
+      }
+    }
+  }
+}

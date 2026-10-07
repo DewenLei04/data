@@ -1,0 +1,31 @@
+From: Delphine Aubrey <daubrey@kesslerward.example>
+To: Devin Marchetti <dmarch@ardentpeak.example>
+Cc: Simone Adeyemi <sadeyemi@ardentpeak.example>
+Date: Fri, 31 Jul 2026 11:26:00 -0400
+Subject: Methodology note - how we handle silence, and why it matters to you
+Message-ID: <9cb938757a6e52e2.062@kesslerward.example>
+In-Reply-To: <44b84a3f5e0036f3.046@ardentpeak.example>
+References: <44b84a3f5e0036f3.046@ardentpeak.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Devin, following the call with Simone, here is the one methodology point I wo=
+uld put in front of whoever writes your paper.
+
+We code non-disclosure as unknown, never as absence. If forty transactions di=
+sclose a term and thirty say nothing, we report the frequency across the fort=
+y and we report the count. What we do not do is treat the thirty as evidence =
+that the term was absent.
+
+The practical consequence is that a frequency from our data is a frequency am=
+ong disclosing transactions. If your paper describes it as a frequency among =
+all transactions, the sentence is wrong even though the number is right.
+
+I mention it because that specific error appears in about a third of the clie=
+nt documents I am shown, and it is usually introduced by whoever summarizes r=
+ather than by whoever read the source.
+
+Thanks,
+Delphine
+Research Director, Kessler Ward Research

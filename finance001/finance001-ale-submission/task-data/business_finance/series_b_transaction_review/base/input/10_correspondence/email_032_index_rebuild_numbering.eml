@@ -1,0 +1,30 @@
+From: Kenji Aoyama <kaoyama@vaultroom.example>
+To: Rashid Nawabi <rnawabi@helioscope.example>
+Cc: Priya Raghunathan <praghu@helioscope.example>,
+ Devin Marchetti <dmarch@ardentpeak.example>
+Date: Fri, 12 Jun 2026 11:24:00 -0700
+Subject: Index rebuild - it will renumber, and that will confuse people
+Message-ID: <90c55077df1da7f8.032@vaultroom.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Rashid, I can rebuild the index to reflect the folder changes but I want to f=
+lag a consequence before I do it rather than after.
+
+The index numbers are positional. If I rebuild, everything after the insertio=
+n point shifts, and anybody who has cited an index number in a memorandum wil=
+l find it points at a different document. Three of the reviewers have been ci=
+ting index numbers.
+
+The alternative is to append new entries at the end and leave the existing nu=
+mbering alone. The index then reads out of order, which is ugly, but nothing =
+anybody has already written becomes wrong.
+
+My recommendation is the ugly option. An index is a reference, not a document=
+, and the cost of breaking references is higher than the cost of it looking u=
+ntidy.
+
+Thanks,
+Kenji
+Support Engineer, VaultRoom Data Rooms

@@ -1,0 +1,2191 @@
+{
+ "meta": {
+  "task": "legal/us_crfa_preenactment_review_01",
+  "deliverable": "output/memorandum.docx",
+  "generated_from": "ssot.py",
+  "ssot": "真值台账_SSOT_v1.md",
+  "judge": {
+   "model": "gpt-5",
+   "reasoning_effort": "low",
+   "max_tokens": 1200,
+   "votes": 3,
+   "timeout_s": 90,
+   "note": "重复判分实测:满分参考件 3 遍逐条一致,但真实答卷在判定边界上不稳——同一份答卷两轮之间 M-12/M-15/M-18/M-19 各有翻转(每条 3–4 分)。挂闸的 7 条实测 3:0 一致,故 gate 不受噪声影响。votes=3 取多数;换判官须重测。正夹具不外发,其 judge 层用 declare 声明值。"
+  },
+  "readings": {
+   "latest": "requirement (ii) measured on the most recent completed year",
+   "every": "requirement (ii) met in every year of the five-year window"
+  },
+  "reading_rule": "凡带 by_reading 的判据,按答卷自己采用的读法取期望值;带 readings 的判据只在所列读法下计入分母。读法由脚本按最佳拟合判定。",
+  "weight_split": {
+   "script": 135,
+   "model": 97,
+   "script_share": 0.582
+  },
+  "equiv_basis": {
+   "assessment_target": 20000.0,
+   "note": "份额可写成 % / 金额($M) / 倍数;CO2E 可写 kt 或 t。同一个量的不同单位形式都算对——脚本轨措辞不计分,单位形式亦是措辞。"
+  },
+  "citation_precision": {
+   "parent_credited": true,
+   "note": "引到父条款(如 7-020(1) 顶 7-020(1)(c))给分,但按数量分档扣分,见 S-N1;祖父级不认。"
+  },
+  "scoring": "raw = (Σ命中正分权重 − Σ命中负分权重) / Σ适用正分权重;final = max(0,raw) × min(触发 gate 的 mult),取 min 不叠乘",
+  "valid_subdivisions": {
+   "7-019": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)",
+    "(e)",
+    "(f)",
+    "(g)",
+    "(h)",
+    "(i)",
+    "(j)",
+    "(k)",
+    "(l)",
+    "(m)",
+    "(n)",
+    "(o)"
+   ],
+   "7-019(k)": [
+    "(i)",
+    "(ii)",
+    "(iii)"
+   ],
+   "7-020(1)": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "7-020(3)": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "7-020(4)": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "7-021": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)",
+    "(e)"
+   ],
+   "7-022": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)",
+    "(e)",
+    "(g)",
+    "(h)",
+    "(i)"
+   ]
+  },
+  "version": "v2 (2026-09-21)",
+  "changelog": "v2 相对 v1:①脚本轨 79→135,新增真实负担离散度(S-BD-*)、两处定义陷阱(S-D1/D2/D3)、反事实基数(S-X1/X2/X3)、两基数差额补全(S-AD-*)、财产费基数(S-PF*)、联邦补助归属(S-B5);S-C3 升权 4→8,S-T-* 因分母口径歧义降权 2→1。②修 v1 两处缺陷:S-R1/S-R2 原为同值同条款重复计分,S-R2 改为「最早一笔受计销售距生效日 63 months」;S-B4/S-P5 锚定的 630 与联邦award 记录存在口径张力,不改锚值,改以 S-B5/M-26 奖励拆解。③模型轨 70→97,新增 M-21..M-27,锐化 M-06/M-13/M-15/M-16(由「提到即得分」改为「结论正确且排除错答法」)。④负分 -14→-33,新增 M-N5..M-N11,其中 M-N9(把失衡放进商业条款第四支)是 M-07 的镜像。⑤新增闸门 G4/G5/G6a/G6b/G7,G2 乘数 0.45→0.35 并挂 M-21 与 M-N9。",
+  "limitations": "①闸门阈值系对单一参考答卷标定(2026-09-20 盲测件,v1 下 raw 0.669):脚本轨命中为官方判分器实测,模型轨为人工估计。换一份失败模式不同的答卷,闸门覆盖面未经验证。②final=0.2 一档是刻度而非对答卷可用性的陈述——该参考答卷在 v1 下脚本轨 37/79、四闸全过,把它压到 0.2 是乘数的结果。③本题在 0.2 附近区分的主要是算术完成度;法律推理质量仅通过 raw 与 G1/G2 体现。④脚本轨只读 Schedule A 的 Value 栏,数值写在 Derivation 栏不计分;闸门判据已筛选为「必须独立推导才可能出现」的量,以降低格式税占比,但未能消除。"
+ },
+ "criteria": [
+  {
+   "id": "S-BR1",
+   "dimension": "form",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Schedule A is present and every row states a provision and a source",
+   "basic": true,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 1,
+    "unit": "flag",
+    "provisions": [],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-BR2",
+   "dimension": "form",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Neither schedule adds, removes, renames or reorders columns",
+   "basic": true,
+   "script": {
+    "locate": "schedules",
+    "match": "schedule_columns",
+    "expected": 1,
+    "unit": "flag",
+    "columns_a": [
+     "Item",
+     "Basis or assumption",
+     "Value",
+     "Unit",
+     "Statutory provision",
+     "Source material",
+     "Derivation"
+    ],
+    "columns_b": [
+     "Statutory provision",
+     "Exposure",
+     "Doctrinal basis",
+     "Severity",
+     "Recommended amendment",
+     "Figures relied on"
+    ],
+    "provisions": [],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "M-BR1",
+   "dimension": "form",
+   "scorer": "model",
+   "weight": 2,
+   "statement": "A recommendation is stated",
+   "basic": true,
+   "model": {
+    "question": "Does the memorandum state, in terms, whether it recommends that the bill be signed, returned, or signed subject to amendment?",
+    "reference": "A memorandum that analyses exposures without stating a recommendation cannot be acted on by the Governor. Any one of the three recommendations counts; the absence of one does not.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-BR2",
+   "dimension": "form",
+   "scorer": "model",
+   "weight": 2,
+   "statement": "Conclusions are tied to section numbers",
+   "basic": true,
+   "model": {
+    "question": "For each exposure that arises under a provision of the bill, is that provision identified by section number rather than described only in general terms? Where an exposure does not arise under a provision of the bill — a question of federal law, for example — it is enough that the memorandum says so; the absence of a section number there is not a failure.",
+    "reference": "'The charging provisions' is not a section number. But federal preemption arises under federal law, not under a section of this bill, and a memorandum that says so has answered the point.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "S-B1",
+   "dimension": "context",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Statewide in-state fossil fuel sales, most recent year",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 4100.0,
+    "unit": "$M",
+    "provisions": [],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-B2",
+   "dimension": "context",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Statewide in-state fossil fuel sales over the assessment window",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 19600.0,
+    "unit": "$M",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-B3",
+   "dimension": "context",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Documented gross climate loss on record",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 2200.0,
+    "unit": "$M",
+    "provisions": [],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-B4",
+   "dimension": "context",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Climate loss not reimbursed",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 630.0,
+    "unit": "$M",
+    "provisions": [],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-C1",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Kestrel Petroleum: requirement (iii) threshold",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 2440.0,
+    "unit": "$M",
+    "provisions": [
+     "7-019(k)(iii)"
+    ],
+    "tol": 0.5,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-C2",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Halbrook Energy: requirement (iii) threshold",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 1520.0,
+    "unit": "$M",
+    "provisions": [
+     "7-019(k)(iii)"
+    ],
+    "tol": 0.5,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-C3",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 8,
+   "statement": "Kestrel: requirement (iii) threshold as a share of statewide most-recent-year sales",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 59.5,
+    "unit": "%",
+    "provisions": [
+     "7-019(k)(iii)"
+    ],
+    "tol": 0.15,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-C4",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Halbrook: same share",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 37.1,
+    "unit": "%",
+    "provisions": [
+     "7-019(k)(iii)"
+    ],
+    "tol": 0.15,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-P2",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Assessment target as a share of all in-state window sales",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 102.0,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(c)"
+    ],
+    "tol": 0.5,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-P3",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Assessment target divided by statewide most-recent-year sales",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 4.88,
+    "unit": "x",
+    "provisions": [
+     "7-020(1)(c)"
+    ],
+    "tol": 0.03,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-P4",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Assessment target divided by documented gross loss",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 9.09,
+    "unit": "x",
+    "provisions": [
+     "7-020(1)(c)"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-P5",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Assessment target divided by unreimbursed loss",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 31.75,
+    "unit": "x",
+    "provisions": [
+     "7-020(1)(c)"
+    ],
+    "tol": 0.2,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-P7",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Annual Property Fee yield, purchases",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 26.46,
+    "unit": "$M",
+    "provisions": [
+     "7-021(a)"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-P8",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Annual Property Fee yield, major renovations",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 4.032,
+    "unit": "$M",
+    "provisions": [
+     "7-021(b)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-P9",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Annual Property Fee yield, total",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 30.492,
+    "unit": "$M",
+    "provisions": [
+     "7-021"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-R1",
+   "dimension": "retroactivity",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Length of the period on which the assessment is computed",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 60,
+    "unit": "months",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-R2",
+   "dimension": "retroactivity",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Months from the earliest chargeable sale to the effective date",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 63,
+    "unit": "months",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-R3",
+   "dimension": "retroactivity",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Gap between the close of the assessment period and the eligibility date",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 6,
+    "unit": "months",
+    "provisions": [
+     "7-020(1)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-T-acg",
+   "dimension": "asymmetry",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Arden Coastal Gas Company: fall in fossil fuel revenue needed to drop below the threshold",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 7.83,
+    "unit": "%",
+    "provisions": [
+     "7-019(k)(ii)"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false,
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-T-orrick",
+   "dimension": "asymmetry",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Orrick Fuel Partners: fall in fossil fuel revenue needed to drop below the threshold",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 3.85,
+    "unit": "%",
+    "provisions": [
+     "7-019(k)(ii)"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false,
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-T-kestrel",
+   "dimension": "asymmetry",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Kestrel Petroleum: fall in fossil fuel revenue needed to drop below the threshold",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 99.59,
+    "unit": "%",
+    "provisions": [
+     "7-019(k)(ii)"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-M1",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Number of entities meeting the definition on the reading adopted",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 6,
+    "unit": "count",
+    "provisions": [
+     "7-019(k)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 6,
+     "every": 4
+    }
+   }
+  },
+  {
+   "id": "S-M3",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Number of in-state entities meeting it on the reading adopted",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 1,
+    "unit": "count",
+    "provisions": [
+     "7-019(k)(ii)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 1,
+     "every": 0
+    }
+   }
+  },
+  {
+   "id": "S-A1",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Aggregate window in-state sales of the covered entities",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 10500.0,
+    "unit": "$M",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 10500.0,
+     "every": 5355.0
+    }
+   }
+  },
+  {
+   "id": "S-A2",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Their share of all in-state window sales",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 53.6,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0.15,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 53.6,
+     "every": 27.3
+    }
+   }
+  },
+  {
+   "id": "S-A3",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Aggregate window CO2E of the covered entities",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 35989.0,
+    "unit": "kt",
+    "provisions": [
+     "7-020(1)(b)"
+    ],
+    "tol": 2,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 35989.0,
+     "every": 19814.0
+    }
+   }
+  },
+  {
+   "id": "S-AS-acg",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Arden Coastal Gas Company: share of the assessment on a sales basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 47.05,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 47.05
+    },
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-AC-acg",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Arden Coastal Gas Company: share on a CO2E basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 42.55,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(b)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 42.55
+    },
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-AS-ferrom",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Ferrom Gas: share of the assessment on a sales basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 17.9,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 17.9,
+     "every": 35.11
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-AC-ferrom",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Ferrom Gas: share on a CO2E basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 16.19,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(b)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 16.19,
+     "every": 29.41
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-AS-marne",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Marne Diversified Energy: share of the assessment on a sales basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 5.52,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 5.52,
+     "every": 10.83
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-AC-marne",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Marne Diversified Energy: share on a CO2E basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 5.71,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(b)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 5.71,
+     "every": 10.36
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-AS-orrick",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Orrick Fuel Partners: share of the assessment on a sales basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 1.95,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 1.95
+    },
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-AC-orrick",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Orrick Fuel Partners: share on a CO2E basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 2.39,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(b)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 2.39
+    },
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-AS-selwyn",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Selwyn Resources: share of the assessment on a sales basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 2.33,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 2.33,
+     "every": 4.58
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-AC-selwyn",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Selwyn Resources: share on a CO2E basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 2.63,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(b)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 2.63,
+     "every": 4.79
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-AS-tidewater",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Tidewater Fuels: share of the assessment on a sales basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 25.24,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(a)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 25.24,
+     "every": 49.49
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-AC-tidewater",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 1,
+   "statement": "Tidewater Fuels: share on a CO2E basis",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 30.52,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(b)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 30.52,
+     "every": 55.44
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-AD-acg",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Arden Coastal Gas Company: difference in assessment between the two allocation bases",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": -899.1,
+    "unit": "$M",
+    "provisions": [
+     "7-020(1)(a)",
+     "7-020(1)(b)"
+    ],
+    "tol": 5,
+    "sign_sensitive": true,
+    "by_reading": {
+     "latest": -899.1
+    },
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-AD-tidewater",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Tidewater Fuels: difference in assessment between the two allocation bases",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 1056.7,
+    "unit": "$M",
+    "provisions": [
+     "7-020(1)(a)",
+     "7-020(1)(b)"
+    ],
+    "tol": 5,
+    "sign_sensitive": true,
+    "by_reading": {
+     "latest": 1056.7,
+     "every": 1190.3
+    },
+    "readings": [
+     "latest",
+     "every"
+    ]
+   }
+  },
+  {
+   "id": "S-P1",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 5,
+   "statement": "Assessment target as a share of the covered entities' window in-state sales",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 190.5,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(c)"
+    ],
+    "tol": 0.5,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 190.5,
+     "every": 373.5
+    }
+   }
+  },
+  {
+   "id": "S-P6",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Annual yield of the Producer Revenue Charge",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 11.605,
+    "unit": "$M",
+    "provisions": [
+     "7-020(2)"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 11.605,
+     "every": 5.95
+    }
+   }
+  },
+  {
+   "id": "S-P10",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Property Fee yield divided by Producer Revenue Charge yield",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 2.63,
+    "unit": "x",
+    "provisions": [
+     "7-020(2)",
+     "7-021"
+    ],
+    "tol": 0.03,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 2.63,
+     "every": 5.12
+    }
+   }
+  },
+  {
+   "id": "M-01",
+   "dimension": "coverage",
+   "scorer": "model",
+   "weight": 5,
+   "statement": "The covered set is right on the reading adopted",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum state which entities meet the definition in section 7-019(k), and is that set correct for the reading of subsection (ii) it adopts? On a most-recent-year reading the set is: Tidewater Fuels, Ferrom Gas, Selwyn Resources, Marne Diversified Energy, Orrick Fuel Partners, Arden Coastal Gas Company. On a reading requiring the threshold in every year of the window it is: Tidewater Fuels, Ferrom Gas, Selwyn Resources, Marne Diversified Energy. Either is acceptable; the set must match the reading taken, with no entity missing and none added.",
+    "reference": "Kestrel Petroleum and Halbrook Energy fail requirement (iii) on either reading; Corvin Midstream fails (i); Brae Retail Fuels fails (ii). Arden Coastal Gas and Orrick Fuel Partners are in on the most-recent-year reading and out on the every-year reading.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-19",
+   "dimension": "coverage",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The reading adopted is declared and the alternative addressed",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum state which reading of the measuring period in section 7-019(k)(ii) it adopts, and say what follows if the other reading were taken?",
+    "reference": "The subsection fixes an annual threshold with no measuring period. Both readings are open. A memorandum that silently adopts one without saying so, or that does not say what the other would produce, leaves the Governor unable to see how much of the advice turns on the choice.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-02",
+   "dimension": "coverage",
+   "scorer": "model",
+   "weight": 5,
+   "statement": "The mechanism by which the nexus test excludes the largest sellers is identified",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that the requirement in section 7-019(k)(iii) is a proportion of the entity's own revenue, so that the in-state amount it requires rises with the size of the entity, and that this is why the largest sellers fall outside the definition?",
+    "reference": "For Kestrel the threshold is $2,440M — 59.5% of the whole statewide market. Observing that they are not covered, without the mechanism, is not a hit.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-03",
+   "dimension": "drafting",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "The absence of a measuring period is identified as a defect",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that section 7-019(k)(ii) fixes an annual threshold without stating the period over which it is measured?",
+    "reference": "The words are '$1,000,000,000 annually' with no measuring period, and the Board has no rulemaking authority over section 7-019.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-04",
+   "dimension": "drafting",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The conflict between the two allocation bases is identified",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that section 7-020(1)(a) directs allocation on pro-rata sales while section 7-020(1)(b) directs a methodology based on estimated CO2E, that these are different measures, and that the statute gives no rule of priority?",
+    "reference": "The two prescribe different allocation keys and the difference is material on the figures.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-05",
+   "dimension": "drafting",
+   "scorer": "model",
+   "weight": 2,
+   "statement": "The absence of a severability clause is identified",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum note that the Act as enrolled contains no severability clause?",
+    "reference": "Section 7-023 was present at first reading and struck in the House without a recorded reason.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-16",
+   "dimension": "drafting",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "Drafting defects and constitutional exposures are kept distinct",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum keep the drafting defects separate from the constitutional exposures, rather than treating a provision that fails to achieve its purpose as being for that reason unconstitutional?",
+    "reference": "That requirement (iii) cannot reach the largest sellers defeats the bill's stated purpose; it is not for that reason a constitutional defect. A memorandum may advance a uniformity or rational-basis argument about the classification, but it must be advanced as such and not derived from the failure of purpose. The constitutional exposures are the disproportion and the retroactive reach.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-06",
+   "dimension": "retroactivity",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "The retroactive reach is measured against the governing authority",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum state the length of the reach-back in months and measure it against the authority on retroactive taxation and against the reach-backs of the enacted measures in the file?",
+    "reference": "The measuring period is 60 months and the earliest chargeable sale lies 63 months before the effective date. United States v. Carlton, 512 U.S. 26, 32-33 (1994) relied on Congress having 'established only a modest period of retroactivity'; Welch v. Henry treats the length as material. The research note in the file reports enacted reach-backs of two to five years and none longer. A memorandum that says only 'five years' without setting it against the authority has not measured it.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-07",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": 5,
+   "statement": "The discrimination objection is correctly rejected on the figures",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum conclude that the bill does not discriminate against interstate commerce in effect, and support that with figures showing where the burden falls?",
+    "reference": "On the most-recent-year reading the sole in-state entity bears the largest single share of the assessment, and the annual Property Fee yield exceeds the annual Producer Revenue Charge yield. On the every-year reading no in-state entity is covered at all, which cuts the other way and must then be dealt with — but the annual comparison still holds.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-08",
+   "dimension": "proportionality",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The disproportion is identified as the principal exposure",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify the disproportion between the assessment target and the activity charged as the principal constitutional exposure, and quantify it?",
+    "reference": "On either reading the target exceeds the whole of the covered entities' five-year in-state sales, and is about nine times the documented gross loss. This, with retroactivity, is the principal exposure — not discrimination.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-13",
+   "dimension": "authority",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The source and character of the State's authority is addressed",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum state the source of the State's power to impose these charges, say in terms that the assessment is not a fee for any service or benefit conferred, and explain how the characterisation as a tax or as a remedial exaction changes the standard applied?",
+    "reference": "The police and conservation powers in Article IX, section 1 supply the authority. The assessment is measured by past sales and confers nothing on the payer, so it is not a user fee. If it is a tax, the state-tax framework applies; if it is remedial, the analysis borrows from the retroactivity cases and the State does better where it can show the charge tracking a measure of the harm. Naming the powers without addressing the characterisation, or vice versa, is not a hit.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-14",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "Findings compelled by the record are distinguished from the writer's own judgement",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum make clear which of its conclusions follow from the material in the file and which are its own judgement or estimate?",
+    "reference": "The figures follow from the returns and disclosures. Whether the disproportion is 'clearly excessive', what target would be defensible, and which reading of (ii) to prefer are judgement. Presenting judgement as though compelled by the record misleads the decision-maker.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-15",
+   "dimension": "recommendation",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "Each amendment cures the exposure it is directed at",
+   "basic": false,
+   "model": {
+    "question": "For each recommended amendment, does it remove the exposure it is directed at? In particular, is an amendment directed at the retroactive reach itself — shortening or removing the reach-back — and not only at the size of the target?",
+    "reference": "Reducing the target addresses the disproportion; it does not cure the retroactive reach, which is a separate exposure resting on separate authority. A memorandum that identifies the reach-back as an exposure but offers no amendment touching it has left that exposure uncured, and is not a hit on this criterion. Clarifying the denominator in requirement (iii) cures neither.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-09",
+   "dimension": "recommendation",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "The recommended amendments are operative",
+   "basic": false,
+   "model": {
+    "question": "Is each recommended amendment stated as a figure or as draft statutory language, rather than as a call for further study or for the provision to be reconsidered?",
+    "reference": "'The Legislature should reconsider' is not operative. A figure or the words to be inserted is.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-10",
+   "dimension": "recommendation",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The non-monotonicity of the coverage test is identified",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that no absolute-dollar in-state sales threshold could reproduce the coverage produced by the proportionate test, because coverage is not monotone in in-state sales?",
+    "reference": "Orrick Fuel Partners qualifies on in-state sales of $46.0M while Kestrel Petroleum does not at $565.0M. Any absolute threshold therefore changes who is covered.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-11",
+   "dimension": "proportionality",
+   "scorer": "model",
+   "weight": 2,
+   "statement": "The in-state confinement of the fund is identified",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that section 7-022(g) confines the use of the fund to purposes within the State, and consider that with the benefit accruing to the in-state renewable sector?",
+    "reference": "The words 'within the State' were inserted in the House. With the indirect benefit to in-state competitors this is the charge-and-subsidy pattern. A real but secondary exposure; the confinement is in any event required by Article VII, section 2 of the State Constitution.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-18",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "The stale fiscal figures are identified as stale",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that the fiscal notes and the departmental projections in the file are out of date or computed on the wrong base, and decline to rely on them?",
+    "reference": "Both fiscal notes were prepared on the first-reading bill and carry a target of $12,000M against the enrolled $20,000M; the annual estimate was computed on all reporting sellers without applying the Producer definition; the Property Fee projection used the prior year's transactions. Identifying this and recomputing is the correct course and is to be credited.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-12",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "The memorandum is internally consistent",
+   "basic": false,
+   "model": {
+    "question": "Are the figures in the narrative the same as those in Schedule A, and do the conclusions follow from them without contradiction?",
+    "reference": "Narrative and schedule must agree, and the figures used must all come from the same reading of the measuring period.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-20",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": 2,
+   "statement": "Preemption is treated as unresolved",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify the federal preemption risk and decline to predict its outcome, identifying instead what the answer turns on?",
+    "reference": "The file states that the rescission is in force, under challenge, and that no court has ruled. A confident prediction either way is not supportable on the file.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N1",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -3,
+   "statement": "Facial discrimination is asserted",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum assert that the bill discriminates against interstate commerce on its face?",
+    "reference": "The same charges apply to every Producer regardless of origin. The bill is facially neutral.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N2",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -3,
+   "statement": "The burden is asserted to fall predominantly out of state without reconciling it with the figures",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum assert that the burden falls predominantly or almost entirely on out-of-state actors, without reconciling that with its own figures?",
+    "reference": "On the most-recent-year reading the in-state entity bears the largest single share. On the every-year reading no in-state entity is covered — an assertion of out-of-state burden is then arguable, but only if the memorandum says so and shows it. An unreconciled assertion is not.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N3",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -2,
+   "statement": "The threshold is asserted to be an origin-based protection for in-state interests",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum assert, as a proposition about origin, that the $1,000,000,000 threshold protects in-state interests or was drawn so as to let them out? Stating which entities fell below the threshold, and in which years, is a statement of fact from the disclosures and is NOT this assertion; answer no in that case.",
+    "reference": "The threshold is drawn on revenue, not on origin. On the most-recent-year reading the in-state entity is covered and bears the largest single share. A memorandum may state, and should state, that a given entity was below $1,000,000,000 in given years — that is arithmetic from the disclosures. What this criterion penalises is converting that arithmetic into a claim about in-state favouritism, which the record does not support. Do not infer the claim; require it.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N4",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -3,
+   "statement": "Stale fiscal figures are relied on",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum use the fiscal note's target or annual yield figures as its own, without noticing that they are stale?",
+    "reference": "Relying on $12,000M or on the annual estimate computed without the Producer definition is an error of record-reading, not a judgement call.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "S-N1",
+   "dimension": "form",
+   "scorer": "script",
+   "weight": -3,
+   "statement": "Provisions are located to the operative subsection",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "citation_precision",
+    "unit": "flag",
+    "provisions": [],
+    "tol": 0,
+    "sign_sensitive": false,
+    "grades": [
+     [
+      2,
+      -1
+     ],
+     [
+      5,
+      -2
+     ],
+     [
+      9,
+      -3
+     ]
+    ],
+    "note": "只统计「靠父条款才命中」的判据条数(如 7-020(1) 顶 7-020(1)(c));分档 ≥2 扣 1、≥5 扣 2、≥9 扣 3;引准到款的不计。"
+   }
+  },
+  {
+   "id": "S-BD-acg",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 4,
+   "statement": "Arden Coastal Gas Company: assessment as a multiple of its own annual revenue",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 8.4,
+    "unit": "x",
+    "provisions": [
+     "7-020(1)(c)"
+    ],
+    "tol": 0.02,
+    "sign_sensitive": false,
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-BD-selwyn",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Selwyn Resources: assessment as a multiple of its own annual revenue",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 0.0686,
+    "unit": "x",
+    "provisions": [
+     "7-020(1)(c)"
+    ],
+    "tol": 0.005,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 0.0686,
+     "every": 0.1346
+    }
+   }
+  },
+  {
+   "id": "S-BD-spread",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 5,
+   "statement": "Ratio of the heaviest to the lightest real burden across the covered class",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 122.4,
+    "unit": "x",
+    "provisions": [
+     "7-020(1)(c)"
+    ],
+    "tol": 2.0,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 122.4,
+     "every": 5.64
+    }
+   }
+  },
+  {
+   "id": "S-BD-instal",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Arden Coastal Gas Company: one instalment as a share of one year's revenue",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 168.0,
+    "unit": "%",
+    "provisions": [
+     "7-020(1)(d)"
+    ],
+    "tol": 0.3,
+    "sign_sensitive": false,
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-D1",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 5,
+   "statement": "'domestic company' read narrowly: whole assessment as a multiple of the sole in-state payer's revenue",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 17.86,
+    "unit": "x",
+    "provisions": [
+     "7-019(k)"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-D2",
+   "dimension": "drafting",
+   "scorer": "script",
+   "weight": 5,
+   "statement": "Charge under 7-020(2) if Gross Revenue were read as in-state sales",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 185.875,
+    "unit": "$M",
+    "provisions": [
+     "7-019(l)"
+    ],
+    "tol": 0.1,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-D3",
+   "dimension": "drafting",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Ratio of that reading to the in-state reading of Gross Revenue",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 16.02,
+    "unit": "x",
+    "provisions": [
+     "7-020(2)"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-X1",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Assessment base if requirement (iii) were the $10m in-state sales test",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 15290.0,
+    "unit": "$M",
+    "provisions": [
+     "7-019(k)(iii)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-X2",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Change in the per-payer burden on restoring that test",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 31.3,
+    "unit": "%",
+    "provisions": [
+     "7-019(k)(iii)"
+    ],
+    "tol": 0.3,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-X3",
+   "dimension": "coverage",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Base on the total-revenue reading of requirement (iii)",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 10255.0,
+    "unit": "$M",
+    "provisions": [
+     "7-019(k)(iii)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false,
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-AD-ferrom",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Ferrom Gas: difference in assessment between the two allocation bases",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": -342.15,
+    "unit": "$M",
+    "provisions": [
+     "7-020(1)(a)",
+     "7-020(1)(b)"
+    ],
+    "tol": 0.1,
+    "sign_sensitive": true,
+    "by_reading": {
+     "latest": -342.15,
+     "every": -1138.65
+    }
+   }
+  },
+  {
+   "id": "S-AD-orrick",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Orrick Fuel Partners: difference in assessment between the two allocation bases",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 88.01,
+    "unit": "$M",
+    "provisions": [
+     "7-020(1)(a)",
+     "7-020(1)(b)"
+    ],
+    "tol": 0.1,
+    "sign_sensitive": true,
+    "readings": [
+     "latest"
+    ]
+   }
+  },
+  {
+   "id": "S-AD-marne",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Marne Diversified Energy: difference in assessment between the two allocation bases",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 36.27,
+    "unit": "$M",
+    "provisions": [
+     "7-020(1)(a)",
+     "7-020(1)(b)"
+    ],
+    "tol": 0.1,
+    "sign_sensitive": true,
+    "by_reading": {
+     "latest": 36.27,
+     "every": -93.68
+    }
+   }
+  },
+  {
+   "id": "S-AD-selwyn",
+   "dimension": "allocation",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Selwyn Resources: difference in assessment between the two allocation bases",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 60.25,
+    "unit": "$M",
+    "provisions": [
+     "7-020(1)(a)",
+     "7-020(1)(b)"
+    ],
+    "tol": 0.1,
+    "sign_sensitive": true,
+    "by_reading": {
+     "latest": 60.25,
+     "every": 42.04
+    }
+   }
+  },
+  {
+   "id": "S-PF1",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Sale price at which the $500,000 assessment line is reached",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 0.6135,
+    "unit": "$M",
+    "provisions": [
+     "7-019(a)"
+    ],
+    "tol": 0.002,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-PF2",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Parcels in the designated zones assessed just below the assessment line",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 8656,
+    "unit": "parcels",
+    "provisions": [
+     "7-019(a)"
+    ],
+    "tol": 0,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "S-PF3",
+   "dimension": "proportionality",
+   "scorer": "script",
+   "weight": 2,
+   "statement": "Total recurring annual receipts of the Fund",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 42.097,
+    "unit": "$M",
+    "provisions": [
+     "7-021"
+    ],
+    "tol": 0.05,
+    "sign_sensitive": false,
+    "by_reading": {
+     "latest": 42.097,
+     "every": 36.44
+    }
+   }
+  },
+  {
+   "id": "S-B5",
+   "dimension": "context",
+   "scorer": "script",
+   "weight": 3,
+   "statement": "Federal assistance attributable to the three declared events",
+   "basic": false,
+   "script": {
+    "locate": "schedule_a",
+    "match": "value_and_provision",
+    "expected": 541.6,
+    "unit": "$M",
+    "provisions": [
+     "7-022(d)"
+    ],
+    "tol": 0.5,
+    "sign_sensitive": false
+   }
+  },
+  {
+   "id": "M-21",
+   "dimension": "proportionality",
+   "scorer": "model",
+   "weight": 5,
+   "statement": "The disproportion is located in due process, not in the Commerce Clause",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum place the objection to the size of the assessment under the Due Process Clause rather than under the Commerce Clause, and note that the fourth limb of the state-tax test does not turn on the amount of the charge?",
+    "reference": "Commonwealth Edison Co. v. Montana, 453 U.S. 609, 626 (1981) holds that the relevant inquiry under the fourth prong of Complete Auto is not the amount of the tax or the value of the benefits bestowed. A memorandum that argues the charge is too large to satisfy the fourth prong has put the strongest point in the weakest place. The size argument belongs to the retroactivity and proportionality authorities (Carlton; Eastern Enterprises).",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-22",
+   "dimension": "authority",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The measure is identified as reaching beyond in-state sales, and the cure is identified",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that the opening words of section 7-020(1), read with the definition of Combustion in section 7-019(j), measure the assessment without confining it to in-state sales, that this is what puts fair apportionment in issue, and that confining the measure would improve the State's position?",
+    "reference": "Section 7-019(j) defines Combustion as occurring 'whether or not within the State', and the opening words of 7-020(1) refer to products 'sold by any entity' without geographic limit; only (1)(a) and (1)(b) confine it. Internal consistency (Oklahoma Tax Commission v. Jefferson Lines, 514 U.S. 175, 185) fails if an identical charge in every State would tax the same sale repeatedly. Confining the measure also puts the State in the source-State posture for preemption purposes.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-23",
+   "dimension": "coverage",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "The undefined term 'domestic company' is identified and both readings are worked through",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that section 7-019(k) charges 'any domestic company' without defining the term, and state what follows on each of the available readings?",
+    "reference": "On a reading confined to companies organised under the law of Arden, only one candidate satisfies all three requirements and would bear the whole assessment; on a reading meaning companies organised in the United States, the class is the six (or four) identified. Nothing in the file bears on which was meant. Noticing the ambiguity without working the consequence is not a hit.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-24",
+   "dimension": "drafting",
+   "scorer": "model",
+   "weight": 3,
+   "statement": "The instalment mechanism and the eligibility-date gap are identified",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify that section 7-020(1)(d) permits instalments without providing for interest, that the Act does not say what becomes of the balance if a payer ceases to meet the definition, and that liability is fixed as of the end of 2025 while the measuring period closes in June 2025?",
+    "reference": "All three are recorded in the drafting file and were raised before the committees. The gap means a payer may be charged on sales made in months during which it was not, on the Act's own test, a Producer.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-25",
+   "dimension": "proportionality",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The dispersion of the real burden across the covered class is identified",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum show that although every payer bears the same proportion of the receipts on which the assessment is computed, the burden measured against each payer's own revenue differs by orders of magnitude, and use that in the proportionality argument?",
+    "reference": "The assessment is a uniform 190.5% of window in-state receipts for every payer, but ranges from about 8.4 times annual revenue for the heaviest to about 0.07 times for the lightest — a spread of roughly 122 to 1. A memorandum that reports only the uniform percentage has reported the appearance and missed the substance.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-26",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The conflict between the loss reconciliation and the federal award records is resolved",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum notice that the federal assistance figure deducted in the loss reconciliation is a total across all programmes and all events, not the amount attributable to the three declared events, and either reconcile the two or state which it relies on and why?",
+    "reference": "The reconciliation deducts $610.0M; the federal award records state that the total received includes receipts brought forward from prior-year events and is not the sum of the programme rows, which come to $541.6M obligated and $411.2M disbursed for these three events. Either figure may be used; using one without noticing the conflict is not a hit.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-27",
+   "dimension": "coverage",
+   "scorer": "model",
+   "weight": 4,
+   "statement": "The instability of the covered class is identified and its effect on the advice is stated",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum identify how close members of the covered class sit to the thresholds that admit them, and say what that instability means for the advice?",
+    "reference": "One payer clears the majority-of-revenue requirement by about a percentage point; two clear the $1,000,000,000 requirement by single-digit percentages and fell below it in three of the last five years; one payer's membership turns entirely on which denominator is used in requirement (iii). A class this unstable will be re-litigated on each restatement of a payer's accounts, and the assessment of every other payer moves when one leaves.",
+    "evidence": "all",
+    "polarity": "positive",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N9",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -4,
+   "statement": "The size of the charge is asserted to offend the fair-relation limb",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum assert that the charge fails the fourth limb of the state-tax test (fair relation to services provided by the State) because the amount of the charge is excessive?",
+    "reference": "Commonwealth Edison Co. v. Montana, 453 U.S. 609, 626 (1981): the relevant inquiry under the fourth prong is not the amount of the tax or the value of the benefits bestowed. This is an attractive error: it takes the strongest fact in the file and puts it under the one test that does not receive it.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N5",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -3,
+   "statement": "Eastern Enterprises is treated as a takings holding",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum treat Eastern Enterprises v. Apfel as having held that a retroactive payment obligation is a taking, or advance a takings claim as the primary route?",
+    "reference": "The takings analysis in Eastern Enterprises is a plurality; Justice Kennedy and the four dissenters declined to analyse an obligation to pay money as a taking. Citing the plurality's formulation of the due process limit is correct; presenting it as a takings holding is not.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N6",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -3,
+   "statement": "The outcome of the federal litigation is predicted",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum predict whether the rescission will survive review, or advise on the footing that one of the three paths is the likely one?",
+    "reference": "The Office's memorandum on the federal regulatory posture states that the reviewer should not treat the fate of the rescission as settled and that the Governor has not asked for a prediction. Setting out the exposure on each path is correct; choosing a path is not.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N7",
+   "dimension": "coverage",
+   "scorer": "model",
+   "weight": -2,
+   "statement": "The geographic revenue percentage is used as the numerator of requirement (iii)",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum apply requirement (iii) using the 'Arden accounted for X% of revenue' figure in the geographic section of a disclosure, rather than the entity's in-state sales of fossil fuel products?",
+    "reference": "The geographic figure is the share of all revenue attributed to Arden by where title passes, including non-fuel segments. Requirement (iii) is about revenue from sales of Fossil Fuel Products. The two differ for every candidate and the substitution changes the class.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N8",
+   "dimension": "allocation",
+   "scorer": "model",
+   "weight": -2,
+   "statement": "The coal factor is applied",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum apply the coal emission factor to any seller, or treat coal as part of any seller's product mix?",
+    "reference": "There are no registered coal sales in Arden in any year of the series, no coal-fired generating units, and no coal in the port authority's commodity schedule. The coal factor is in the annex for completeness and has no application.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N10",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -2,
+   "statement": "The charge is analysed as an excessive fine",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum advance the Eighth Amendment excessive fines clause as a route of challenge to the assessment?",
+    "reference": "The charges are not imposed as punishment for an offence and fall on corporations for revenue or remedial purposes. Mentioning and rejecting the route is not this; advancing it is.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  },
+  {
+   "id": "M-N11",
+   "dimension": "integrity",
+   "scorer": "model",
+   "weight": -3,
+   "statement": "A single-subject or dedicated-funds violation is asserted",
+   "basic": false,
+   "model": {
+    "question": "Does the memorandum assert that the Act violates Article III, section 14 (single subject) or Article VII, section 2 (dedicated funds)?",
+    "reference": "The Act's subject is the funding of climate repair and adaptation; both charges serve it and the title expresses it. Section 7-022(g) complies with Article VII, section 2 — the difficulty there is absorptive capacity, not compliance. Asserting either violation is shotgunning a theory the record does not support.",
+    "evidence": "all",
+    "polarity": "negative",
+    "pass_fail": "PASS = the question is answered yes on the material in the work product; FAIL = it is not. Do not credit intent."
+   }
+  }
+ ],
+ "gates": [
+  {
+   "id": "G0",
+   "mult": 0.55,
+   "criteria": [
+    "S-BR1",
+    "M-BR1",
+    "M-BR2",
+    "S-BR2"
+   ],
+   "why": "基础要件:无建议、结论不挂条款、附表无依据 → 州长无法据以行动。分值只 1–2 分但挂闸"
+  },
+  {
+   "id": "G1",
+   "mult": 0.3,
+   "criteria": [
+    "M-07"
+   ],
+   "also_fires_if_negative": [
+    "M-N1",
+    "M-N2"
+   ],
+   "why": "把歧视主张当主结论 → 结论方向错,据此否决法案是错的建议。前面的测算尚有参考价值"
+  },
+  {
+   "id": "G2",
+   "mult": 0.35,
+   "criteria": [
+    "S-P1",
+    "M-08",
+    "M-21"
+   ],
+   "why": "失衡是真正的主暴露；没抓到或算错 → 州长会签下一部会被推翻的法案。与 G6a 取同一乘数：覆盖门槛与失衡比是同一条脊柱上的两端。M-21 并入 criteria、M-N9 挂 also_fires_if_negative：把失衡放进商业条款第四支与没抓到失衡，对州长是同一种错建议。",
+   "also_fires_if_negative": [
+    "M-N9"
+   ]
+  },
+  {
+   "id": "G3",
+   "mult": 0.6,
+   "criteria": [
+    "S-M1"
+   ],
+   "why": "覆盖判定错 → 后面所有份额与比值的分母都错,整份附表不可用。只挂确定性判据 S-M1（家数,脚本算）:M-01 实测在两份答卷上判官 2:1 分裂（「只用加数隐含给出名单」算不算给出),把 ×0.6 的开关交给会分裂的判断本身是缺陷。M-01 仍作 5 分正分,噪声只影响 raw 的 ±5/148,不再影响乘数"
+  },
+  {
+   "id": "G6a",
+   "mult": 0.35,
+   "criteria": [
+    "S-C1"
+   ],
+   "why": "覆盖判定的门槛额一条没落地。S-C1/S-C2 是 (k)(iii) 那两个「机制性」数字——它们才是说明为什么十家里只进六家、最大的州内卖家反被排除的那组数（与 M-02 同一考点）。附表里没有它们,等于覆盖结论没有证据支撑,而后面每一个份额/比值都建在这个集合上。比 G2 更狠:分母错了比值再对也没有意义。只挂 S-C1 不挂 S-C2：Kestrel 是机制的头部实例，Halbrook 的同一笔计算是记账不是洞察；两条都挂会让「算了 Kestrel 没算 Halbrook」与「一条都没算」同档，误伤。"
+  },
+  {
+   "id": "G6b",
+   "mult": 0.55,
+   "criteria": [
+    "S-C3"
+   ],
+   "why": "门槛算出来了,但没换算成全州最近一年销售额的占比。占比才揭示门槛的非单调性——门槛越高,被排除的越大卖家越多,负担越集中在留下来的人身上。缺这一步,「负担失衡」的因果链断在中间。"
+  },
+  {
+   "id": "G4",
+   "mult": 0.6,
+   "criteria": [
+    "S-P6"
+   ],
+   "why": "7-020(2) 的年收入是条公式（Gross Revenue × 费率）。抄了材料里的旧数、没有按定义重算 → 年费规模错,与财产费年收入的对比(S-P10)跟着错。"
+  },
+  {
+   "id": "G7",
+   "mult": 0.7,
+   "criteria": [
+    "S-R1",
+    "S-R3"
+   ],
+   "why": "溯及长度与资格日的空档都没有量化。溯及期是 Carlton 分析里第一位的尺度,算不出月数就说不清「acted promptly」这一支能不能站住;资格日与测算期错开的 6 个月又是修法意见书的直接依据。"
+  },
+  {
+   "id": "G5",
+   "mult": 0.6,
+   "criteria": [],
+   "also_fires_if_negative": [
+    "M-N4",
+    "M-N6"
+   ],
+   "why": "记录纪律:把陈旧的财政说明数字当成自己的结论,或对先占诉讼给出预测——两者都是题面与卷内备忘录明文禁止的。不挂 must-hit 判据,只由负分触发。"
+  }
+ ]
+}
